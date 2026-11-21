@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -99,9 +99,10 @@ Kinder der Stufe 5-6 lernen, dass ein Verb hinter einem anderen Verb seine Form 
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, passt. Reihenfolge can-must, modalverben-could-might-should, would-like. needn't üben. Ungeprüfte Quellen im Inhaltsführer als ungeprüft. Fehlerliste und Suchwörter als (guess) ok. Weiter in Plan.
 
 ### Answers
 
@@ -127,17 +128,17 @@ Kinder der Stufe 5-6 lernen, dass ein Verb hinter einem anderen Verb seine Form 
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -149,6 +150,25 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+- **App:** `format: 2`, `strand: englisch/grammatik`, `languages: [de]`, ein Kapitel `koennen-muessen` mit den Seiten `can-must`, `modalverben-could-might-should`, `would-like` (Dateien `src/koennen-muessen/<seite>.yaml`); Muster ist hello-millbrook. Wörter: keine Wortliste als Quelle (Grundwortschatz-Seite nicht erreichbar); A1-Wörter aus dem Alltag der Figuren, jedes mit Bedeutung vor der ersten Übung.
+- **Abschnitte** (gleiche IDs auf jeder Seite wie in hello-millbrook): `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Verbkette, Merke-Kasten, Poster-Tabelle), `uebung` (mindestens vier Übungen, leicht nach schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; auf der letzten Seite der Rückblick auf die Kette).
+- **Figur Verbkette** (eigene SVG-Zeichnung, `explainer-representation-explained`): eine Lok (erstes Verb), eine Kupplung (leer oder `to`), ein Wagen (zweites Verb). Lernhandlung: Kinder lesen am Bild ab, ob zwischen den Verben etwas sitzt, und setzen dann die Kette selbst zusammen. Dateien `src/images/verbkette-ohne-kupplung.svg` (can swim), `verbkette-kupplung-to.svg` (would like to swim), `verbkette-skala.svg` (Skala von fest bis offen: must, should, could, might/may). Die Figur zeigt die Form, nie die Lösung einer Aufgabe; die Bildunterschrift sagt, worauf man schaut, `alt` beschreibt die Kette. Szenenbilder `szene-<thema>.svg` mit den Figuren aus `millbrook-klassenzimmer.svg` von hello-millbrook (kopiert, gleich gelassen).
+- **Tabelle** „Klassenzimmer-Poster · Modalverben“ (Ausdruck · Bedeutung), wächst von Seite zu Seite: can, can't, must, mustn't, needn't; dann could, may, might, should; dann I'd like …. Steht nie direkt über der Übung, die sie beantwortet.
+- **Muster `kupplung-waehlen`** (Seiten 1 und 3): `language-task` mode `choice` mit `distractors`; Fehler *He cans swim*, *She must to go*, *Can you to help me?*, *I'd like go*.
+- **Muster `sortieren`**: `matching` Satz und Bedeutung (Fähigkeit, Erlaubnis, Pflicht, Verbot; Rat, Vorschlag, Vermutung; höflich oder direkt) und `ordering` für die Skala.
+- **Muster `kette-bauen`**: `language-task` mode `write` mit `cue` und `ordering` von Wörtern; je Fehler eine Meldung, die die Regel nennt; gleichwertige Antworten mit `(a|b)` (`can't|cannot`).
+- **Muster `needn't-oder-mustn't`** (Seite 1): `true-false` mit Begründung und `single-choice` an Schildern (Pflicht, Verbot, keine Pflicht). Meldung: deutsch „nicht müssen“ ist needn't, „nicht dürfen“ ist mustn't; *don't must* gibt es nicht.
+- **Muster `hoeren-schreiben` und `nachsprechen`**: je Seite ein Diktat (`<seite>-hoeren`) und eine `speaking-task` (`<seite>-nachsprechen`), nur ganze Sätze, Stimme `bf_emma`, erzeugt mit `regen_audio.py` aus hello-millbrook; Namen am Satzende zweisilbig (Sophie, Peter, Amir, Ellie).
+- **Muster `anwenden`**: `open-task` mit Punkten der Form (Schulregeln mit can, must und mustn't; Rat mit should und Vorschlag mit could; Bestellung mit I'd like).
+- **Engagement je Seite** (Opening, Change, Reward, Story, Repeat):
+  - `can-must`: Opening: Sophie liest Schilder im Flur, die Kinder ordnen drei Sätze der Bedeutung zu, bevor etwas erklärt wird. Change: sortieren, Kette bauen, hören, schreiben. Reward: „Du kannst jetzt Regeln für deine Schule schreiben.“ Story: Sophies erste Schulregeln; Schluss: Ellie fragt, was Sophie am Wochenende kann. Repeat: die Kette in anderer Form (Bild, Tabelle, Satz).
+  - `modalverben-could-might-should`: Opening: Ellie und Sophie planen das Wochenende, drei Antworten werden der Skala zugeordnet. Change: Skala ordnen, wählen, schreiben. Reward: Ratschläge an Peter geben. Story: Peter hat ein Problem; Schluss: Sophie lädt zum Kiosk ein.
+  - `would-like`: Opening: Kiosk, zwei Sätze (*I want a tea*, *I'd like a tea*), welcher ist höflich. Change: vergleichen, Kupplung to finden, Bestellung bauen, hören. Reward: eine höfliche Bestellung. Story: Café mit Mrs Parker; Rückblick auf die Kette (Lok ohne Kupplung, Lok mit to) und Ausblick auf weitere Kupplungen.
+- **Selbsteinschätzung** (`selfAssessment` des Kapitels): je Seite zwei Übungen, die ohne die Seite verständlich sind.
+- **Prerequisites ohne Übung in der App:** Seite 1 braucht Personalpronomen und einige Alltagsverben (Wörter werden eingeführt), Seite 3 braucht dazu das Verb *like*; beide Links statt `recap` (`personalpronomen` steht nicht in `requires`).
+- **Keine Komponente** (`prefer-built-in-block`): alles geht mit Blöcken, Bildern und `language-task`; die Verbkette ist ein statisches SVG.
+- **Spätere Kapitel:** Kapitel 2 (Ersatzformen, to und -ing) und 3 (Passiv) kommen als Inkrement `increment/<NN>-<name>`: neue Kapitelordner, die Kette wächst um die Kupplungen to, -ing und be + 3. Form; der Inhaltsführer sagt, wie.
 
 ## Code
 
@@ -173,11 +193,18 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite (src/koennen-muessen/can-must.yaml): Szene Schilder im Flur, Verbkette ohne Kupplung (SVG), Poster-Tabelle Modalverben, mindestens sechs Übungen leicht nach schwer (sortieren, Kupplung wählen, needn't oder mustn't, Kette bauen, Diktat, Nachsprechen), Anwenden: Schulregeln schreiben; Audio mit regen_audio.py; zeigt can, can't, must, mustn't, needn't
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Seite : Szene Wochenende planen, Skala fest bis offen (SVG), Poster-Tabelle erweitert, Übungen (Skala ordnen, wählen, Kette bauen, Diktat, Nachsprechen), Anwenden: Rat an Peter; zeigt could, may, might, should
+- [ ] Seite : Szene Kiosk und Café, Verbkette mit Kupplung to (SVG), Poster-Tabelle I'd like, Übungen (höflich oder direkt, Kupplung wählen, I'd like you to, Bestellung bauen, Diktat, Nachsprechen), Anwenden: höfliche Bestellung; Rückblick auf die Kette
+- [ ] Kapitel (chapter.yaml mit Selbsteinschätzung, je Seite zwei Übungen), src/app.yaml (format 2, strand englisch/grammatik, scope), Figuren-SVG aus hello-millbrook kopiert, Medienübersicht und Audio-Markierung prüfen
+- [ ] Seite modalverben-could-might-should (src/koennen-muessen/modalverben-could-might-should.yaml): Szene Wochenende planen, Skala fest bis offen (SVG), Poster-Tabelle erweitert, Übungen (Skala ordnen, wählen, Kette bauen, Diktat, Nachsprechen), Anwenden: Rat an Peter; zeigt could, may, might, should
+- [ ] Seite would-like (src/koennen-muessen/would-like.yaml): Szene Kiosk und Café, Verbkette mit Kupplung to (SVG), Poster-Tabelle I'd like, Übungen (höflich oder direkt, Kupplung wählen, I'd like you to, Bestellung bauen, Diktat, Nachsprechen), Anwenden: höfliche Bestellung; Rückblick auf die Kette
+- [ ] Kapitel koennen-muessen (src/koennen-muessen/chapter.yaml mit Selbsteinschätzung, je Seite zwei Übungen) und src/app.yaml (format 2, strand englisch/grammatik, scope); Medienübersicht und Audio-Markierung prüfen
+<!-- tasks: pages (6 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
