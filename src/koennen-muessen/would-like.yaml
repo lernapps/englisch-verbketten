@@ -2,7 +2,7 @@
 title: "Would like: höflich sagen, was du möchtest"
 description: Sophie ist mit Mrs Parker im Café. Du lernst, wie du mit I'd like höflich bestellst und sagst, was du tun möchtest oder was jemand tun soll.
 competencies: [would-like]
-scope: Die Seite führt would like in der Kurzform I'd like ein. I'd like a tea, please sagt höflich, was man haben möchte. I'd like to sit here sagt, was man tun möchte, mit der Kupplung to. I'd like you to help me sagt, was jemand anderes tun soll, mit you und der Kupplung to. Would you like a biscuit? fragt höflich. I want ist direkter und klingt beim Bestellen weniger höflich. I'd ist die Kurzform von I would. Would like bekommt nie ein -s (he'd like, she would like). Anders als can und must ist would like die erste Lok mit einer Kupplung, nämlich to vor einem Verb. Vor einem Nomen (a tea) gibt es keine Kupplung. Die Formen mit -ing oder be und der dritten Form folgen erst in späteren Kapiteln.
+scope: Die Seite führt would like in der Kurzform I'd like ein. I'd like a tea, please sagt höflich, was man haben möchte. I'd like to sit here sagt, was man tun möchte, mit der Kupplung to. I'd like you to help me sagt, was jemand anderes tun möchte, mit you und der Kupplung to. Would you like a biscuit? fragt höflich. I want ist direkter und klingt beim Bestellen weniger höflich. I'd ist die Kurzform von I would. Would like bekommt nie ein -s (he'd like, she would like). Anders als can und must ist would like die erste Lok mit einer Kupplung, nämlich to vor einem Verb. Vor einem Nomen (a tea) gibt es keine Kupplung. Die Formen mit -ing oder be und der dritten Form folgen erst in späteren Kapiteln.
 blocks:
   - type: section
     id: einstieg
@@ -30,7 +30,7 @@ blocks:
           - [open the window, das Fenster öffnen]
           - [carry my bag, meine Tasche tragen]
       - type: text
-        text: "**Das kannst du danach:** Mit I'd like höflich bestellen und sagen, was du tun möchtest oder was jemand anderes tun soll. Du lernst die erste Lok mit einer Kupplung kennen."
+        text: "**Das kannst du danach:** Mit I'd like höflich bestellen und sagen, was du tun möchtest oder was jemand anderes tun möchte. Du lernst die erste Lok mit einer Kupplung kennen."
       - type: single-choice
         id: would-like-start
         text: Welche Bestellung klingt freundlicher?
@@ -42,7 +42,7 @@ blocks:
             correct: false
             info: "I want heißt „ich will“. Das klingt beim Bestellen fordernd."
         explanation: I'd like klingt freundlicher als I want, vor allem mit please.
-        hint: Welcher Satz klingt, als würdest du etwas wollen, und welcher, als würdest du bitten?
+        hint: Welcher Satz klingt, als würdest du etwas fordern, und welcher, als würdest du bitten?
         links:
           - title: Lernlandkarte Englisch · Höfliche Wünsche mit would like
             url: https://lernapps.net/apps/map/englisch/c/would-like/
@@ -115,11 +115,11 @@ blocks:
             distractors: [[you, to you]]
           - cue: Sie möchte singen.
             target: "She [would] like to sing."
-            distractors: [[wood, will]]
+            distractors: [[could, should]]
           - cue: Ellie, möchtest du einen Saft?
             target: "Ellie, [would] you like a juice?"
             distractors: [[will, should]]
-        hint: Schau, was in der Verbkette zwischen Lok und Wagen sitzt.
+        hint: Manchmal fehlt die Kupplung, manchmal die Lok selbst. Schau, was zum Satz passt.
       - type: ordering
         id: would-like-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
@@ -136,7 +136,7 @@ blocks:
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
           - source: Ich hätte gern einen Saft, bitte.
-            target: I'd like a juice, please.
+            target: (I'd|I would) like a juice, please.
             mistakes:
               - answer: I want a juice, please.
                 message: "I want heißt „ich will“. Für „ich hätte gern“ brauchst du die höfliche Lok."
@@ -144,7 +144,7 @@ blocks:
             target: (I'd|I would) like to play football.
             mistakes:
               - answer: I'd like play football.
-                message: "Zwischen would like und dem zweiten Verb sitzt die Kupplung."
+                message: "Zwischen would like und dem zweiten Verb fehlt die Kupplung to."
               - answer: I like to play football.
                 message: "I like heißt „ich mag“. Für „ich möchte“ brauchst du I'd like."
           - source: Ich möchte, dass du Peter fragst.
@@ -203,4 +203,4 @@ blocks:
     title: Zurück zur Verbkette
     blocks:
       - type: text
-        text: Sophie schaut auf das Poster. Bei can, must, could, might und should steht zwischen den Verben nichts. Bei would like sitzt das to dazwischen. Es gibt noch weitere Kupplungen. Welche, lernst du später, wenn die Kinder älter sind.
+        text: Sophie schaut auf das Poster. Bei can, must, could, might und should steht zwischen den Verben nichts. Bei would like sitzt das to dazwischen. Es gibt noch weitere Kupplungen. Welche, lernst du später.

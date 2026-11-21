@@ -83,7 +83,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Auf Deutsch klingt „nicht müssen“ fast wie „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Amir can't sing*) und „darf nicht“ (*You can't run here*). Mustn't ist dabei strenger.
+              Im Deutschen verwechselt man „nicht müssen“ leicht mit „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Amir can't sing*) und „darf nicht“ (*You can't run here*). Mustn't ist ein stärkeres Verbot als can't.
   - type: section
     id: uebung
     title: Übung
@@ -125,7 +125,7 @@ blocks:
           - cue: Peter kann nicht schwimmen.
             target: "Peter [can't] swim."
             distractors: [[can, needn't]]
-        hint: Schau, was in der Verbkette zwischen den Verben steht.
+        hint: Schau, was zwischen den Verben steht, und ob der Satz „nicht“ sagt.
       - type: single-choice
         id: can-must-needn
         text: "Peter ist schon fertig. Ellie darf ihm helfen, muss es aber nicht. Welcher Satz passt?"
@@ -148,7 +148,7 @@ blocks:
         id: can-must-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
         items: [Amir, can, speak, German.]
-        explanation: Erst kommt wer, dann die Lok can, dann der Wagen speak.
+        explanation: Erst kommt wer, dann die Lok can, dann der Wagen speak und zuletzt, was gesprochen wird.
         hint: Wer kann etwas? Danach kommen Lok und Wagen.
         links:
           - title: Lernlandkarte Englisch · Can, must und needn't
@@ -187,6 +187,7 @@ blocks:
                 message: "Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to."
           - source: Amir muss nicht fragen.
             target: Amir (needn't|need not) ask.
+            accepted: [Amir doesn't have to ask., Amir doesn't need to ask.]
             mistakes:
               - answer: Amir mustn't ask.
                 message: "Mustn't ist ein Verbot („darf nicht“). Amir darf fragen, er muss nur nicht."

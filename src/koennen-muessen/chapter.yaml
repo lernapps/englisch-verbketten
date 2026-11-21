@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Können, müssen, möchten
-summary: Sophie liest Schilder, plant ein Wochenende und bestellt am Kiosk. Du lernst, was can, must, could, might, should und would like bedeuten und wie sie in der Verbkette stehen.
+summary: Sophie liest Schilder, plant ein Wochenende und bestellt im Café. Du lernst, was can, must, could, might, should und would like bedeuten und wie sie in der Verbkette stehen.
 pages: [can-must, modalverben-could-might-should, would-like]
 selfAssessment:
   pages:
