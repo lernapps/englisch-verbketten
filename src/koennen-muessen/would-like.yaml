@@ -10,8 +10,8 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-cafe.svg
-        alt: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Peter sagt "I want a biscuit.", Sophie sagt "I'd like a tea, please."
-        caption: "Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Die Sprechblasen zeigen, was Peter und Sophie bestellen."
+        alt: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?"
+        caption: "Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -64,7 +64,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Vor einem Verb steht **to**: *I'd like to sit here.* Soll jemand anderes etwas tun, steht **you** vor dem to: *I'd like you to help me.* Auf **would** folgt nie ein -s: *Peter would like a juice.* Eine Frage fängt mit would an: *Would you like a biscuit?*
+              Vor einem Verb steht **to**: *I'd like to sit here.* Soll jemand anderes etwas tun, steht **you** vor dem to: *I'd like you to help me.* **Would** bekommt nie ein -s: *Peter would like a juice.* Eine Frage fängt mit would an: *Would you like a biscuit?*
       - type: table
         caption: Klassenzimmer-Poster · Höfliche Wünsche
         header: [Ausdruck, Bedeutung]

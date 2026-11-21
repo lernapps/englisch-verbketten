@@ -39,7 +39,7 @@ blocks:
         text: "**Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung."
       - type: single-choice
         id: modalverben-start
-        text: "Ellie sagt: „We could go to the park.“ Was macht sie?"
+        text: "Ellie sagt: „We could go to the cinema.“ Was macht sie?"
         options:
           - text: Sie schlägt etwas vor.
             correct: true
@@ -68,12 +68,6 @@ blocks:
         caption: "Je weiter rechts ein Wort steht, desto offener ist die Sache. Ganz links ist es fest."
         source: eigene Zeichnung
         licence: CC-BY-4.0
-      - type: note
-        title: Merke
-        blocks:
-          - type: text
-            text: |
-              Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we play tennis?* Might und may bedeuten hier dasselbe.
       - type: table
         caption: Klassenzimmer-Poster · Modalverben
         header: [Ausdruck, Bedeutung]
@@ -86,6 +80,12 @@ blocks:
           - [It might rain., Es regnet vielleicht. (Vermutung)]
           - [Amir may be late., Amir kommt vielleicht zu spät. (Vermutung)]
           - [You should take a coat., Du solltest einen Mantel mitnehmen. (Rat)]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we play tennis?* Might und may bedeuten hier dasselbe.
   - type: section
     id: uebung
     title: Übung
@@ -113,17 +113,17 @@ blocks:
         task: Welches Wort gehört in die Lücke?
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Wir könnten ins Kino gehen.
-            target: "We [could] go to the cinema."
+          - cue: Wir könnten Fußball spielen.
+            target: "We [could] play football."
             distractors: [[coulds, could to]]
-          - cue: Du solltest zu Hause bleiben.
-            target: "You [should] stay at home."
+          - cue: Du solltest Peter fragen.
+            target: "You [should] ask Peter."
             distractors: [[shoulds, should to]]
           - cue: Peter hat vielleicht Hunger.
             target: "Peter [might] be hungry."
             distractors: [[mights, might to]]
-          - cue: Amir, könnten wir Tennis spielen?
-            target: "Amir, [could] we play tennis?"
+          - cue: Amir, könnten wir nach Hause gehen?
+            target: "Amir, [could] we go home?"
             distractors: [[coulds, do could]]
         hint: Dahinter folgt das zweite Verb ohne Kupplung. Überlege, ob ein Vorschlag, eine Vermutung oder ein Rat gemeint ist.
       - type: ordering
@@ -141,19 +141,19 @@ blocks:
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: hint, apostrophe: ok }
         items:
-          - source: Wir könnten Fußball spielen.
-            target: We could play football.
+          - source: Wir könnten zu Hause bleiben.
+            target: We could stay at home.
             mistakes:
-              - answer: We coulds play football.
+              - answer: We coulds stay at home.
                 message: "Could bekommt nie ein -s."
-              - answer: We could to play football.
+              - answer: We could to stay at home.
                 message: "Zwischen could und dem zweiten Verb sitzt keine Kupplung, auch kein to."
-          - source: Du solltest fragen.
-            target: You should ask.
+          - source: Du solltest Peter helfen.
+            target: You should help Peter.
             mistakes:
-              - answer: You should to ask.
+              - answer: You should to help Peter.
                 message: "Zwischen should und dem zweiten Verb sitzt keine Kupplung, auch kein to."
-              - answer: You must ask.
+              - answer: You must help Peter.
                 message: "Must ist eine Pflicht. Hier ist nur ein Rat gemeint."
           - source: Ellie kommt vielleicht zu spät.
             target: Ellie (might|may|could) be late.
