@@ -33,6 +33,7 @@ Kinder der Stufe 5-6 lernen, dass ein Verb hinter einem anderen Verb seine Form 
 - Strang: `englisch/grammatik`, Format 2 (laut Issue #480).
 - Nur Kapitel 1 „Können, müssen, möchten“ (Stufe 5-6); Kapitel 2 und 3 (7-8) kommen später als Inkrement `increment/<NN>-<name>` (Auftrag der Orchestrator-Session).
 - Keine Wiederholungsseite `recap` nötig: `can-must` und `would-like` haben kein `requires`, `modalverben-could-might-should` verlangt nur `can-must` (dieselbe App). (Karte vom 2026-11-21)
+- `scope` in `src/app.yaml` und auf jeder Seite: ja, weil die Seiten `open-task` haben (der Tutor beurteilt freie Antworten nur nach dem Scope).
 - Figuren und Ort aus den Konventionen: Sophie, Ellie, Peter, Amir, Mr Hill, Mrs Parker in Millbrook School, Zeichnungen aus `millbrook-klassenzimmer.svg` von hello-millbrook.
 
 ## Notes
@@ -187,14 +188,14 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite (src/koennen-muessen/can-must.yaml): Szene Schilder im Flur, Verbkette ohne Kupplung (SVG), Poster-Tabelle Modalverben, mindestens sechs Übungen leicht nach schwer (sortieren, Kupplung wählen, needn't oder mustn't, Kette bauen, Diktat, Nachsprechen), Anwenden: Schulregeln schreiben; Audio mit regen_audio.py; zeigt can, can't, must, mustn't, needn't
+- [x] Musterseite (src/koennen-muessen/can-must.yaml): Szene Schilder im Flur, Verbkette ohne Kupplung (SVG), Poster-Tabelle Modalverben, mindestens sechs Übungen leicht nach schwer (sortieren, Kupplung wählen, needn't oder mustn't, Kette bauen, Diktat, Nachsprechen), Anwenden: Schulregeln schreiben; Audio mit regen_audio.py; zeigt can, can't, must, mustn't, needn't
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
