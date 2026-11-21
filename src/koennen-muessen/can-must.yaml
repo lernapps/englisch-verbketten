@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf jedem Schild stehen zwei Verben, zum Beispiel *run* (rennen) und *wear* (tragen). Das sind Wörter für etwas, das man tut.
+          Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9), der Bruder von Ellie, rennt an ihr vorbei. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf jedem Schild stehen zwei Verben, zum Beispiel *run* (rennen) und *wear* (tragen). Das sind Wörter für etwas, das man tut.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
@@ -55,7 +55,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Stell dir einen kleinen Zug vor. Die **Lok** ist das erste Verb, zum Beispiel *can*. Sie zieht den **Wagen**, das zweite Verb, zum Beispiel *swim*. Zwischen Lok und Wagen kann eine **Kupplung** sitzen. Welche, bestimmt die Lok. Das ist eine **Verbkette**. Bei *can* und *must* sitzt keine Kupplung dazwischen. Sie heißen Modalverben: Sie sagen, ob etwas geht, sein muss oder erlaubt ist.
+          Stell dir einen kleinen Zug vor. Die **Lok** ist das erste Verb, zum Beispiel *can*. Sie zieht den **Wagen**, das zweite Verb, zum Beispiel *swim*. Zwischen Lok und Wagen kann eine **Kupplung** sitzen. Welche, bestimmt die Lok. Zusammen heißt das **Verbkette**. Eine Kupplung kann zum Beispiel *to* sein, wie in *I'd like to swim*. Das lernst du auf der dritten Seite. Bei *can* und *must* sitzt keine Kupplung dazwischen. Sie heißen Modalverben: Sie sagen, ob etwas geht, sein muss oder erlaubt ist.
       - type: figure
         image: images/verbkette-ohne-kupplung.svg
         alt: Ein kleiner Zug. Die blaue Lok trägt das Wort can, der gelbe Wagen das Wort swim. Zwischen ihnen sitzt keine Kupplung.
@@ -67,7 +67,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Can und must bekommen **nie ein -s**: *Amir can sing*, auch bei he, she und it. Dazwischen steht **kein to**: *Ellie must run*. Eine Frage fängt mit can an, ohne das Hilfswort do: *Can you play?*
+              Can und must bekommen **nie ein -s**: *Amir can sing*, auch bei Amir oder Ellie. Dazwischen steht **kein to**: *Peter must run*. Can heißt „kann“, manchmal auch „darf“. Eine Frage fängt mit can an, ohne das Hilfswort do: *Can you play?*
       - type: table
         caption: Klassenzimmer-Poster · Modalverben
         header: [Ausdruck, Bedeutung]
@@ -139,7 +139,7 @@ blocks:
           - text: Ellie must help.
             correct: false
             info: "Must heißt „muss“. Das wäre eine Pflicht, Ellie muss aber nicht."
-        explanation: Needn't heißt nicht nötig, mustn't verboten.
+        explanation: Needn't heißt „muss nicht“, mustn't „darf nicht“.
         hint: Darf Ellie helfen? Muss sie?
         links:
           - title: Lernlandkarte Englisch · Can, must und needn't
@@ -149,7 +149,7 @@ blocks:
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
         items: [Amir, can, speak, German.]
         explanation: Erst kommt wer, dann die Lok can, dann der Wagen speak.
-        hint: Die Lok steht direkt hinter Amir.
+        hint: Wer kann etwas? Danach kommen Lok und Wagen.
         links:
           - title: Lernlandkarte Englisch · Can, must und needn't
             url: https://lernapps.net/apps/map/englisch/c/can-must/
