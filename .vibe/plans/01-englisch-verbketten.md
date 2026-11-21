@@ -212,8 +212,8 @@ page, which a link. -->
 - [x] Kapitel koennen-muessen (src/koennen-muessen/chapter.yaml mit Selbsteinschätzung, je Seite zwei Übungen) und src/app.yaml (format 2, strand englisch/grammatik, scope); Medienübersicht und Audio-Markierung prüfen
 <!-- tasks: pages (6 added): the other pages or screens, after the pattern -->
 - [x] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
