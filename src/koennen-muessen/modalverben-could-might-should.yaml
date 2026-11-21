@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
+          Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken. Auch Amir und Peter sind dabei.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
@@ -32,6 +32,8 @@ blocks:
           - [hungry, hungrig]
           - [late, spät]
           - [be, sein]
+          - [tomorrow, morgen]
+          - [tired, müde]
           - [take, nehmen]
       - type: text
         text: "**Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung."
@@ -55,7 +57,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/modalverben-could-might-should/
   - type: section
     id: neu
-    title: Vier neue Loks, auch ohne Kupplung
+    title: Vier neue Wörter, auch ohne Kupplung
     blocks:
       - type: text
         text: |

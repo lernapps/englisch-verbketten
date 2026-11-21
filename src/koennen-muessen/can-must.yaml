@@ -16,12 +16,13 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9), der Bruder von Ellie, rennt an ihr vorbei. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf jedem Schild stehen zwei Verben, zum Beispiel *run* (rennen) und *wear* (tragen). Das sind Wörter für etwas, das man tut. Die Wörter in der Tabelle brauchst du gleich bei der ersten Aufgabe und später in den Übungen.
+          Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf jedem Schild stehen zwei Verben, zum Beispiel *run* (rennen) und *wear* (tragen). Das sind Wörter für etwas, das man tut. Die Wörter in der Tabelle brauchst du gleich bei der ersten Aufgabe und später in den Übungen.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
         rows:
           - [run, rennen]
+          - [play, spielen]
           - [wear, tragen]
           - [uniform, Uniform]
           - [here, hier]
@@ -83,7 +84,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Im Deutschen verwechselt man „nicht müssen“ leicht mit „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Amir can't sing*) und „darf nicht“ (*You can't run here*). Mustn't ist ein stärkeres Verbot als can't.
+              Im Deutschen verwechselt man „nicht müssen“ leicht mit „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Amir can't sing*) und „darf nicht“ (*You can't run here*).
   - type: section
     id: uebung
     title: Übung
@@ -128,7 +129,7 @@ blocks:
         hint: Schau, was zwischen den Verben steht, und ob der Satz „nicht“ sagt.
       - type: single-choice
         id: can-must-needn
-        text: "Peter ist schon fertig. Ellie darf ihm helfen, muss es aber nicht. Welcher Satz passt?"
+        text: "Ellie darf Peter helfen, muss es aber nicht. Welcher Satz passt?"
         options:
           - text: Ellie needn't help.
             correct: true
@@ -179,7 +180,7 @@ blocks:
               - answer: You don't must play here.
                 message: "Es gibt kein don't must. Schau auf das Poster, welches Wort „darf nicht“ heißt."
           - source: Kannst du mir helfen?
-            target: Can you help me?
+            target: (Can|Could) you help me?
             mistakes:
               - answer: Do you can help me?
                 message: "Can braucht kein do. In einer Frage steht can selbst vorn."

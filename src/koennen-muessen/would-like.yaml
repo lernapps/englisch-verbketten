@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker die Kinder mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Jeder bestellt etwas.
+          Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker die Kinder mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Auch Ellie und Amir sind dabei. Jeder bestellt etwas.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
@@ -203,4 +203,4 @@ blocks:
     title: Zurück zur Verbkette
     blocks:
       - type: text
-        text: Sophie schaut auf das Poster. Bei can, must, could, might und should steht zwischen den Verben nichts. Bei would like sitzt das to dazwischen. Es gibt noch weitere Kupplungen. Welche, lernst du später.
+        text: Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwischen den Verben nichts. Bei would like sitzt das to dazwischen. Es gibt noch weitere Kupplungen. Welche, lernst du später.
