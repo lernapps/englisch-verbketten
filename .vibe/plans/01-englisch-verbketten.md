@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 1 }
+failedChecks: { checks-pass: 2 }
 ---
 
 # Plan: englisch-verbketten, first version
@@ -208,7 +208,7 @@ page, which a link. -->
 - [x] (skipped: Text unvollständig, ersetzt durch die korrigierte Aufgabe weiter unten) Seite : Szene Kiosk und Café, Verbkette mit Kupplung to (SVG), Poster-Tabelle I'd like, Übungen (höflich oder direkt, Kupplung wählen, I'd like you to, Bestellung bauen, Diktat, Nachsprechen), Anwenden: höfliche Bestellung; Rückblick auf die Kette
 - [x] (skipped: Text unvollständig, ersetzt durch die korrigierte Aufgabe weiter unten) Kapitel (chapter.yaml mit Selbsteinschätzung, je Seite zwei Übungen), src/app.yaml (format 2, strand englisch/grammatik, scope), Figuren-SVG aus hello-millbrook kopiert, Medienübersicht und Audio-Markierung prüfen
 - [x] Seite modalverben-could-might-should (src/koennen-muessen/modalverben-could-might-should.yaml): Szene Wochenende planen, Skala fest bis offen (SVG), Poster-Tabelle erweitert, Übungen (Skala ordnen, wählen, Kette bauen, Diktat, Nachsprechen), Anwenden: Rat an Peter; zeigt could, may, might, should
-- [ ] Seite would-like (src/koennen-muessen/would-like.yaml): Szene Kiosk und Café, Verbkette mit Kupplung to (SVG), Poster-Tabelle I'd like, Übungen (höflich oder direkt, Kupplung wählen, I'd like you to, Bestellung bauen, Diktat, Nachsprechen), Anwenden: höfliche Bestellung; Rückblick auf die Kette
+- [x] Seite would-like (src/koennen-muessen/would-like.yaml): Szene Kiosk und Café, Verbkette mit Kupplung to (SVG), Poster-Tabelle I'd like, Übungen (höflich oder direkt, Kupplung wählen, I'd like you to, Bestellung bauen, Diktat, Nachsprechen), Anwenden: höfliche Bestellung; Rückblick auf die Kette
 - [ ] Kapitel koennen-muessen (src/koennen-muessen/chapter.yaml mit Selbsteinschätzung, je Seite zwei Übungen) und src/app.yaml (format 2, strand englisch/grammatik, scope); Medienübersicht und Audio-Markierung prüfen
 <!-- tasks: pages (6 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
