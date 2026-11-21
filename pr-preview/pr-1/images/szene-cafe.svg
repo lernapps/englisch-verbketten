@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
-  <title>Im Café: Peter sagt I want a biscuit, Sophie sagt I'd like a tea, please. Mrs Parker steht dazwischen am Tisch.</title>
+  <title>Im Café: Mrs Parker fragt What would you like? Peter und Sophie stehen am Tisch.</title>
   <defs>
     <g id="sophie" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a9a5b"/>
@@ -51,14 +51,10 @@
     </g></defs>
   <rect width="640" height="340" fill="#f4efe2"/>
   <rect y="270" width="640" height="70" fill="#c9a77a"/>
-  <rect x="20" y="24" width="270" height="84" rx="14" fill="#fff" stroke="#333" stroke-width="3"/>
-  <path d="M80 108 l12 22 l12 -22 z" fill="#fff" stroke="#333" stroke-width="3"/>
-  <text x="155.0" y="60" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">I want</text>
-  <text x="155.0" y="90" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">a biscuit.</text>
-  <rect x="330" y="24" width="290" height="84" rx="14" fill="#fff" stroke="#333" stroke-width="3"/>
-  <path d="M470 108 l12 22 l12 -22 z" fill="#fff" stroke="#333" stroke-width="3"/>
-  <text x="475.0" y="60" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">I'd like a tea,</text>
-  <text x="475.0" y="90" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#222">please.</text>
+  <rect x="150" y="24" width="340" height="84" rx="14" fill="#fff" stroke="#333" stroke-width="3"/>
+  <path d="M290 108 l12 22 l12 -22 z" fill="#fff" stroke="#333" stroke-width="3"/>
+  <text x="320" y="62" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#222">What would</text>
+  <text x="320" y="92" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#222">you like?</text>
   <rect x="60" y="215" width="520" height="14" rx="4" fill="#b98a55" stroke="#333" stroke-width="3"/>
   <use href="#peter" transform="translate(45,140) scale(0.7)"/>
   <use href="#parker" transform="translate(250,140) scale(0.75)"/>

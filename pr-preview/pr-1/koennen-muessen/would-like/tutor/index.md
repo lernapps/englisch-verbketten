@@ -45,7 +45,7 @@ Sophie ist mit Mrs Parker im Café. Du lernst, wie du mit I'd like höflich best
 
 ### Im Café
 
-Bild: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Peter sagt "I want a biscuit.", Sophie sagt "I'd like a tea, please.". Bildunterschrift: Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Die Sprechblasen zeigen, was Peter und Sophie bestellen.
+Bild: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?". Bildunterschrift: Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten.
 
 Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker die Kinder mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Auch Ellie und Amir sind dabei. Jeder bestellt etwas.
 
@@ -72,7 +72,7 @@ Bild: Ein kleiner Zug. Die blaue Lok trägt die Wörter would like, dann folgt e
 
 **Merke: Merke**
 
-Vor einem Verb steht **to**: *I'd like to sit here.* Soll jemand anderes etwas tun, steht **you** vor dem to: *I'd like you to help me.* Auf **would** folgt nie ein -s: *Peter would like a juice.* Eine Frage fängt mit would an: *Would you like a biscuit?*
+Vor einem Verb steht **to**: *I'd like to sit here.* Soll jemand anderes etwas tun, steht **you** vor dem to: *I'd like you to help me.* **Would** bekommt nie ein -s: *Peter would like a juice.* Eine Frage fängt mit would an: *Would you like a biscuit?*
 
 Klassenzimmer-Poster · Höfliche Wünsche:
 - Ausdruck | Bedeutung

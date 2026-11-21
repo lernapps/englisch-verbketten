@@ -47,7 +47,7 @@ Sophie liest Schilder im Flur der Millbrook School. Du lernst, wie can, must und
 
 Bild: Sophie, Peter und Amir stehen im Flur der Millbrook School. An der Wand hängen zwei Schilder. Auf dem einen steht "You mustn't run here.", auf dem anderen "You must wear a uniform.". Bildunterschrift: Von links nach rechts: Sophie (mit den Zöpfen), Peter (der Kleine) und Amir (mit Brille). An der Wand hängen zwei Schilder.
 
-Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf jedem Schild stehen zwei Verben, zum Beispiel *run* (rennen) und *wear* (tragen). Das sind Wörter für etwas, das man tut. Die Wörter in der Tabelle brauchst du gleich bei der ersten Aufgabe und später in den Übungen.
+Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf den Schildern stehen Wörter für etwas, das man tut, zum Beispiel *run* (rennen) und *wear* (tragen). Solche Wörter heißen Verben. Die Wörter in der Tabelle brauchst du gleich bei der ersten Aufgabe und später in den Übungen.
 
 Klassenzimmer-Poster · Neue Wörter:
 - Wort | Bedeutung

@@ -76,10 +76,6 @@ Die vier neuen Loks fahren wie *can* und *must*: Das zweite Verb folgt direkt, o
 
 Bild: Eine Skala von fest nach offen. Von links nach rechts stehen die Wörter must, should, could und might auf einem Pfeil, die Kreise werden immer heller. Bildunterschrift: Je weiter rechts ein Wort steht, desto offener ist die Sache. Ganz links ist es fest.
 
-**Merke: Merke**
-
-Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we play tennis?* Might und may bedeuten hier dasselbe.
-
 Klassenzimmer-Poster · Modalverben:
 - Ausdruck | Bedeutung
 - Amir can sing. | Amir kann singen.
@@ -90,6 +86,10 @@ Klassenzimmer-Poster · Modalverben:
 - It might rain. | Es regnet vielleicht. (Vermutung)
 - Amir may be late. | Amir kommt vielleicht zu spät. (Vermutung)
 - You should take a coat. | Du solltest einen Mantel mitnehmen. (Rat)
+
+**Merke: Merke**
+
+Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we play tennis?* Might und may bedeuten hier dasselbe.
 
 ### Übung
 
@@ -115,7 +115,7 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 
 ### Aufgabe modalverben-start
 
-- Aufgabe: Ellie sagt: „We could go to the park.“ Was macht sie?
+- Aufgabe: Ellie sagt: „We could go to the cinema.“ Was macht sie?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Sie schlägt etwas vor. – Ellie nennt einen Ort, an den sie gehen könnten. Das ist ein Vorschlag.
@@ -141,10 +141,10 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Wir könnten ins Kino gehen. → We could go to the cinema.
-2. Du solltest zu Hause bleiben. → You should stay at home.
+1. Wir könnten Fußball spielen. → We could play football.
+2. Du solltest Peter fragen. → You should ask Peter.
 3. Peter hat vielleicht Hunger. → Peter might be hungry.
-4. Amir, könnten wir Tennis spielen? → Amir, could we play tennis?
+4. Amir, könnten wir nach Hause gehen? → Amir, could we go home?
 - Tipp der App: Dahinter folgt das zweite Verb ohne Kupplung. Überlege, ob ein Vorschlag, eine Vermutung oder ein Rat gemeint ist.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#modalverben-wahl](../?via=tutor#modalverben-wahl)
@@ -164,12 +164,12 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Wir könnten Fußball spielen. → We could play football.
-     - We coulds play football.: Could bekommt nie ein -s.
-     - We could to play football.: Zwischen could und dem zweiten Verb sitzt keine Kupplung, auch kein to.
-2. Du solltest fragen. → You should ask.
-     - You should to ask.: Zwischen should und dem zweiten Verb sitzt keine Kupplung, auch kein to.
-     - You must ask.: Must ist eine Pflicht. Hier ist nur ein Rat gemeint.
+1. Wir könnten zu Hause bleiben. → We could stay at home.
+     - We coulds stay at home.: Could bekommt nie ein -s.
+     - We could to stay at home.: Zwischen could und dem zweiten Verb sitzt keine Kupplung, auch kein to.
+2. Du solltest Peter helfen. → You should help Peter.
+     - You should to help Peter.: Zwischen should und dem zweiten Verb sitzt keine Kupplung, auch kein to.
+     - You must help Peter.: Must ist eine Pflicht. Hier ist nur ein Rat gemeint.
 3. Ellie kommt vielleicht zu spät. → Ellie might be late. (auch richtig: Ellie may be late.; Ellie could be late.)
      - Ellie mights be late.: Might bekommt nie ein -s, auch nicht bei Ellie.
      - Ellie might to be late.: Zwischen might und dem zweiten Verb sitzt keine Kupplung, auch kein to.
