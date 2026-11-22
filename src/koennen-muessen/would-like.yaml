@@ -11,7 +11,7 @@ blocks:
       - type: figure
         image: images/szene-cafe.svg
         alt: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?"
-        caption: "Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten."
+        caption: "Von links nach rechts: Peter (der Kleine), Mrs Parker (rote Haare als Dutt, türkise Strickjacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
