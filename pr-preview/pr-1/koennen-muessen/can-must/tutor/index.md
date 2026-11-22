@@ -140,7 +140,7 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 - Aufgabe: Welches Wort gehört in die Lücke?
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ellie kann singen. → Ellie can sing.
 2. Peter muss helfen. → Peter must help.
@@ -176,7 +176,7 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter kann schwimmen. → Peter can swim.
      - Peter cans swim.: Can bekommt nie ein -s, auch nicht bei Peter.
@@ -199,7 +199,7 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → You must wear a uniform.
 2. Audio → You mustn't run here. (auch richtig: You must not run here.)

@@ -139,7 +139,7 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 
 - Aufgabe: Welches Wort gehört in die Lücke?
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Wir könnten Fußball spielen. → We could play football.
 2. Du solltest Peter fragen. → You should ask Peter.
@@ -162,7 +162,7 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Wir könnten zu Hause bleiben. → We could stay at home.
      - We coulds stay at home.: Could bekommt nie ein -s.
@@ -182,7 +182,7 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → We could go to the cinema.
 2. Audio → It might rain tomorrow. (auch richtig: It may rain tomorrow.)

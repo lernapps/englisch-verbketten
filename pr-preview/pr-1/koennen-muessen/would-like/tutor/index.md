@@ -133,7 +133,7 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 
 - Aufgabe: Welches Wort gehört in die Lücke?
 - Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich möchte nach Hause gehen. → I'd like to go home.
 2. Ich möchte, dass du mir hilfst, Peter. → Peter, I'd like you to help me.
@@ -156,7 +156,7 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 
 - Aufgabe: Schreibe den Satz auf Englisch.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich hätte gern einen Saft, bitte. → I'd like a juice, please. (auch richtig: I would like a juice, please.)
      - I want a juice, please.: I want heißt „ich will“. Für „ich hätte gern“ brauchst du die höfliche Lok.
@@ -175,7 +175,7 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 
 - Aufgabe: Hör zu und schreibe, was du hörst.
 - Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen richtig mit Hinweis
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → I'd like to sit here. (auch richtig: I would like to sit here.)
 2. Audio → Would you like a biscuit?
