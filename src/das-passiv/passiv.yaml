@@ -328,8 +328,8 @@ blocks:
         id: passiv-nachsprechen
         language: en
         items:
-          - audio: the-museum-is-opened-at-ten.mp3
-            text: The museum is opened at ten.
+          - audio: the-museum-is-closed-on-mondays.mp3
+            text: The museum is closed on Mondays.
           - audio: my-bike-was-washed-by-my-brother.mp3
             text: My bike was washed by my brother.
           - audio: is-this-game-played-in-your-country.mp3
