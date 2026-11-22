@@ -105,7 +105,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welches Wort gehört in die Lücke?
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ich möchte nach Hause gehen.
             target: "I'd like [to] go home."
@@ -133,7 +133,7 @@ blocks:
         id: would-like-schreiben
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Ich hätte gern einen Saft, bitte.
             target: (I'd|I would) like a juice, please.
@@ -163,7 +163,7 @@ blocks:
         id: would-like-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - audio: id-like-to-sit-here.mp3
             target: (I'd|I would) like to sit here.

@@ -111,7 +111,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welches Wort gehört in die Lücke?
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Wir könnten Fußball spielen.
             target: "We [could] play football."
@@ -139,7 +139,7 @@ blocks:
         id: modalverben-schreiben
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Wir könnten zu Hause bleiben.
             target: We could stay at home.
@@ -171,7 +171,7 @@ blocks:
         id: modalverben-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - audio: we-could-go-to-the-cinema.mp3
             target: We could go to the cinema.

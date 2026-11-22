@@ -112,7 +112,7 @@ blocks:
         languages: { source: de, target: en }
         mode: choice
         task: Welches Wort gehört in die Lücke?
-        form: { case: hint, punctuation: hint }
+        form: { case: hint, punctuation: ok }
         items:
           - cue: Ellie kann singen.
             target: "Ellie [can] sing."
@@ -158,7 +158,7 @@ blocks:
         id: can-must-schreiben
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Peter kann schwimmen.
             target: Peter can swim.
@@ -187,8 +187,7 @@ blocks:
               - answer: Can you to help me?
                 message: "Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to."
           - source: Amir muss nicht fragen.
-            target: Amir (needn't|need not) ask.
-            accepted: [Amir doesn't have to ask., Amir doesn't need to ask.]
+            target: Amir (needn't|need not|doesn't have to|doesn't need to) ask.
             mistakes:
               - answer: Amir mustn't ask.
                 message: "Mustn't ist ein Verbot („darf nicht“). Amir darf fragen, er muss nur nicht."
@@ -198,7 +197,7 @@ blocks:
         id: can-must-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint, apostrophe: ok }
+        form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - audio: you-must-wear-a-uniform.mp3
             target: You must wear a uniform.

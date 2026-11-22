@@ -52,7 +52,9 @@ Aufbau je Seite: leicht → schwer: sortieren → Kupplung wählen → Kette bau
 - `hoeren-schreiben` (`<seite>-hoeren`) und `nachsprechen` (`<seite>-nachsprechen`): Diktat und `speaking-task`, nur ganze Sätze.
 - `anwenden`: `open-task` mit Punkten der Form.
 - Selbsteinschätzung: je Seite zwei Übungen, die ohne die Seite verständlich sind (Skill `lernapps-explainer-self-assessment`).
-- Audio: `src/audio/<satz-in-kleinbuchstaben>.mp3`, Stimme `bf_emma` (britisch). Nur ganze Sätze. Erzeugen mit `regen_audio.py` (Kopie aus hello-millbrook im Ordner `scripts/` dieses Skills), damit das Ausklingen abgeschnitten wird. Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: `src/audio/<satz-in-kleinbuchstaben>.mp3`, Stimme `bf_emma` (britisch). Nur ganze Sätze. Erzeugen mit `regen_audio.py` (Kopie aus hello-millbrook im Ordner `scripts/` dieses Skills), damit das Ausklingen abgeschnitten wird. Hörsätze bleiben natürliche Sätze: kein Name nur wegen des Klangs anhängen (ein Name steht nur, wo der Satz ihn braucht). Alle 18 Sätze stehen in `.agents/skills/app-content/audio-texte.json` (Datei → Satz); neue Sätze dort eintragen und mit `regen_audio.py audio-texte.json <Satz>` erzeugen.
+
+**Hörliste** (Sätze, die auf ein einsilbiges Wort enden: gezielt anhören, ob am Ende ein Störlaut bleibt): `peter-can-swim`, `can-you-help-me`, `you-neednt-wear-a-coat`, `you-mustnt-run-here`, `you-should-take-a-coat`, `amir-may-be-late`, `id-like-to-sit-here`, `id-like-you-to-help-me`, `id-like-a-tea-please`, `would-you-like-a-juice`. Kein Satz der App wurde wegen des Klangs verändert; kein Mensch hat bisher eine Datei angehört.
 - Keine Datendateien, keine Komponente: jede Tatsache steht einmal in den Items ihrer Seite.
 
 ## Figures
