@@ -1,0 +1,296 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Have to, be able to, be allowed to: Ersatzformen"
+description: Sophie und Ellie planen einen Ausflug. Du lernst, wie have to, be able to und be allowed to die Modalverben in die Vergangenheit und in die Zukunft bringen.
+competencies: [modale-ersatzformen]
+scope: Die Seite führt die Ersatzformen der Modalverben ein. Have to ersetzt must (I had to, I will have to), be able to ersetzt can (I was able to, I will be able to), be allowed to ersetzt can oder may für Erlaubnis (I was allowed to, I will be allowed to). Sie sind Loks, die selbst mit to gekoppelt sind und deshalb in jede Zeit fahren können, während can, must und may keine eigene Vergangenheit und keine eigene Zukunft haben. Don't have to heißt nicht müssen (wie needn't), aren't allowed to heißt nicht dürfen (wie mustn't). Das Lesestück ist ein erfundener Chat von Sophie und Ellie über einen Ausflug.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Ausflug steht an
+    blocks:
+      - type: text
+        text: |
+          Sophie (13) lebt seit einem Jahr bei den Parkers. Ihre Klasse macht einen Ausflug zu einem Schloss. Sophie und Ellie (13) chatten abends.
+      - type: text
+        text: "**Das kannst du danach:** have to, be able to und be allowed to benutzen, auch in der Vergangenheit und in der Zukunft."
+      - type: single-choice
+        id: ersatz-start
+        text: "Du kennst aus Kapitel 1 Wörter ohne Kupplung. Welches davon sagt, dass etwas Pflicht ist?"
+        options:
+          - text: must
+            correct: true
+            info: "Must heißt „muss“."
+          - text: could
+            correct: false
+            info: "Could macht einen Vorschlag."
+          - text: might
+            correct: false
+            info: "Might heißt „vielleicht“."
+        explanation: Must sagt, dass etwas Pflicht ist.
+        hint: Denk an Kapitel 1.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+  - type: section
+    id: lesen
+    title: Der Chat von Freitagabend
+    blocks:
+      - type: text
+        text: |
+          **Sophie:** Ellie, have you read the letter about the trip to the castle?
+
+          **Ellie:** Yes! We have to be at school at 7:30 on Tuesday.
+
+          **Sophie:** 7:30? In Germany we didn't have to get up so early.
+
+          **Ellie:** Haha. And don't forget: you aren't allowed to bring your phone into the castle.
+
+          **Sophie:** Really? Last week I was allowed to use my phone in the museum.
+      - type: definition
+        term: castle
+        explanation: das Schloss, die Burg
+      - type: definition
+        term: allowed
+        explanation: erlaubt
+      - type: true-false
+        id: ersatz-zwischendurch-eins
+        text: Sophie musste in Deutschland nie so früh aufstehen.
+        answer: true
+        explanation: In Deutschland musste sie nicht so früh aufstehen.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+      - type: text
+        text: |
+          **Ellie:** That was a museum. At the castle, Mr Hill says we aren't allowed to take photos inside.
+
+          **Sophie:** OK. And do we have to wear our uniform?
+
+          **Ellie:** No, we don't have to. We can wear our own clothes, but we must have a warm coat.
+
+          **Sophie:** Good. I'm not able to climb the old tower, though. I'm afraid of heights.
+      - type: definition
+        term: tower
+        explanation: der Turm
+      - type: definition
+        term: afraid of heights
+        explanation: Höhenangst haben
+      - type: true-false
+        id: ersatz-zwischendurch-zwei
+        text: Ellie sagt, dass die Klasse im Schloss die Uniform tragen muss.
+        answer: false
+        explanation: Ellie sagt, dass die Kinder ihre eigene Kleidung tragen können.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+      - type: text
+        text: |
+          **Ellie:** Don't worry. Last year I wasn't able to climb it either. Maybe you will be able to do it next year!
+
+          **Sophie:** Maybe. But I will have to practise first :)
+      - type: definition
+        term: practise
+        explanation: üben
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: ersatz-verstehen
+        text: Warum möchte Sophie nicht auf den Turm steigen?
+        options:
+          - text: Sie hat Angst vor der Höhe.
+            correct: true
+            info: "Sophie schreibt, dass sie Höhenangst hat."
+          - text: Sie darf es nicht.
+            correct: false
+            info: "Für den Turm steht kein Verbot im Chat."
+          - text: Sie hat keine Zeit.
+            correct: false
+            info: "Von Zeit schreibt niemand."
+        explanation: Sophie hat Höhenangst.
+        hint: Lies Sophies letzte Sätze.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+      - type: single-choice
+        id: ersatz-belegen
+        text: "Welcher Satz aus dem Chat sagt, dass Fotos im Schloss verboten sind?"
+        options:
+          - text: "We aren't allowed to take photos inside."
+            correct: true
+            info: "Aren't allowed to heißt „dürfen nicht“."
+          - text: "We don't have to wear our uniform."
+            correct: false
+            info: "Don't have to heißt „müssen nicht“. Das ist kein Verbot."
+          - text: "We have to be at school at 7:30."
+            correct: false
+            info: "Have to nennt eine Pflicht und sagt nichts über Fotos."
+        explanation: Aren't allowed to sagt „dürfen nicht“.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+      - type: open-task
+        id: ersatz-meinung
+        task: "Findest du die Regel richtig, dass man im Schloss keine Fotos machen darf? Schreibe zwei bis drei Sätze auf Deutsch oder Englisch und nenne einen Grund."
+        points:
+          - text: Eine klare Meinung (richtig oder nicht richtig).
+            kind: form
+          - text: Ein Grund für die Meinung.
+            kind: form
+        solution: |
+          Ich finde die Regel richtig, weil Blitzlicht alte Bilder beschädigen kann.
+  - type: section
+    id: neu
+    title: Die Lok fährt in jede Zeit
+    blocks:
+      - type: text
+        text: |
+          *Can*, *must* und *may* haben keine Vergangenheit und keine Zukunft: *musted* oder *will must* gibt es nicht. Dafür gibt es Ersatzformen: **have to** für *must*, **be able to** für *can* und **be allowed to** für Erlaubnis. Ihre Lok *have* oder *be* hat selbst die Kupplung **to** und fährt in jede Zeit.
+      - type: figure
+        image: images/verbkette-ersatz.svg
+        alt: Eine lange Verbkette. Die blaue Lok will zieht die zweite blaue Lok have, danach folgt die rote Kupplung to und der gelbe Wagen go.
+        caption: "Von links: Lok will, Lok have, Kupplung to, Wagen go. Jedes Glied zieht das nächste."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach *have to*, *be able to* und *be allowed to* steht immer der Wagen in der Grundform: *Ellie has to go*, nicht *has to goes*. *Don't have to* heißt „muss nicht“ (*needn't*), *aren't allowed to* heißt „darf nicht“ (*mustn't*).
+      - type: table
+        caption: Klassenzimmer-Poster · Ersatzformen
+        header: [Modalverb, Gestern, Morgen]
+        rows:
+          - [can, was able to, will be able to]
+          - [must, had to, will have to]
+          - [may (Erlaubnis), was allowed to, will be allowed to]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: ersatz-sortieren
+        text: Welche Ersatzform passt zu welcher Zeit?
+        pairs:
+          - left: can, gestern
+            right: was able to
+          - left: must, gestern
+            right: had to
+          - left: may (Erlaubnis), gestern
+            right: was allowed to
+          - left: must, nächste Woche
+            right: will have to
+        distractors: [musted]
+        explanation: Die Ersatzformen bringen can, must und may in andere Zeiten.
+        hint: Zeit und Bedeutung beachten.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+      - type: language-task
+        id: ersatz-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Ersatzform gehört in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Gestern musste ich lange warten.
+            target: "Yesterday I [had to] wait for a long time."
+            distractors: [[must, musted]]
+          - cue: Nächste Woche müssen wir die Turnhalle putzen.
+            target: "Next week we [will have to] clean the gym."
+            distractors: [[will must, must]]
+          - cue: Letztes Jahr konnte Amir nicht schwimmen.
+            target: "Last year Amir [wasn't able to] swim."
+            distractors: [[can't, didn't can]]
+          - cue: Morgen dürfen wir länger schlafen.
+            target: "Tomorrow we [will be allowed to] sleep longer."
+            distractors: [[will can, will allowed to]]
+        hint: Achte auf die Zeit.
+      - type: ordering
+        id: ersatz-reihenfolge
+        text: Baue die lange Verbkette Glied für Glied.
+        items: [We, will, have, to, write, a, test.]
+        explanation: Erst die Loks will und have, dann die Kupplung to, zuletzt der Wagen write.
+        hint: Die Kupplung to sitzt direkt vor dem Wagen.
+        links:
+          - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
+            url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
+      - type: language-task
+        id: ersatz-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Gestern durfte Ellie lange aufbleiben.
+            target: Yesterday Ellie was allowed to stay up late.
+            mistakes:
+              - answer: Yesterday Ellie could to stay up late.
+                message: "Für „durfte“ brauchst du eine Form von be allowed to."
+              - answer: Yesterday Ellie was allowed stay up late.
+                message: "Hinter allowed fehlt die Kupplung to."
+          - source: Peter muss morgen zum Zahnarzt.
+            target: Peter has to go to the dentist tomorrow.
+            mistakes:
+              - answer: Peter have to go to the dentist tomorrow.
+                message: "Bei Peter braucht have in der dritten Person ein -s: has."
+              - answer: Peter must to go to the dentist tomorrow.
+                message: "Nach must steht kein to."
+          - source: Wir konnten das Spiel nicht sehen.
+            target: We weren't able to see the match.
+            mistakes:
+              - answer: We didn't can see the match.
+                message: "Can hat keine Vergangenheit mit did. Nimm be able to."
+              - answer: We couldn't to see the match.
+                message: "Nach could steht kein to."
+          - source: Du wirst früh anrufen müssen.
+            target: You will have to call early.
+            mistakes:
+              - answer: You will must call early.
+                message: "Must hat keine Zukunft mit will. Nimm have to."
+      - type: language-task
+        id: ersatz-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - audio: our-teacher-wasnt-allowed-to-park-here.mp3
+            target: Our teacher (wasn't|was not) allowed to park here.
+          - audio: you-will-have-to-bring-a-pencil-case.mp3
+            target: You (will|'ll) have to bring a pencil case.
+          - audio: were-you-able-to-find-the-library.mp3
+            target: Were you able to find the library?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: ersatz-nachsprechen
+        language: en
+        items:
+          - audio: we-dont-have-to-pay-for-the-museum.mp3
+            text: "We don't have to pay for the museum."
+          - audio: will-you-be-allowed-to-come-to-the-party.mp3
+            text: Will you be allowed to come to the party?
+          - audio: my-brother-had-to-cook-dinner-last-night.mp3
+            text: My brother had to cook dinner last night.
+        hint: Hör zu und sprich nach.
+      - type: open-task
+        id: ersatz-schreiben-frei
+        task: "Schreibe eine kurze Nachricht an Ellie über deinen nächsten Schulausflug. Benutze mindestens zwei der Formen have to, be able to und be allowed to, in der Vergangenheit oder in der Zukunft."
+        points:
+          - text: Mindestens zwei Ersatzformen (have to, be able to, be allowed to), richtig mit to und Grundform.
+            source: /to-oder-ing/modale-ersatzformen/#neu
+          - text: Eine Ersatzform in der Vergangenheit oder in der Zukunft, nicht im present.
+            source: /to-oder-ing/modale-ersatzformen/#neu
+          - text: Ganze Sätze, die zusammenpassen.
+            kind: form
+        solution: |
+          Last year we weren't allowed to bring snacks, but this year we will be allowed to. I will have to get up early.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Sophie schreibt noch lange mit Ellie. In ihrem Tagebuch steht, wie sie sich auf den Ausflug vorbereitet. Auf der nächsten Seite lernst du, wie man mit to sagt, wozu etwas gut ist.

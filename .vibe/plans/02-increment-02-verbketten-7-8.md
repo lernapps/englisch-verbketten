@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -32,6 +32,7 @@ Lernende der Stufe 7-8 wählen nach einem Verb die richtige Kupplung (to, -ing, 
 ## Key decisions
 
 - Inkrement 02 baut die Kapitel 2 „to oder -ing?“ und 3 „Das Passiv“ des Issues #480 (Stufe 7-8) im Repository `lernapps/englisch-verbketten`; Branch `increment/02-verbketten-7-8`. (Auftrag der Orchestrator-Session)
+- `scope` in `src/app.yaml` und auf jeder Seite: unverändert nötig (die Seiten haben `open-task`); `app.yaml` bekommt die neuen Kapitel und nimmt die Ersatzformen, to oder -ing und das Passiv aus `scope.out` heraus.
 - Archetype, Strang `englisch/grammatik`, Verbkette (Lok, Kupplung, Wagen) und die Regeln aus Abschnitt 7 und 8 der Konventionen bleiben bestehen.
 - Kapitelaufbau: je Kapitel eine Sammel-Wiederholung `recap` am Anfang für Bausteine anderer Explainer (will-future, fragewoerter, present-progressive; unregelmaessige-verben, to-be, present-perfect), dann je Baustein eine Seite mit Lesestück. (Karte, `requires`)
 - Figuren: Sophie 13 bis 14, bleibt in England; Form: Chats, Tagebuch, Interview, Zeitungsbericht der Schulzeitung, ein Bild nur wo es etwas zeigt (Konventionen Abschnitt 2 und 8).
@@ -106,8 +107,9 @@ Lernende der Stufe 7-8 wählen nach einem Verb die richtige Kupplung (to, -ing, 
 - [x] (skipped: keine neue Komponente und keine interaktive Übung, nur die Seitenskizze im Markdown) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, Plan bestätigt. Lokale Worktrees für die Sub-Agenten sind ok, kein Push. Weiter mit der Musterseite modale-ersatzformen.
 
 ### Content method
 
@@ -139,17 +141,17 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Kapitel 2 (Ordner src/to-oder-ing): chapter.yaml, Wiederholungsseite wiederholung (recap: will-future, fragewoerter, present-progressive) und Seite modale-ersatzformen als Muster mit Lesestück (Chat Sophie und Ellie), Randglossar, drei Aufgabenstufen, Audio; zeigt have to, be able to, be allowed to in mehreren Zeiten. Ich schreibe sie selbst (Muster).
+- [x] Kapitel 2 (Ordner src/to-oder-ing): chapter.yaml, Wiederholungsseite wiederholung (recap: will-future, fragewoerter, present-progressive) und Seite modale-ersatzformen als Muster mit Lesestück (Chat Sophie und Ellie), Randglossar, drei Aufgabenstufen, Audio; zeigt have to, be able to, be allowed to in mehreren Zeiten. Ich schreibe sie selbst (Muster).
 - [ ] Seite infinitivkonstruktionen (src/to-oder-ing/infinitivkonstruktionen.yaml): Lesestück Tagebuch oder Blog (in order to, Fragewort + to, It is easy for me to); Sub-Agent A (Kapitel 2), nach dem Muster.
 - [ ] Seite gerund (src/to-oder-ing/gerund.yaml): Lesestück Chat über Hobbys (Swimming is fun, enjoy, avoid, like + -ing); Sub-Agent A.
 - [ ] Seite gerund-nach-praepositionen (src/to-oder-ing/gerund-nach-praepositionen.yaml): Lesestück Interview (interested in, look forward to, good at + -ing); Sub-Agent A.

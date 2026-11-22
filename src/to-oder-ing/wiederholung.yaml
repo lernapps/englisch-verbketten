@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Drei Bausteine aus anderen Explainern, die du für dieses Kapitel brauchst.
+recap: [englisch/will-future, englisch/fragewoerter, englisch/present-progressive]
+scope: Die Seite wiederholt in drei Sätzen, was die Kinder aus anderen Explainern mitbringen sollen. Das will-future für Vermutungen, Vorhersagen und spontane Entschlüsse. Die Fragewörter who, what, where, when, why, how und whose. Das present progressive für das, was gerade passiert. Sie enthält keine Übung und keinen neuen Stoff.
+blocks:
+  - type: text
+    text: |
+      Bevor du mit dem Kapitel beginnst, frag dich, ob du diese drei Dinge schon kannst. Du übst sie hier nicht, sie stehen auf der Lernlandkarte.
+
+      **Will-future:** Ich kann mit dem will-future Vermutungen, Vorhersagen und spontane Entschlüsse ausdrücken. Du brauchst es für die Seite zu den Ersatzformen (*It will rain.*).
+
+      **Fragewörter:** Ich kann Fragen mit who, what, where, when, why, how und whose stellen. Du brauchst sie für die Seite zu den Infinitivkonstruktionen (*I don't know what to say.*).
+
+      **Present progressive:** Ich kann im present progressive sagen, was gerade passiert (She is reading.). Du brauchst es für die Seite zum Gerundium, damit du die -ing-Form von der Kupplung -ing unterscheidest.
+
+      Kannst du eines davon noch nicht sicher, schau es dir auf der Lernlandkarte Englisch an.
