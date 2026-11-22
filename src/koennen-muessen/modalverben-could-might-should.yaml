@@ -21,11 +21,6 @@ blocks:
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
         rows:
-          - [go, gehen]
-          - [park, Park]
-          - [cinema, Kino]
-          - [tennis, Tennis]
-          - [rain, regnen]
           - [snow, schneien]
           - [hat, Mütze]
           - [stay at home, zu Hause bleiben]
@@ -34,7 +29,6 @@ blocks:
           - [be, sein]
           - [tomorrow, morgen]
           - [tired, müde]
-          - [take, nehmen]
       - type: text
         text: "**Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung."
       - type: single-choice
@@ -85,7 +79,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we play tennis?* Might und may bedeuten hier dasselbe.
+              Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we help Ellie?* Might und may bedeuten hier dasselbe.
   - type: section
     id: uebung
     title: Übung
@@ -173,12 +167,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - audio: we-could-go-to-the-cinema.mp3
-            target: We could go to the cinema.
-          - audio: it-might-rain-tomorrow.mp3
-            target: It (might|may) rain tomorrow.
-          - audio: you-should-take-a-coat.mp3
-            target: You should take a coat.
+          - audio: peter-might-be-tired-tomorrow.mp3
+            target: Peter (might|may) be tired tomorrow.
+          - audio: ellie-should-take-a-hat.mp3
+            target: Ellie should take a hat.
+          - audio: could-we-stay-in-the-park.mp3
+            target: Could we stay in the park?
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -187,12 +181,12 @@ blocks:
         id: modalverben-nachsprechen
         language: en
         items:
-          - audio: amir-may-be-late.mp3
-            text: Amir may be late.
-          - audio: could-we-play-tennis.mp3
-            text: Could we play tennis?
-          - audio: you-should-ask-peter.mp3
-            text: You should ask Peter.
+          - audio: it-might-be-cold-tomorrow.mp3
+            text: It might be cold tomorrow.
+          - audio: you-should-take-your-hat-peter.mp3
+            text: "You should take your hat, Peter."
+          - audio: it-might-be-warm-in-the-park.mp3
+            text: It might be warm in the park.
         hint: Hör zuerst zu, sprich dann nach und vergleiche.
       - type: open-task
         id: modalverben-rat

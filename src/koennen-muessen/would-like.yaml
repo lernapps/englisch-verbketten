@@ -21,11 +21,8 @@ blocks:
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
         rows:
-          - [tea, Tee]
-          - [juice, Saft]
           - [biscuit, Keks]
           - [sandwich, belegtes Brot]
-          - [please, bitte]
           - [sit, sitzen]
           - [open the window, das Fenster öffnen]
           - [carry my bag, meine Tasche tragen]
@@ -33,7 +30,7 @@ blocks:
         text: "**Das kannst du danach:** Mit I'd like höflich bestellen und sagen, was du tun möchtest oder was jemand anderes tun möchte. Du lernst die erste Lok mit einer Kupplung kennen."
       - type: single-choice
         id: would-like-start
-        text: Welche Bestellung klingt freundlicher?
+        text: Welche Bestellung klingt am freundlichsten?
         options:
           - text: I'd like a tea, please.
             correct: true
@@ -41,6 +38,9 @@ blocks:
           - text: I want a biscuit.
             correct: false
             info: "I want heißt „ich will“. Das klingt beim Bestellen fordernd."
+          - text: Give me a biscuit.
+            correct: false
+            info: "Give me ist ein Befehl („gib mir“). Das klingt unfreundlich."
         explanation: I'd like klingt freundlicher als I want, vor allem mit please.
         hint: Welcher Satz klingt, als würdest du etwas fordern, und welcher, als würdest du bitten?
         links:
@@ -110,8 +110,8 @@ blocks:
           - cue: Ich möchte nach Hause gehen.
             target: "I'd like [to] go home."
             distractors: [[for, that]]
-          - cue: Ich möchte, dass du mir hilfst, Peter.
-            target: "Peter, I'd like [you to] help me."
+          - cue: Amir, ich möchte, dass du singst.
+            target: "Amir, I'd like [you to] sing."
             distractors: [[you, to you]]
           - cue: Sie möchte singen.
             target: "She [would] like to sing."
@@ -165,12 +165,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - audio: id-like-to-sit-here.mp3
-            target: (I'd|I would) like to sit here.
-          - audio: would-you-like-a-biscuit.mp3
-            target: Would you like a biscuit?
-          - audio: id-like-you-to-help-me.mp3
-            target: (I'd|I would) like you to help me.
+          - audio: would-you-like-a-sandwich.mp3
+            target: Would you like a sandwich?
+          - audio: peter-would-like-a-biscuit-please.mp3
+            target: "Peter would like a biscuit, please."
+          - audio: id-like-to-sit-with-you.mp3
+            target: "(I'd|I would) like to sit with you."
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -179,12 +179,12 @@ blocks:
         id: would-like-nachsprechen
         language: en
         items:
-          - audio: id-like-a-tea-please.mp3
-            text: I'd like a tea, please.
-          - audio: id-like-to-play-tennis.mp3
-            text: I'd like to play tennis.
-          - audio: would-you-like-a-juice.mp3
-            text: Would you like a juice?
+          - audio: would-you-like-to-sit-here.mp3
+            text: Would you like to sit here?
+          - audio: ellie-would-like-to-sit-with-amir.mp3
+            text: "Ellie would like to sit with Amir."
+          - audio: id-like-you-to-open-the-window.mp3
+            text: "I'd like you to open the window."
         hint: Hör zuerst zu, sprich dann nach und vergleiche.
       - type: open-task
         id: would-like-bestellen

@@ -29,7 +29,7 @@ Keine Voraussetzung außerhalb der App in der Karte: keine Wiederholungsseite, k
 
 - Pfad: `src/koennen-muessen/chapter.yaml` (mit `selfAssessment`), Seiten `src/koennen-muessen/<seite>.yaml`, App in `src/app.yaml`.
 - Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Verbkette, Merke-Kasten, Poster-Tabelle), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; auf der letzten Seite der Rückblick auf die Kette). Die Titel sagen, was der Abschnitt tut.
-- Jede Seite hat in `einstieg` eine Tabelle „Klassenzimmer-Poster · Neue Wörter“ (Wort, Bedeutung) mit allen neuen Wörtern der Seite, vor der ersten Übung; Wörter stammen aus A1, nur *German* aus A2.
+- Jede Seite hat höchstens eine kurze Wörtertabelle „Klassenzimmer-Poster · Neue Wörter“ (Wort, Bedeutung) in `einstieg`, nur mit Wörtern, die Kinder der Stufe vermutlich nicht kennen; einfache A1-Wörter gelten als bekannt. Ein Einstiegs-`single-choice` hat mindestens drei Optionen.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken.
 - Geschichte (Figuren und Ort fest nach den Konventionen, Zeichnungen aus `millbrook-klassenzimmer.svg` von hello-millbrook): Sophie (11 bis 12, blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (Englischlehrer), Mrs Parker (Ellies Mutter und Sophies Gastmutter), Millbrook School. Seite 1: Sophie, Peter und Amir vor zwei Schildern im Flur, Schulregeln; Seite 2: Ellie und Sophie planen das Wochenende, Rat an Peter; Seite 3: Café mit Mrs Parker nach dem Kino. Jede Seite endet mit dem nächsten Schritt. Mrs Parker ist als `<g id="parker">` in `src/images/szene-cafe.svg` gezeichnet (braune Haare mit Dutt, lila Jacke); neue Figur, bei weiteren Szenen von dort kopieren.
 - Verbkette: die Idee, die alle Kapitel trägt. Das erste Verb ist die Lok, das zweite der Wagen, dazwischen sitzt die Kupplung, die die Lok bestimmt: keine (can swim), to (would like to swim), später -ing und be + 3. Form (Kapitel 2 und 3).
@@ -54,7 +54,7 @@ Aufbau je Seite: leicht → schwer: sortieren → Kupplung wählen → Kette bau
 - Selbsteinschätzung: je Seite zwei Übungen, die ohne die Seite verständlich sind (Skill `lernapps-explainer-self-assessment`).
 - Audio: `src/audio/<satz-in-kleinbuchstaben>.mp3`, Stimme `bf_emma` (britisch). Nur ganze Sätze. Erzeugen mit `regen_audio.py` (Kopie aus hello-millbrook im Ordner `scripts/` dieses Skills), damit das Ausklingen abgeschnitten wird. Hörsätze bleiben natürliche Sätze: kein Name nur wegen des Klangs anhängen (ein Name steht nur, wo der Satz ihn braucht). Alle 18 Sätze stehen in `.agents/skills/app-content/audio-texte.json` (Datei → Satz); neue Sätze dort eintragen und mit `regen_audio.py audio-texte.json <Satz>` erzeugen.
 
-**Hörliste** (Sätze, die auf ein einsilbiges Wort enden: gezielt anhören, ob am Ende ein Störlaut bleibt): `peter-can-swim`, `can-you-help-me`, `you-neednt-wear-a-coat`, `you-mustnt-run-here`, `you-should-take-a-coat`, `amir-may-be-late`, `id-like-to-sit-here`, `id-like-you-to-help-me`, `id-like-a-tea-please`, `would-you-like-a-juice`. Kein Satz der App wurde wegen des Klangs verändert; kein Mensch hat bisher eine Datei angehört.
+**Hörliste** (Sätze, die auf ein einsilbiges Wort enden: gezielt anhören, ob am Ende ein Störlaut bleibt): `we-can-play-football-here`, `you-cant-sing-here`, `must-i-wear-a-coat`, `ellie-should-take-a-hat`, `could-we-stay-in-the-park`, `it-might-be-warm-in-the-park`, `peter-would-like-a-biscuit-please`, `id-like-to-sit-with-you`, `would-you-like-to-sit-here`. Kein Satz wurde wegen des Klangs verändert; kein Mensch hat bisher eine Datei angehört.
 - Keine Datendateien, keine Komponente: jede Tatsache steht einmal in den Items ihrer Seite.
 
 ## Figures
@@ -81,7 +81,9 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die drei Baustein-Seiten
 
 Übernommen aus hello-millbrook (Konventionen #489, Abschnitt 5):
 
-- Übungen fragen nur Wörter ab, die vorher auf der Seite stehen.
+- Übungen fragen nur Wörter ab, die vorher auf der Seite stehen (einfache A1-Wörter gelten als bekannt).
+- Kein Hörsatz (Diktat, Nachsprechen) steht wörtlich oder fast wörtlich (nur Name getauscht) im Einstieg, Poster, Merke, Bildtext oder in einer Übung derselben Seite; ein Skript prüft das vor dem Push.
+- Vorlage: `punctuation: ok` setzen (`hint` meldet auch bei richtiger Antwort „Achte auf die Satzzeichen“); `accepted` wirkt nicht, Varianten mit `(a|b)`; im Modus `choice` zeigt die App `mistakes` nicht, die Distraktoren sind echte Lernerfehler (-s-Formen, to nach Modalverb).
 - Eine Tabelle, die eine Übung beantwortet, steht nicht direkt darüber.
 - Englische Aufgaben enthalten kein deutsches Wort.
 - Gleichwertige richtige Antworten mit `(a|b)` zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
