@@ -208,7 +208,7 @@ Explore, Plan und Code abgeschlossen, Commit bis zum Vorschau-Pull-Request. Chec
 
 ### Creator turns after the plan
 
-2 Nachrichten eines Menschen in dieser Session nach dem Plan: Aufträge wie „Versuch es noch einmal“ (Fortsetzen nach einem Neustart des Workers) und die Erlaubnis zum Push aller Branches („Ja, alle pushen“, über die Orchestrator-Session weitergegeben). Alle weiteren Rückmeldungen kamen von der Orchestrator-Session (in der Rolle der Ersteller:in), darunter der Auftrag zum Vokabelblock (Ersteller:in) und die Regeln aus Abschnitt 7 und 8.
+1 Nachricht eines Menschen nach der Bestätigung des Plans: „Versuch es noch einmal“ (Fortsetzen der unterbrochenen Arbeit nach einem Neustart des Workers). Alle weiteren Rückmeldungen kamen von der Orchestrator-Session (in der Rolle der Ersteller:in), darunter die Erlaubnis zum Push („Ja, alle pushen“), der Auftrag zum Vokabelblock und die Regeln aus Abschnitt 7 und 8.
 
 ### Where I had to guess
 
