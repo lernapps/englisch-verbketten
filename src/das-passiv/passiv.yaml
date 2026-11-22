@@ -1,0 +1,308 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Das Passiv: is made, was made"
+description: Die Schulzeitung berichtet über das Herbstfest. Du lernst, wie du mit be und der dritten Form Sätze im Passiv bildest und mit by sagst, wer etwas getan hat.
+competencies: [passiv]
+scope: Die Seite führt das Passiv im simple present und im simple past ein. Im Aktiv steht vorn, wer etwas tut (The bakers make bread). Im Passiv kommt das, was getan wird, nach vorn (Bread is made), und wer es getan hat, wird klein (by the bakers) oder fällt weg. Das Passiv ist be plus dritte Form des Verbs. Die Lok ist eine Form von be (is, are, was, were) und zeigt die Zeit und ob es eins oder mehrere sind. Die Kupplung heißt dritte Form, der Wagen fährt in dieser Form (made, written, cleaned). Das Lesestück ist ein erfundener Bericht der Schulzeitung der Millbrook School über ein Herbstfest. Nicht auf dieser Seite sind das Passiv in weiteren Zeiten (present perfect, will-future, mit Modalverben) und Verben mit zwei Objekten.
+blocks:
+  - type: section
+    id: einstieg
+    title: Die Schulzeitung berichtet
+    blocks:
+      - type: text
+        text: |
+          Die Schulzeitung der Millbrook School hat einen Bericht über das Herbstfest gedruckt. Sophie (13) liest ihn in der Pause. Im Bericht kommen viele Sätze vor, in denen fast nie steht, wer etwas getan hat.
+      - type: text
+        text: "**Das kannst du danach:** Sätze im Passiv bilden (is made, was made) und mit by sagen, wer etwas getan hat."
+      - type: single-choice
+        id: passiv-start
+        text: "Du liest den Satz *The ball was kicked.* Was fällt dir auf?"
+        options:
+          - text: Es steht nicht da, wer den Ball getreten hat.
+            correct: true
+            info: "Genau. Im Satz geht es um den Ball und was mit ihm passiert ist. Wer ihn getreten hat, bleibt offen."
+          - text: Der Ball hat etwas getreten.
+            correct: false
+            info: "Der Ball ist hier nicht der, der etwas tut. Mit ihm ist etwas passiert."
+          - text: Der Ball wird morgen getreten.
+            correct: false
+            info: "Was zeigt, dass es schon passiert ist. Es geht nicht um morgen."
+        explanation: Der Satz sagt, was mit dem Ball passiert ist. Wer ihn getreten hat, steht nicht da. So ist ein Satz im Passiv gebaut.
+        hint: Frag dich, ob du im Satz erfährst, wer etwas getan hat.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+  - type: section
+    id: lesen
+    title: "Millbrook Times: Der Bericht"
+    blocks:
+      - type: text
+        text: |
+          **Millbrook Times · A fair for everyone**
+
+          Last Saturday the autumn fair was held in the main hall. It was organised by Mr Hill's class, and the hall was decorated with paper flags. A big stage was built by the older students. About two hundred people were welcomed at the door. Hot drinks were made in the school kitchen, and biscuits were baked by the parents.
+      - type: definition
+        term: decorate
+        explanation: schmücken
+      - type: definition
+        term: stage
+        explanation: die Bühne
+      - type: true-false
+        id: passiv-zwischen-eins
+        text: Die Bühne wurde von den Lehrern gebaut.
+        answer: false
+        explanation: Die Bühne wurde von den älteren Schülern gebaut.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+      - type: text
+        text: |
+          A lot of food was sold at the stalls. Mrs Parker's carrot cake was eaten in ten minutes! Tea and coffee are served by the parents, and the money is collected in a big jar. Every year it is used for new books for the school library.
+      - type: definition
+        term: stall
+        explanation: der Verkaufsstand
+      - type: definition
+        term: collect
+        explanation: sammeln
+      - type: single-choice
+        id: passiv-zwischen-zwei
+        text: Wofür wird das Geld jedes Jahr benutzt?
+        options:
+          - text: Für neue Bücher in der Schulbibliothek.
+            correct: true
+            info: Im Bericht steht, dass das Geld für neue Bücher benutzt wird.
+          - text: Für eine neue Bühne.
+            correct: false
+            info: Die Bühne wurde von den älteren Schülern gebaut. Mit dem Geld hat sie nichts zu tun.
+          - text: Für Papierfahnen.
+            correct: false
+            info: Die Papierfahnen hingen schon in der Halle. Von Geld dafür steht nichts da.
+        explanation: Das Geld wird für neue Bücher in der Schulbibliothek benutzt.
+        hint: Lies den Satz mit every year noch einmal.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+      - type: text
+        text: |
+          In the afternoon a short play was performed by Sophie, Ellie and Amir. Peter's drawings were shown on the wall, and a prize was won by his class. The fair is always finished with a song, and the hall is cleaned by everybody. Everybody says it was the best fair of the year.
+      - type: definition
+        term: perform
+        explanation: aufführen
+      - type: definition
+        term: prize
+        explanation: der Preis, die Auszeichnung
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: passiv-verstehen
+        text: Was haben Sophie, Ellie und Amir am Nachmittag gemacht?
+        options:
+          - text: Sie haben ein kurzes Theaterstück aufgeführt.
+            correct: true
+            info: Im Bericht steht, dass ein kurzes Stück von den dreien aufgeführt wurde.
+          - text: Sie haben Kuchen verkauft.
+            correct: false
+            info: Der Kuchen kam von Mrs Parker, und das Essen wurde an den Ständen verkauft. Von den dreien steht dort nichts.
+          - text: Sie haben die Bühne gebaut.
+            correct: false
+            info: Die Bühne haben die älteren Schüler gebaut.
+        explanation: Sophie, Ellie und Amir haben am Nachmittag ein kurzes Stück aufgeführt.
+        hint: Lies den letzten Textabschnitt noch einmal.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+      - type: single-choice
+        id: passiv-belegen
+        text: Welcher Satz aus dem Bericht sagt, dass der Kuchen sehr schnell weg war?
+        options:
+          - text: "Mrs Parker's carrot cake was eaten in ten minutes!"
+            correct: true
+            info: In ten minutes heißt „in zehn Minuten“. So schnell war der Kuchen weg.
+          - text: A lot of food was sold at the stalls.
+            correct: false
+            info: Der Satz sagt nur, dass viel Essen verkauft wurde. Nach der Zeit wird nicht gefragt.
+          - text: The money is collected in a big jar.
+            correct: false
+            info: Dieser Satz handelt vom Geld und nicht vom Kuchen.
+        explanation: Der Satz mit in ten minutes belegt, dass der Kuchen schnell weg war.
+        hint: Achte auf die Zeitangabe.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+      - type: open-task
+        id: passiv-meinung
+        task: "Welche Aufgabe hättest du beim Herbstfest am liebsten übernommen? Schreibe zwei bis drei Sätze auf Deutsch oder Englisch und nenne einen Grund."
+        points:
+          - text: Eine klare Aussage, welche Aufgabe du übernehmen würdest.
+            kind: form
+          - text: Ein Grund, warum du diese Aufgabe gewählt hast.
+            kind: form
+        solution: |
+          Ich hätte am liebsten die Bühne gebaut, weil ich gern mit Holz arbeite und man am Ende sieht, was man geschafft hat.
+  - type: section
+    id: neu
+    title: be und die dritte Form
+    blocks:
+      - type: text
+        text: |
+          Im **Aktiv** steht vorn, wer etwas tut: *The bakers make bread.* Im **Passiv** kommt das nach vorn, was getan wird: *Bread is made.* Wer es getan hat, wird klein (*by the bakers*) oder fällt ganz weg. Das Passiv benutzt du, wenn das Ergebnis wichtiger ist als der Täter, zum Beispiel in Berichten.
+
+          In der Verbkette ist das eine neue Kupplung. Die Lok ist eine Form von *be*. Die Kupplung sagt: Der Wagen fährt in seiner **dritten Form**.
+      - type: figure
+        image: images/verbkette-passiv.svg
+        alt: Ein kleiner Zug. Die blaue Lok trägt das Wort is, dann folgt die rote Kupplung mit den Worten 3. Form, danach der gelbe Wagen mit dem Wort made.
+        caption: "Von links: Lok is, Kupplung 3. Form, Wagen made. Der Wagen fährt in seiner dritten Form."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: figure
+        image: images/satz-umdrehen.svg
+        alt: Oben der Satz im Aktiv mit drei Kästchen, The bakers, make und bread. Unten der Satz im Passiv, Bread, is made und klein daneben by the bakers. Zwei Pfeile zeigen, dass bread und the bakers die Plätze tauschen.
+        caption: Beim Umdrehen tauscht das Objekt (grün) den Platz mit dem Täter (orange). Der Täter wird klein und bekommt by.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Das Passiv
+        header: [Zeit, Aktiv, Passiv]
+        rows:
+          - [simple present, The bakers make bread., Bread is made by the bakers.]
+          - [simple present, People speak English here., English is spoken here.]
+          - [simple past, The bakers made the rolls., The rolls were made by the bakers.]
+          - [simple past, Someone painted the walls., The walls were painted.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Das Passiv bildest du mit **be + dritte Form**. Die Lok *is*, *are*, *was* oder *were* zeigt die Zeit und richtet sich nach dem Wort vorn: *The roll is made*, aber *The rolls are made*.
+
+              Bei regelmäßigen Verben ist die dritte Form wie die Vergangenheit (*painted*). Bei unregelmäßigen Verben lernst du sie: *make – made – made*, *speak – spoke – spoken*.
+
+              Wer etwas getan hat, steht hinter **by**, nie hinter *from*. Ist der Täter unbekannt oder unwichtig, lässt du *by …* weg.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: passiv-sortieren
+        text: Welcher Passivsatz passt zu welchem Aktivsatz?
+        pairs:
+          - left: Amir writes the letter.
+            right: The letter is written by Amir.
+          - left: Peter broke the cup.
+            right: The cup was broken by Peter.
+          - left: Mrs Parker bought the biscuits.
+            right: The biscuits were bought by Mrs Parker.
+        distractors: [The cup was broke by Peter., The biscuits was bought by Mrs Parker.]
+        explanation: Die Lok zeigt Zeit und Zahl (is, was, were), und der Wagen fährt in der dritten Form.
+        hint: Achte auf die Zeit und darauf, ob es eins oder mehrere sind.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+      - type: language-task
+        id: passiv-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Form gehört in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Der Film wurde von vielen Kindern gesehen.
+            target: "The film [was seen] by many children."
+            distractors: [[was saw, were seen]]
+          - cue: Die Fotos werden von Amir gemacht.
+            target: "The photos [are taken] by Amir."
+            distractors: [[is taken, are took]]
+          - cue: Die Bilder wurden von Ellie gezeichnet.
+            target: "The pictures [were drawn] by Ellie."
+            distractors: [[was drawn, were draw]]
+          - cue: Der Rucksack wurde am Montag verloren.
+            target: "The bag [was lost] on Monday."
+            distractors: [[was lose, were lost]]
+        hint: Achte auf die Zeit, auf eins oder mehrere und darauf, dass der Wagen in der dritten Form fährt.
+      - type: ordering
+        id: passiv-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz im Passiv entsteht.
+        items: [The, soup, was, cooked, by, Ellie.]
+        explanation: Erst kommt das, was getan wurde (The soup), dann die Lok was, dann der Wagen cooked in der dritten Form und zuletzt der Täter mit by.
+        hint: Der Täter kommt mit by ganz ans Ende.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv
+            url: https://lernapps.net/apps/map/englisch/c/passiv/
+      - type: language-task
+        id: passiv-umdrehen
+        languages: { source: de, target: en }
+        task: "Dreh den Satz um: Schreibe ihn im Passiv und nenne den Täter mit by."
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Ellie sent the postcards.
+            target: The postcards were sent by Ellie.
+            mistakes:
+              - answer: The postcards was sent by Ellie.
+                message: "Postcards ist Plural, darum braucht die Lok were, nicht was."
+              - answer: The postcards were send by Ellie.
+                message: "Nach be fährt der Wagen in der dritten Form: sent, nicht send."
+              - answer: The postcards were sent from Ellie.
+                message: "Der Täter wird mit by angeschlossen, nicht mit from."
+          - cue: Amir found the key.
+            target: The key was found by Amir.
+            mistakes:
+              - answer: The key were found by Amir.
+                message: "Key ist einer, darum braucht die Lok was, nicht were."
+              - answer: The key was find by Amir.
+                message: "Hinter was fährt der Wagen in der dritten Form: found, nicht find."
+              - answer: The key was found Amir.
+                message: "Vor Amir fehlt das Wort by."
+          - cue: Mr Hill checks the tests.
+            target: The tests are checked by Mr Hill.
+            mistakes:
+              - answer: The tests is checked by Mr Hill.
+                message: "Tests ist Plural, darum braucht die Lok are, nicht is."
+              - answer: The tests are check by Mr Hill.
+                message: "Der Wagen braucht die dritte Form: checked, mit -ed."
+              - answer: The tests checked by Mr Hill.
+                message: "Die Lok fehlt. Vor checked muss are stehen."
+      - type: language-task
+        id: passiv-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - audio: football-is-played-in-the-park-every-sunday.mp3
+            target: Football is played in the park every Sunday.
+          - audio: the-gate-was-closed-at-night.mp3
+            target: The gate was closed at night.
+          - audio: our-class-was-invited-to-the-party.mp3
+            target: Our class was invited to the party.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: passiv-nachsprechen
+        language: en
+        items:
+          - audio: the-museum-is-opened-at-ten.mp3
+            text: The museum is opened at ten.
+          - audio: my-bike-was-washed-by-my-brother.mp3
+            text: My bike was washed by my brother.
+          - audio: is-this-game-played-in-your-country.mp3
+            text: Is this game played in your country?
+        hint: Hör zuerst zu, sprich dann nach und vergleiche.
+      - type: open-task
+        id: passiv-anwenden
+        task: "Du schreibst für die Schulzeitung über ein Fest an deiner Schule (es darf erfunden sein). Schreibe drei Sätze im Passiv. Nenne in mindestens einem Satz den Täter mit by."
+        points:
+          - text: Drei Sätze im Passiv mit einer Form von be und der dritten Form des Verbs.
+            source: /das-passiv/passiv/#neu
+          - text: Mindestens ein Täter mit by.
+            source: /das-passiv/passiv/#neu
+          - text: Die Lok passt zur Zeit und zu eins oder mehrere (was oder were, is oder are).
+            kind: form
+        solution: |
+          The room was decorated by the class. The tickets were sold at the door. The games are organised by the teachers.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Das nächste Fest steht an, und Mr Hill möchte wissen, was schon erledigt ist. Sophie, Ellie und Amir chatten mit ihm. Auf der nächsten Seite liest du den Chat und lernst, wie das Passiv auch mit has been, will be und can be funktioniert.

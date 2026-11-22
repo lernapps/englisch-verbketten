@@ -2,15 +2,14 @@
 format: 2
 strand: englisch/grammatik
 title: Verbketten
-intro: Sophie verbringt ein Schuljahr an der Millbrook School in England. Mit ihr lernst du, wie ein Verb hinter einem anderen Verb steht. Die Verbkette hilft dir dabei. Das erste Verb ist die Lok, das zweite der Wagen, und dazwischen sitzt manchmal eine Kupplung. So sagst du, was jemand kann, muss, sollte oder möchte.
+intro: Sophie verbringt ein Schuljahr an der Millbrook School in England. Mit ihr lernst du, wie ein Verb hinter einem anderen Verb steht. Die Verbkette hilft dir dabei. Das erste Verb ist die Lok, das zweite der Wagen, und dazwischen sitzt manchmal eine Kupplung. So sagst du, was jemand kann, muss, sollte oder möchte, und später, welche Kupplung zwischen zwei Verben sitzt (to, -ing oder be + dritte Form im Passiv).
 languages: [de]
-chapters: [koennen-muessen, to-oder-ing]
+chapters: [koennen-muessen, to-oder-ing, das-passiv]
 scope:
-  text: Die App begleitet Kinder der Klassen 5 und 6 bei Verben hinter Verben. Sie lernen die Modalverben can, can't, must, mustn't, needn't, could, may, might und should und die höfliche Form I'd like. Das Bild der Verbkette (Lok, Kupplung, Wagen) trägt die Erklärungen. Spätere Kapitel zu Ersatzformen, to oder -ing und dem Passiv folgen in einem späteren Ausbau.
+  text: Die App begleitet Kinder der Klassen 5 bis 8 bei Verben hinter Verben. In Kapitel 1 (Klasse 5 und 6) lernen sie die Modalverben can, can't, must, mustn't, needn't, could, may, might und should und die höfliche Form I'd like. In Kapitel 2 und 3 (Klasse 7 und 8) lernen sie die Ersatzformen have to, be able to und be allowed to, den Infinitiv mit to, die -ing-Form (auch nach Präpositionen und bei stop, remember und try) und das Passiv in mehreren Zeiten. Das Bild der Verbkette (Lok, Kupplung, Wagen) trägt die Erklärungen, und zu jeder Seite gehört ein Lesestück.
   out:
-    - Ersatzformen der Modalverben wie have to und be able to
     - Kurzantworten (Yes, I can.) und die Verneinung von should, could und would (shouldn't, couldn't, wouldn't)
-    - Infinitiv mit to und die -ing-Form nach anderen Verben
-    - das Passiv
     - Zeitformen mit have und be (eigener Explainer)
+    - Passiv Progressive und Passiv im past perfect (Klasse 9 und 10)
+    - Partizipien statt Nebensätzen (eigener Explainer)
     - Bewertung der Aussprache durch die App

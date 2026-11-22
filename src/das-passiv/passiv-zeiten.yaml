@@ -1,0 +1,313 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Das Passiv in weiteren Zeiten: has been, will be, can be"
+description: Die Organisatoren des Schulfestes chatten mit Mr Hill. Du lernst, wie du das Passiv im present perfect, im will-future und mit Modalverben bildest.
+competencies: [passiv-zeiten]
+scope: Die Seite zeigt, dass be in jede Zeit und hinter jedes Modalverb passt. Im present perfect heißt das Passiv has/have been plus dritte Form (The fence has been painted), im will-future will be plus dritte Form (The fence will be painted), mit Modalverben can, must, should be plus dritte Form (The fence can be painted). Die erste Lok (has, will, can) ändert sich, der Rest bleibt gleich. Hinter has und have steht been, hinter will und den Modalverben steht be. Die Verneinung geht über die erste Lok (hasn't been, won't be, can't be), bei Fragen rückt sie nach vorn. Auch already und yet kommen vor. Das Lesestück ist ein erfundener Chat der Organisatoren des Schulfestes (Sophie, Ellie, Amir und Mr Hill). Das Passiv mit zwei Objekten kommt auf der nächsten Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Chat der Organisatoren
+    blocks:
+      - type: text
+        text: |
+          Am Samstag ist das Schulfest der Millbrook School. Sophie (13), Ellie, Amir und Mr Hill haben eine Chatgruppe, in der sie am Abend zusammentragen, was schon erledigt ist und was noch kommt.
+      - type: text
+        text: "**Das kannst du danach:** das Passiv auch im present perfect, im will-future und mit Modalverben bilden (It has been sold. It can be done.)."
+      - type: single-choice
+        id: zeiten-start
+        text: "Im Chat steht *The cakes will be baked.* Welche Lok steht vor dem Wagen baked?"
+        options:
+          - text: "Zwei Loks: will und be."
+            correct: true
+            info: "Genau. Will ist die erste Lok, be die zweite. Erst danach kommt der Wagen in der dritten Form."
+          - text: Nur will.
+            correct: false
+            info: "Ohne be fehlt ein Teil. Der Wagen baked braucht be davor."
+          - text: Nur be.
+            correct: false
+            info: "Be allein sagt noch nichts über die Zeit. Will macht den Satz zur Zukunft."
+        explanation: Vor dem Wagen fahren zwei Loks, will und be. Will zeigt die Zeit, be gehört zum Passiv.
+        hint: Zähle die Wörter vor baked.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+  - type: section
+    id: lesen
+    title: Der Chat von Donnerstagabend
+    blocks:
+      - type: text
+        text: |
+          **17:02 Mr Hill:** Good evening, everybody. How are we doing for Saturday?
+
+          **17:03 Sophie:** Quite well! The posters have been printed, and they have been put up in the town.
+
+          **17:04 Ellie:** The invitations have been sent to all parents, too.
+
+          **17:05 Amir:** But the tables haven't been delivered yet. I hope they will be brought on Friday.
+
+          **17:06 Mr Hill:** They will be brought at four o'clock. The hall can't be opened before that.
+      - type: definition
+        term: invitation
+        explanation: die Einladung
+      - type: definition
+        term: deliver
+        explanation: liefern
+      - type: true-false
+        id: zeiten-zwischen-eins
+        text: Die Tische sind schon geliefert worden.
+        answer: false
+        explanation: Amir schreibt, dass die Tische noch nicht geliefert worden sind.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+      - type: text
+        text: |
+          **17:08 Ellie:** And the cakes? Mum says they will be baked on Friday evening.
+
+          **17:09 Sophie:** Good. The lemonade can be bought at the shop on Friday afternoon.
+
+          **17:10 Amir:** Has the music been checked? The speakers must be tested before the fair.
+
+          **17:11 Mr Hill:** Good idea. They will be tested on Friday, too. And the prizes should be wrapped before Saturday.
+      - type: definition
+        term: speaker
+        explanation: der Lautsprecher
+      - type: definition
+        term: wrap
+        explanation: einpacken
+      - type: single-choice
+        id: zeiten-zwischen-zwei
+        text: Was muss vor dem Fest getestet werden?
+        options:
+          - text: Die Lautsprecher.
+            correct: true
+            info: Amir schreibt, dass die Lautsprecher vor dem Fest getestet werden müssen.
+          - text: Die Kuchen.
+            correct: false
+            info: Die Kuchen werden gebacken, nicht getestet.
+          - text: Die Plakate.
+            correct: false
+            info: Die Plakate sind schon gedruckt und aufgehängt.
+        explanation: Die Lautsprecher müssen vor dem Fest getestet werden.
+        hint: Lies Amirs Nachricht von 17:10 noch einmal.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+      - type: text
+        text: |
+          **17:13 Sophie:** I can wrap them tonight. Who will open the doors on Saturday?
+
+          **17:14 Mr Hill:** The doors will be opened by me at ten o'clock. Please be at school at nine.
+
+          **17:15 Amir:** Great! Everything has been planned now.
+
+          **17:16 Ellie:** See you on Saturday! :)
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: zeiten-verstehen
+        text: Was ist laut Chat schon erledigt?
+        options:
+          - text: Die Plakate sind gedruckt.
+            correct: true
+            info: Sophie schreibt, dass die Plakate gedruckt und in der Stadt aufgehängt worden sind.
+          - text: Die Kuchen sind gebacken.
+            correct: false
+            info: Die Kuchen werden erst am Freitagabend gebacken.
+          - text: Die Lautsprecher sind getestet.
+            correct: false
+            info: Die Lautsprecher werden erst am Freitag getestet.
+        explanation: Schon erledigt sind die Plakate. Kuchen und Lautsprecher kommen erst am Freitag dran.
+        hint: Achte auf has been und will be.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+      - type: single-choice
+        id: zeiten-belegen
+        text: Welcher Satz aus dem Chat sagt, dass die Halle vor einer bestimmten Zeit nicht geöffnet werden darf?
+        options:
+          - text: The hall can't be opened before that.
+            correct: true
+            info: Can't be opened heißt „kann nicht geöffnet werden“, before that heißt „vorher“.
+          - text: The doors will be opened by me at ten o'clock.
+            correct: false
+            info: Dieser Satz sagt, wann die Türen am Samstag geöffnet werden, und nicht, dass die Halle vorher geschlossen bleibt.
+          - text: The tables haven't been delivered yet.
+            correct: false
+            info: Dieser Satz sagt, dass die Tische noch nicht da sind, und sagt nichts über die Halle.
+        explanation: Can't be opened sagt, dass die Halle vor der genannten Zeit nicht geöffnet werden kann.
+        hint: Suche den Satz mit can't.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+      - type: open-task
+        id: zeiten-meinung
+        task: "Stell dir vor, du organisierst das Schulfest. Was muss nach deiner Meinung unbedingt vorher erledigt sein? Schreibe zwei bis drei Sätze auf Deutsch oder Englisch und nenne einen Grund."
+        points:
+          - text: Eine klare Aussage, was vorher erledigt sein muss.
+            kind: form
+          - text: Ein Grund für die Meinung.
+            kind: form
+        solution: |
+          Die Einladungen müssen vorher verschickt sein, weil sonst niemand weiß, wann das Fest ist.
+  - type: section
+    id: neu
+    title: Be passt in jede Zeit
+    blocks:
+      - type: text
+        text: |
+          Auf der letzten Seite hast du *is made* und *was made* gelernt. Das Passiv geht in jede Zeit, denn die Lok *be* passt hinter *will*, hinter *can*, *must* und *should* und hinter *has* oder *have*. Es ändert sich nur die erste Lok. Der Wagen bleibt in der dritten Form.
+      - type: figure
+        image: images/verbkette-passiv-zeiten.svg
+        alt: Drei lange Verbketten untereinander. In jeder fährt vorn eine blaue Lok (will, can, has), dahinter die zweite Lok (be, be, been), dann die rote Kupplung 3. Form und der gelbe Wagen painted.
+        caption: "Die erste Lok wechselt, dahinter folgen be oder been, die Kupplung 3. Form und der Wagen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Das Passiv
+        header: [Zeit, Beispiel, Bauplan]
+        rows:
+          - [present perfect, The fence has been painted., has/have been + 3. Form]
+          - [will-future, The fence will be painted., will be + 3. Form]
+          - [Modalverb, The fence can be painted., can/must/should be + 3. Form]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Hinter *has* und *have* steht **been**, hinter *will* und den Modalverben steht **be**. Modalverben bekommen nie ein -s und nie to: *must be*, nicht *must to be*.
+
+              Die Verneinung geht über die erste Lok: *hasn't been*, *won't be*, *can't be*. Bei Fragen rückt die erste Lok nach vorn: *Has the road been closed?* *Will the road be closed?* *Can the road be closed?*
+
+              Im present perfect passen *already* (schon) und *yet* (noch nicht, bisher): *The road has already been closed. The road hasn't been closed yet.*
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: zeiten-sortieren
+        text: Welcher englische Satz passt zu welchem deutschen?
+        pairs:
+          - left: Die Karten sind schon verkauft worden.
+            right: The tickets have already been sold.
+          - left: Der Raum wird morgen geputzt werden.
+            right: The room will be cleaned tomorrow.
+          - left: Das Fenster kann nicht geöffnet werden.
+            right: The window can't be opened.
+        distractors: [The room will been cleaned tomorrow., The tickets have already be sold.]
+        explanation: Hinter has und have steht been, hinter will und can steht be. Der Wagen fährt immer in der dritten Form.
+        hint: Achte darauf, ob hinter der ersten Lok be oder been steht.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+      - type: language-task
+        id: zeiten-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Form gehört in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Das Bild ist schon gezeichnet worden.
+            target: "The picture has already [been drawn]."
+            distractors: [[be drawn, was drawn]]
+          - cue: Die Hausaufgaben müssen heute gemacht werden.
+            target: "The homework must [be done] today."
+            distractors: [[been done, is done]]
+          - cue: Das Spiel wird am Sonntag gespielt werden.
+            target: "The game [will be played] on Sunday."
+            distractors: [[will played, will been played]]
+          - cue: Der Hund ist noch nicht gefunden worden.
+            target: "The dog hasn't [been found] yet."
+            distractors: [[be found, was found]]
+        hint: Frag dich, welche Lok vorn steht und ob danach be oder been folgt.
+      - type: ordering
+        id: zeiten-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [The, tickets, must, be, shown, at, the, door.]
+        explanation: Erst kommt, was getan wird (The tickets), dann die Lok must, dann be, dann der Wagen shown in der dritten Form.
+        hint: Hinter must steht be, nicht to.
+        links:
+          - title: Lernlandkarte Englisch · Das Passiv in weiteren Zeiten
+            url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
+      - type: language-task
+        id: zeiten-umdrehen
+        languages: { source: de, target: en }
+        task: "Dreh den Satz um: Schreibe ihn im Passiv. Den Täter darfst du weglassen."
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - cue: Ellie has made the list.
+            target: The list has been made( by Ellie|).
+            mistakes:
+              - answer: The list has made.
+                message: "Hinter has fehlt been, denn das Passiv braucht be."
+              - answer: The list have been made.
+                message: "List ist einer, darum braucht die Lok has, nicht have."
+              - answer: The list has been make.
+                message: "Der Wagen braucht die dritte Form: made, nicht make."
+          - cue: They will build the stage here.
+            target: The stage will be built here.
+            mistakes:
+              - answer: The stage will built here.
+                message: "Hinter will fehlt be."
+              - answer: The stage will be build here.
+                message: "Der Wagen braucht die dritte Form: built, nicht build."
+              - answer: The stage will been built here.
+                message: "Hinter will steht be, nicht been."
+          - cue: You must carry the boxes.
+            target: The boxes must be carried.
+            mistakes:
+              - answer: The boxes must carried.
+                message: "Hinter must fehlt be."
+              - answer: The boxes must to be carried.
+                message: "Nach must steht kein to."
+              - answer: The boxes must be carry.
+                message: "Der Wagen braucht die dritte Form: carried, mit -ed."
+      - type: language-task
+        id: zeiten-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - audio: the-windows-have-been-washed-this-morning.mp3
+            target: The windows have been washed this morning.
+          - audio: your-bags-will-be-taken-to-your-room.mp3
+            target: Your bags will be taken to your room.
+          - audio: nothing-should-be-left-on-the-floor.mp3
+            target: Nothing should be left on the floor.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: zeiten-nachsprechen
+        language: en
+        items:
+          - audio: how-many-people-have-been-invited.mp3
+            text: How many people have been invited?
+          - audio: everything-will-be-explained-tomorrow.mp3
+            text: Everything will be explained tomorrow.
+          - audio: phones-mustnt-be-used-in-the-test.mp3
+            text: "Phones mustn't be used in the test."
+        hint: Hör zuerst zu, sprich dann nach und vergleiche.
+      - type: open-task
+        id: zeiten-anwenden
+        task: "Schreibe eine kurze Nachricht an Mr Hill über ein Fest in deiner Klasse (es darf erfunden sein). Benutze drei Sätze im Passiv: einen mit has been oder have been, einen mit will be und einen mit can be oder must be."
+        points:
+          - text: Ein Satz mit has been oder have been und der dritten Form.
+            source: /das-passiv/passiv-zeiten/#neu
+          - text: Ein Satz mit will be und der dritten Form.
+            source: /das-passiv/passiv-zeiten/#neu
+          - text: Ein Satz mit can be oder must be und der dritten Form, ohne to.
+            source: /das-passiv/passiv-zeiten/#neu
+          - text: Ganze Sätze, die zusammenpassen.
+            kind: form
+        solution: |
+          The invitations have been written. The food will be bought on Friday. The room must be cleaned before the party.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Im Chat steht, was getan wird und wer es tut. Manchmal passiert dem Menschen aber selbst etwas, zum Beispiel an seinem Geburtstag. Auf der nächsten Seite liest du Sophies Tagebuch und lernst, wie du sagst, was dir gegeben, gezeigt oder erzählt wurde.

@@ -1,0 +1,311 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Infinitiv mit to: wozu und wie"
+description: Sophie bereitet sich in ihrem Tagebuch auf den Ausflug vor. Du lernst, wie die Kupplung to nach in order, nach Fragewörtern und in „It is easy for me to …“ sitzt.
+competencies: [infinitivkonstruktionen]
+scope: "Die Seite zeigt drei Stellen, an denen die Kupplung to vor der Grundform sitzt. Nach in order sagt to wozu man etwas tut (in order to buy a bike). Nach Fragewörtern wie what, where, how, who und which fragt to nach dem, was man tun kann oder soll (Do you know how to bake a cake?); nach why steht kein to. In „It is easy for me to …“ nennt for die Person, to + Grundform sagt, was leicht oder schwer ist. Nach to steht immer die Grundform ohne -s und ohne -ing, und ein deutsches „um zu“ wird nie zu for to. Das Lesestück ist Sophies erfundener Tagebucheintrag vor dem Ausflug zum Schloss. Die Kupplung -ing und die Präpositionen folgen auf den nächsten Seiten."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophies Tagebuch
+    blocks:
+      - type: text
+        text: |
+          Am Dienstag fährt Sophies Klasse zum Schloss. Sophie (13) ist am Sonntagabend noch ein wenig nervös. Sie schreibt in ihr Tagebuch, wie sie sich vorbereitet.
+      - type: text
+        text: "**Das kannst du danach:** Mit to + Grundform sagen, wozu du etwas tust (in order to), was du tun sollst (what to do) und wie leicht oder schwer etwas für jemanden ist (It is easy for me to …)."
+      - type: single-choice
+        id: infinitiv-start
+        text: "Du kennst die Kupplung to von would like. Welcher Satz ist richtig?"
+        options:
+          - text: Amir would like to learn the guitar.
+            correct: true
+            info: "Hier sitzt die Kupplung to zwischen would like und dem Wagen."
+          - text: Amir would like learn the guitar.
+            correct: false
+            info: "Zwischen would like und learn fehlt die Kupplung to."
+          - text: Amir would likes to learn the guitar.
+            correct: false
+            info: "Would bekommt nie ein -s."
+        explanation: Hinter would like sitzt die Kupplung to, und der Wagen steht in der Grundform.
+        hint: Denk an Kapitel 1.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+  - type: section
+    id: lesen
+    title: Sophies Tagebuch am Sonntagabend
+    blocks:
+      - type: text
+        text: |
+          **Sunday evening**
+
+          Dear diary,
+
+          On Tuesday we are going to the castle, and I am quite nervous. Not about the castle, but about the tower. It has a lot of steps, and some of them are very steep.
+      - type: definition
+        term: nervous
+        explanation: nervös, aufgeregt
+      - type: definition
+        term: steep
+        explanation: steil
+      - type: true-false
+        id: infinitiv-zwischen-eins
+        text: Sophie ist nervös, weil sie das Schloss langweilig findet.
+        answer: false
+        explanation: Sie ist nervös wegen des Turms mit den steilen Stufen.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+      - type: text
+        text: |
+          Mrs Parker came into my room tonight and asked, "Do you know what to wear?" I wasn't sure. She showed me where to find my old walking boots, and she gave me a small bag. "Take it to carry your lunch," she said. I am glad that I don't have to plan everything alone.
+      - type: definition
+        term: walking boots
+        explanation: Wanderschuhe
+      - type: single-choice
+        id: infinitiv-zwischen-zwei
+        text: Was zeigt Mrs Parker Sophie?
+        options:
+          - text: Wo sie ihre alten Wanderschuhe findet.
+            correct: true
+            info: "Mrs Parker zeigt ihr, where to find the boots."
+          - text: Welchen Weg die Klasse zum Schloss nimmt.
+            correct: false
+            info: "Vom Weg zum Schloss steht nichts im Text."
+          - text: Was Sophie zum Mittagessen kochen soll.
+            correct: false
+            info: "Sie gibt Sophie nur eine Tasche für das Mittagessen."
+        explanation: Mrs Parker zeigt Sophie, wo die Wanderschuhe sind.
+        hint: Lies den Satz mit „showed me“.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+      - type: text
+        text: |
+          It is easy for me to talk about school or to ask for a ticket in English. But it is hard for me to say no when my friends want to go up a tall tower. Ellie says it is important for me to try it once. Perhaps she is right. I will go to the top in order to see the view, and I will hold the handrail all the time.
+
+          Now I am going to bed early in order to be fresh on Tuesday. Good night!
+      - type: definition
+        term: view
+        explanation: die Aussicht
+      - type: definition
+        term: handrail
+        explanation: das Geländer
+      - type: definition
+        term: fresh
+        explanation: hier ausgeruht, frisch
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, meinen
+    blocks:
+      - type: single-choice
+        id: infinitiv-verstehen
+        text: Warum geht Sophie früh ins Bett?
+        options:
+          - text: Sie will am Dienstag ausgeruht sein.
+            correct: true
+            info: "Sie schreibt, dass sie fresh sein will."
+          - text: Sie hat Angst vor der Dunkelheit.
+            correct: false
+            info: "Von Angst im Dunkeln steht nichts im Text."
+          - text: Sie muss am Morgen den Turm besteigen.
+            correct: false
+            info: "Der Ausflug ist erst am Dienstag, nicht schon am Montag."
+        explanation: Sophie geht früh ins Bett, damit sie am Dienstag frisch ist.
+        hint: Lies die letzten zwei Zeilen.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+      - type: single-choice
+        id: infinitiv-belegen
+        text: "Welcher Satz aus dem Tagebuch zeigt, dass Sophie etwas im Englischen leichtfällt?"
+        options:
+          - text: "It is easy for me to talk about school or to ask for a ticket in English."
+            correct: true
+            info: "Easy heißt „leicht“. Sophie nennt, was ihr leichtfällt."
+          - text: "But it is hard for me to say no when my friends want to go up a tall tower."
+            correct: false
+            info: "Hard heißt „schwer“. Dieser Satz sagt, was ihr schwerfällt."
+          - text: "Ellie says it is important for me to try it once."
+            correct: false
+            info: "Important heißt „wichtig“. Das ist Ellies Meinung, nicht Sophies Können."
+        explanation: Der Satz mit easy sagt, was Sophie leichtfällt.
+        hint: Suche das Adjektiv, das „leicht“ heißt.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+      - type: open-task
+        id: infinitiv-meinung
+        task: "Soll Sophie auf den Turm steigen, obwohl sie nervös ist? Schreibe zwei bis drei Sätze auf Deutsch oder Englisch und nenne einen Grund."
+        points:
+          - text: Eine klare Meinung (ja oder nein).
+            kind: form
+          - text: Ein Grund, der zu Sophies Text passt, zum Beispiel ihre Angst oder die Aussicht.
+            source: /to-oder-ing/infinitivkonstruktionen/#lesen
+        solution: |
+          Ich finde, Sophie sollte es versuchen, denn die Aussicht ist bestimmt schön und Ellie ist bei ihr. Wenn es zu schlimm ist, kann sie auch unten warten.
+  - type: section
+    id: neu
+    title: Die Kupplung to an drei neuen Stellen
+    blocks:
+      - type: text
+        text: |
+          Die Kupplung **to** kennst du von *would like*. Sie sitzt noch an drei weiteren Stellen, und der Wagen dahinter bleibt immer die Grundform.
+
+          **1. Nach in order:** *in order to* heißt „um … zu“ und sagt, wozu man etwas tut: *Peter saves money in order to buy a bike.* Ohne *in order* geht es auch (*to buy a bike*). Ein „for to“ gibt es nicht.
+
+          **2. Nach Fragewörtern:** Nach what, where, how, who, which und when fragt *to* + Grundform nach dem, was man tun kann oder soll: *Do you know how to bake a cake?* Nach *why* steht kein *to*.
+
+          **3. Nach einem Adjektiv:** *It is easy for me to …* sagt, wie leicht oder schwer etwas für jemanden ist. Nach *for* steht die Person: *It is important for Peter to sleep well.*
+      - type: figure
+        image: images/verbkette-kupplung-to.svg
+        alt: Ein kleiner Zug. Die blaue Lok trägt die Wörter would like, dann folgt ein kleines rotes Verbindungsstück mit dem Wort to, danach der gelbe Wagen mit dem Wort swim.
+        caption: "Die rote Kupplung to kennst du schon. Neu ist, dass die Lok jetzt auch in order, ein Fragewort oder ein Adjektiv mit for und einer Person sein kann."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Verben und ihre Kupplung
+        header: [Lok, Kupplung, Beispiel]
+        rows:
+          - [can, keine, Ellie can run fast.]
+          - [would like, to, Ellie would like to buy a hat.]
+          - [in order, to, Peter saves money in order to buy a bike.]
+          - [how / what / where, to, "Do you know how to bake a cake?"]
+          - [It is easy for me, to, It is important for Peter to sleep well.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach **to** steht immer die Grundform: *in order to buy*, nicht *in order to buying* und nicht *to buys*. Ein „um zu“ wird nie zu *for to*. Das Fragewort-Muster braucht kein eigenes Subjekt: *I don't know what to say* heißt „Ich weiß nicht, was ich sagen soll“. Und nach *can* oder *must* steht weiter keine Kupplung.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: infinitiv-sortieren
+        text: Welcher englische Satz passt zu welchem deutschen?
+        pairs:
+          - left: Wir bleiben zu Hause, um den Film zu sehen.
+            right: We stay at home in order to watch the film.
+          - left: Weißt du, wie man das Radio anmacht?
+            right: Do you know how to turn on the radio?
+          - left: Es ist schön für Ellie, ihre Freunde zu sehen.
+            right: It is nice for Ellie to see her friends.
+          - left: Ich weiß nicht, wohin ich gehen soll.
+            right: I don't know where to go.
+        distractors:
+          - We stay at home for to watch the film.
+          - Do you know how turn on the radio?
+        explanation: "„um … zu“ heißt in order to, ein Fragewort braucht to + Grundform, und nach for und der Person folgt to."
+        hint: Achte auf das Wort vor dem Verb. Es verbindet die beiden Teile.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+      - type: language-task
+        id: infinitiv-kupplung
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welche Wörter gehören in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ich gehe früh ins Bett, um fit zu sein.
+            target: "I go to bed early [in order to] be fit."
+            distractors: [["for to", "in order", "in order for"]]
+          - cue: Kannst du mir zeigen, wie man den Computer startet?
+            target: "Can you show me how [to start] the computer?"
+            distractors: [["start", "starting", "for start"]]
+          - cue: Für Peter ist es langweilig, auf den Bus zu warten.
+            target: "It is boring [for Peter] to wait for the bus."
+            distractors: [["to Peter", "of Peter"]]
+          - cue: Mr Hill sagt uns, was wir lesen sollen.
+            target: "Mr Hill tells us what [to read]."
+            distractors: [["read", "reading"]]
+        hint: Prüfe, ob eine Kupplung fehlt und welche Form der Wagen hat.
+      - type: ordering
+        id: infinitiv-reihenfolge
+        text: Baue die Verbkette Glied für Glied.
+        items: [Amir, studies, in, order, to, pass, the, test.]
+        explanation: Erst die Lok, dann in order und die Kupplung to, zuletzt der Wagen pass.
+        hint: Die Kupplung to sitzt direkt vor dem Wagen.
+        links:
+          - title: Lernlandkarte Englisch · Infinitivkonstruktionen
+            url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
+      - type: language-task
+        id: infinitiv-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Ich lese viel, um neue Wörter zu lernen.
+            target: I read a lot (in order |)to learn new words.
+            mistakes:
+              - answer: I read a lot for to learn new words.
+                message: "Im Englischen gibt es kein „for to“. „Um … zu“ heißt (in order) to."
+              - answer: I read a lot in order learn new words.
+                message: "Hinter in order fehlt die Kupplung to."
+              - answer: I read a lot to learning new words.
+                message: "Hinter to steht die Grundform ohne -ing."
+          - source: Ich weiß nicht, wen ich fragen soll.
+            target: I don't know (who to ask|who I should ask).
+            mistakes:
+              - answer: I don't know who ask.
+                message: "Nach dem Fragewort who fehlt die Kupplung to."
+              - answer: I don't know who to asking.
+                message: "Hinter to steht die Grundform ohne -ing."
+          - source: Für Amir ist es leicht, neue Freunde zu finden.
+            target: (It is|It's) easy for Amir to (find|make) new friends.
+            mistakes:
+              - answer: It is easy for Amir find new friends.
+                message: "Vor dem Wagen find fehlt die Kupplung to."
+              - answer: It is easy to Amir to find new friends.
+                message: "Die Person steht nach for, nicht nach to."
+              - answer: It is easy for Amir to finding new friends.
+                message: "Hinter to steht die Grundform ohne -ing."
+      - type: language-task
+        id: infinitiv-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - audio: we-went-to-the-shop-to-buy-some-milk.mp3
+            target: We went to the shop to buy some milk.
+          - audio: can-you-tell-me-where-to-put-these-books.mp3
+            target: Can you tell me where to put these books?
+          - audio: it-is-not-difficult-for-us-to-find-the-way.mp3
+            target: (It is|It's) not difficult for us to find the way.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: infinitiv-nachsprechen
+        language: en
+        items:
+          - audio: he-opened-the-window-to-let-in-some-fresh-air.mp3
+            text: He opened the window to let in some fresh air.
+          - audio: nobody-told-us-when-to-start.mp3
+            text: Nobody told us when to start.
+          - audio: it-is-good-for-children-to-play-outside.mp3
+            text: It is good for children to play outside.
+        hint: Hör zuerst zu, sprich dann nach und vergleiche.
+      - type: open-task
+        id: infinitiv-anwenden
+        task: "Du schreibst Sophie eine Nachricht über deinen nächsten Schultag oder Ausflug. Schreibe drei kurze englische Sätze: einen mit in order to, einen mit what, where oder how und to, und einen mit It is easy oder It is hard for me to …"
+        points:
+          - text: Ein Satz mit in order to und einer Grundform.
+            source: /to-oder-ing/infinitivkonstruktionen/#neu
+          - text: Ein Satz mit what, where, how oder who, dann to und eine Grundform.
+            source: /to-oder-ing/infinitivkonstruktionen/#neu
+          - text: Ein Satz mit It is easy oder hard for me to und einer Grundform.
+            source: /to-oder-ing/infinitivkonstruktionen/#neu
+          - text: Nach to steht die Grundform ohne -s und ohne -ing.
+            kind: form
+        solution: |
+          I get up early in order to catch the bus. I don't know what to wear. It is hard for me to wake up before seven.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Sophie klappt ihr Tagebuch zu. Am Montag chattet sie mit Amir und Peter über Hobbys. Auf der nächsten Seite liest du den Chat und lernst eine zweite Kupplung kennen, die -ing heißt.

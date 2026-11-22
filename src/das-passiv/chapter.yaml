@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das Passiv
+summary: Die Schule feiert ein Fest, die Organisatoren chatten, und Sophie schreibt Tagebuch. Du lernst, wie du mit be und der dritten Form sagst, was geschieht, in verschiedenen Zeiten und nach Modalverben.
+pages: [wiederholung, passiv, passiv-zeiten, passiv-zwei-objekte]
+selfAssessment:
+  pages:
+    - exercises:
+        - /das-passiv/passiv/#passiv-sortieren
+        - /das-passiv/passiv/#passiv-wahl
+    - exercises:
+        - /das-passiv/passiv-zeiten/#zeiten-sortieren
+        - /das-passiv/passiv-zeiten/#zeiten-wahl
+    - exercises:
+        - /das-passiv/passiv-zwei-objekte/#zwei-objekte-sortieren
+        - /das-passiv/passiv-zwei-objekte/#zwei-objekte-wahl
