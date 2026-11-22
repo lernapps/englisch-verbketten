@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+strand: englisch/grammatik
+title: Verbketten
+intro: Sophie verbringt ein Schuljahr an der Millbrook School in England. Mit ihr lernst du, wie ein Verb hinter einem anderen Verb steht. Die Verbkette hilft dir dabei. Das erste Verb ist die Lok, das zweite der Wagen, und dazwischen sitzt manchmal eine Kupplung. So sagst du, was jemand kann, muss, sollte oder möchte.
+languages: [de]
+chapters: [koennen-muessen]
+scope:
+  text: Die App begleitet Kinder der Klassen 5 und 6 bei Verben hinter Verben. Sie lernen die Modalverben can, can't, must, mustn't, needn't, could, may, might und should und die höfliche Form I'd like. Das Bild der Verbkette (Lok, Kupplung, Wagen) trägt die Erklärungen. Spätere Kapitel zu Ersatzformen, to oder -ing und dem Passiv folgen in einem späteren Ausbau.
+  out:
+    - Ersatzformen der Modalverben wie have to und be able to
+    - Kurzantworten (Yes, I can.) und die Verneinung von should, could und would (shouldn't, couldn't, wouldn't)
+    - Infinitiv mit to und die -ing-Form nach anderen Verben
+    - das Passiv
+    - Zeitformen mit have und be (eigener Explainer)
+    - Bewertung der Aussprache durch die App

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Können, müssen, möchten
+summary: Sophie liest Schilder, plant ein Wochenende und bestellt im Café. Du lernst, was can, must, could, might, should und would like bedeuten und wie sie in der Verbkette stehen.
+pages: [can-must, modalverben-could-might-should, would-like]
+selfAssessment:
+  pages:
+    - exercises:
+        - /koennen-muessen/can-must/#can-must-sortieren
+        - /koennen-muessen/can-must/#can-must-kupplung
+    - exercises:
+        - /koennen-muessen/modalverben-could-might-should/#modalverben-sortieren
+        - /koennen-muessen/modalverben-could-might-should/#modalverben-wahl
+    - exercises:
+        - /koennen-muessen/would-like/#would-like-sortieren
+        - /koennen-muessen/would-like/#would-like-kupplung

@@ -1,0 +1,238 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Can und must: Lok ohne Kupplung"
+description: Sophie liest Schilder im Flur der Millbrook School. Du lernst, wie can, must und needn't vor einem zweiten Verb stehen und was sie bedeuten.
+competencies: [can-must]
+scope: Die Seite führt can, can't, must, mustn't und needn't ein. Can sagt, was jemand kann, und fragt, ob etwas erlaubt ist. Must sagt, was jemand tun muss, mustn't, was verboten ist, needn't, was jemand nicht tun muss. Can't heißt kann nicht und darf nicht. Die Verbkette hat eine Lok (das erste Verb), eine Kupplung und einen Wagen (das zweite Verb). Nach den Modalverben can und must gibt es keine Kupplung, also kein to, und sie bekommen nie ein -s. Fragen mit can stehen mit can vorn, ohne do. Deutsch nicht müssen heißt needn't, nicht dürfen heißt mustn't. Welche Kupplungen es sonst gibt, folgt später (would like auf der dritten Seite). Could, might und should folgen auf der nächsten Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Zwei Schilder im Flur
+    blocks:
+      - type: figure
+        image: images/szene-schilder.svg
+        alt: Sophie, Peter und Amir stehen im Flur der Millbrook School. An der Wand hängen zwei Schilder. Auf dem einen steht "You mustn't run here.", auf dem anderen "You must wear a uniform."
+        caption: "Von links nach rechts: Sophie (mit den Zöpfen), Peter (der Kleine) und Amir (mit Brille). An der Wand hängen zwei Schilder."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf den Schildern stehen Wörter für etwas, das man tut, zum Beispiel *run* (rennen) und *wear* (tragen). Solche Wörter heißen Verben. Die Wörter in der Tabelle brauchst du in den Übungen.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [run, rennen]
+          - [wear, tragen]
+          - [uniform, Uniform]
+          - [coat, Mantel]
+      - type: text
+        text: "**Das kannst du danach:** Mit can, can't, must, mustn't und needn't sagen, was jemand kann, was erlaubt oder verboten ist und was jemand tun muss oder nicht tun muss. Du siehst auch, wie das zweite Verb danach steht."
+      - type: single-choice
+        id: can-must-start
+        text: "Sophie sagt: „I can swim.“ (swim heißt schwimmen.) Was sagt sie?"
+        options:
+          - text: Ich kann schwimmen.
+            correct: true
+            info: "Can steht vor swim und sagt, was jemand kann."
+          - text: Ich muss schwimmen.
+            correct: false
+            info: "Für „muss“ steht im Englischen ein anderes Wort, nicht can."
+          - text: Ich schwimme nicht.
+            correct: false
+            info: "In Sophies Satz steht kein not und kein n't, es ist keine Verneinung."
+        explanation: Sophie sagt, was sie kann. Danach folgt das zweite Verb ohne Kupplung.
+        hint: Welches deutsche Wort passt zu can?
+        links:
+          - title: Lernlandkarte Englisch · Can, must und needn't
+            url: https://lernapps.net/apps/map/englisch/c/can-must/
+  - type: section
+    id: neu
+    title: Die Verbkette hat hier keine Kupplung
+    blocks:
+      - type: text
+        text: |
+          Stell dir einen kleinen Zug vor. Die **Lok** ist das erste Verb, zum Beispiel *can*. Sie zieht den **Wagen**, das zweite Verb, zum Beispiel *swim*. Zwischen Lok und Wagen kann eine **Kupplung** sitzen. Welche, bestimmt die Lok. Zusammen heißt das **Verbkette**. Eine Kupplung kann zum Beispiel *to* sein, wie in *I'd like to swim*. Das lernst du auf der dritten Seite.
+      - type: text
+        text: |
+          Bei *can* und *must* sitzt keine Kupplung dazwischen. Sie heißen Modalverben: Sie sagen, ob etwas geht, sein muss oder erlaubt ist.
+      - type: figure
+        image: images/verbkette-ohne-kupplung.svg
+        alt: Ein kleiner Zug. Die blaue Lok trägt das Wort can, der gelbe Wagen das Wort swim. Zwischen ihnen sitzt keine Kupplung.
+        caption: "Blau ist die Lok, gelb der Wagen. Schau, was zwischen den beiden Wörtern steht: nichts, auch kein to."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Can und must bekommen **nie ein -s**: *Amir can dance*, auch bei Amir oder Ellie. Dazwischen steht **kein to**: *Peter must run*. Can heißt „kann“, manchmal auch „darf“. Eine Frage fängt mit can an, ohne das Hilfswort do: *Can you play?*
+      - type: table
+        caption: Klassenzimmer-Poster · Modalverben
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [Amir can dance., Amir kann tanzen. (Das kann er.)]
+          - [Ellie can't sing., Ellie kann nicht singen. (Das kann sie nicht.)]
+          - [Can I open the door?, "Darf ich die Tür öffnen? (Du fragst, ob es erlaubt ist.)"]
+          - [You must wear a uniform., Du musst eine Uniform tragen. (Das ist Pflicht.)]
+          - [You mustn't run here., Du darfst hier nicht rennen. (Das ist verboten.)]
+          - [You needn't wear a coat., Du musst keinen Mantel tragen. (Das musst du nicht tun.)]
+      - type: note
+        title: Vorsicht bei „nicht müssen“
+        blocks:
+          - type: text
+            text: |
+              Im Deutschen verwechselt man „nicht müssen“ leicht mit „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Ellie can't sing*) und „darf nicht“ (*You can't run here*).
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: can-must-sortieren
+        text: Welcher englische Satz passt zu welchem deutschen?
+        pairs:
+          - left: Peter kann Deutsch sprechen.
+            right: Peter can speak German.
+          - left: Sophie muss Peter helfen.
+            right: Sophie must help Peter.
+          - left: Du darfst hier nicht essen.
+            right: You mustn't eat here.
+          - left: Amir muss die Tasche nicht tragen.
+            right: Amir needn't carry the bag.
+        distractors: [You needn't eat here.]
+        explanation: Can heißt „kann“, must „muss“, mustn't „darf nicht“ und needn't „muss nicht“.
+        hint: Kann, muss, darf nicht oder muss nicht?
+        links:
+          - title: Lernlandkarte Englisch · Can, must und needn't
+            url: https://lernapps.net/apps/map/englisch/c/can-must/
+      - type: language-task
+        id: can-must-kupplung
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welches Wort gehört in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ellie kann Fußball spielen.
+            target: "Ellie [can] play football."
+            distractors: [[cans, can to]]
+          - cue: Peter muss Amir fragen.
+            target: "Peter [must] ask Amir."
+            distractors: [[musts, must to]]
+          - cue: Ellie, kannst du mir helfen?
+            target: "Ellie, [can] you help me?"
+            distractors: [[cans, do can]]
+          - cue: Peter kann nicht schwimmen.
+            target: "Peter [can't] swim."
+            distractors: [[can, needn't]]
+        hint: Schau, was zwischen den Verben steht, und ob der Satz „nicht“ sagt.
+      - type: single-choice
+        id: can-must-needn
+        text: "Ellie darf Amir helfen, muss es aber nicht. Welcher Satz passt?"
+        options:
+          - text: Ellie needn't help.
+            correct: true
+            info: "Needn't heißt „muss nicht“: Es ist erlaubt, aber nicht nötig."
+          - text: Ellie mustn't help.
+            correct: false
+            info: "Mustn't heißt „darf nicht“. Das wäre ein Verbot, Ellie darf aber helfen."
+          - text: Ellie must help.
+            correct: false
+            info: "Must heißt „muss“. Das wäre eine Pflicht, Ellie muss aber nicht."
+        explanation: Needn't heißt „muss nicht“, mustn't „darf nicht“.
+        hint: Darf Ellie helfen? Muss sie?
+        links:
+          - title: Lernlandkarte Englisch · Can, must und needn't
+            url: https://lernapps.net/apps/map/englisch/c/can-must/
+      - type: ordering
+        id: can-must-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [Amir, must, read, the, book.]
+        explanation: Erst kommt wer, dann die Lok must, dann der Wagen read und zuletzt, was gelesen wird.
+        hint: Wer kann etwas? Danach kommen Lok und Wagen.
+        links:
+          - title: Lernlandkarte Englisch · Can, must und needn't
+            url: https://lernapps.net/apps/map/englisch/c/can-must/
+      - type: language-task
+        id: can-must-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Ellie kann zeichnen.
+            target: Ellie can draw.
+            mistakes:
+              - answer: Ellie cans draw.
+                message: "Can bekommt nie ein -s, auch nicht bei Ellie."
+              - answer: Ellie can to draw.
+                message: "Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to."
+          - source: Du musst zuhören.
+            target: You must listen.
+            mistakes:
+              - answer: You must to listen.
+                message: "Zwischen must und dem zweiten Verb sitzt keine Kupplung, auch kein to."
+              - answer: You musts listen.
+                message: "Must bekommt nie ein -s."
+          - source: Du darfst hier nicht spielen.
+            target: You (mustn't|must not|can't|can not|cannot) play here.
+            mistakes:
+              - answer: You don't must play here.
+                message: "Es gibt kein don't must. Schau auf das Poster, welches Wort „darf nicht“ heißt."
+          - source: Kannst du Peter helfen?
+            target: (Can|Could) you help Peter?
+            mistakes:
+              - answer: Do you can help Peter?
+                message: "Can braucht kein do. In einer Frage steht can selbst vorn."
+              - answer: Can you to help Peter?
+                message: "Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to."
+          - source: Amir muss nicht fragen.
+            target: Amir (needn't|need not|doesn't have to|doesn't need to|does not have to|does not need to) ask.
+            mistakes:
+              - answer: Amir mustn't ask.
+                message: "Mustn't ist ein Verbot („darf nicht“). Amir darf fragen, er muss nur nicht."
+              - answer: Amir don't must ask.
+                message: "Es gibt kein don't must. Schau auf das Poster, welches Wort „muss nicht“ heißt."
+      - type: language-task
+        id: can-must-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - audio: we-can-walk-to-school.mp3
+            target: We can walk to school.
+          - audio: sophie-cant-cook.mp3
+            target: "Sophie can't cook."
+          - audio: must-we-wait-here.mp3
+            target: Must we wait here?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: can-must-nachsprechen
+        language: en
+        items:
+          - audio: can-you-write-your-name.mp3
+            text: Can you write your name?
+          - audio: we-neednt-clean-the-board.mp3
+            text: "We needn't clean the board."
+          - audio: you-mustnt-shout.mp3
+            text: "You mustn't shout."
+        hint: Hör zuerst zu, sprich dann nach und vergleiche.
+      - type: open-task
+        id: can-must-regeln
+        task: "Sophie schreibt Regeln für das Klassenzimmer. Schreibe zwei kurze englische Sätze: eine Regel mit must und ein Verbot mit mustn't."
+        points:
+          - text: Ein Satz mit must und einem zweiten Verb, zum Beispiel You must wear a uniform.
+            source: /koennen-muessen/can-must/#neu
+          - text: Ein Satz mit mustn't und einem zweiten Verb, zum Beispiel You mustn't run here.
+            source: /koennen-muessen/can-must/#neu
+          - text: Nach must und mustn't steht kein to und kein -s.
+            kind: form
+        solution: |
+          You must wear a uniform. You mustn't run here.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tun könnte. Auf der nächsten Seite sagst du, was möglich ist, was jemand sollte und was vielleicht passiert.

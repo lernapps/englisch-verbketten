@@ -1,0 +1,206 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Could, might und should: vorschlagen, vermuten, raten"
+description: Ellie und Sophie planen das Wochenende. Du lernst, wie du mit could, may, might und should etwas vorschlägst, etwas vermutest und einen Rat gibst.
+competencies: [modalverben-could-might-should]
+scope: Die Seite führt could, may, might und should ein. Could macht einen Vorschlag oder nennt eine Möglichkeit (We could go to the park). Might und may sagen, dass etwas vielleicht so ist oder passiert (It might rain, Amir may be late). Should gibt einen Rat (You should take a coat). Alle vier stehen wie can und must ohne Kupplung vor dem zweiten Verb, bekommen nie ein -s und haben kein to dahinter. Eine Skala ordnet must, should, could und might von fest nach offen. Fragen mit could stehen mit could vorn, ohne do. May und might bedeuten hier dasselbe. Would like folgt auf der nächsten Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was machen wir am Samstag?
+    blocks:
+      - type: figure
+        image: images/szene-wochenende.svg
+        alt: Ellie und Sophie stehen nebeneinander und planen das Wochenende. Ellie sagt "We could go to the park.", Sophie antwortet "It might rain."
+        caption: "Ellie (roter Pferdeschwanz) links und Sophie (mit den Zöpfen) rechts. Ihre Sprechblasen zeigen, was sie sagen."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
+      - type: table
+        caption: Klassenzimmer-Poster · Neue Wörter
+        header: [Wort, Bedeutung]
+        rows:
+          - [snow, schneien]
+          - [hat, Mütze]
+          - [stay at home, zu Hause bleiben]
+          - [hungry, hungrig]
+          - [be, sein]
+          - [tired, müde]
+      - type: text
+        text: "**Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung."
+      - type: single-choice
+        id: modalverben-start
+        text: "Ellie sagt: „We could go to the cinema.“ Was macht sie?"
+        options:
+          - text: Sie schlägt etwas vor.
+            correct: true
+            info: "Ellie nennt einen Ort, an den sie gehen könnten. Das ist ein Vorschlag."
+          - text: Sie sagt, was verboten ist.
+            correct: false
+            info: "Ein Verbot hast du auf der ersten Seite mit mustn't gesehen. Ellie verbietet nichts."
+          - text: Sie sagt, was Sophie tun muss.
+            correct: false
+            info: "Eine Pflicht sagt must. Ellie schlägt nur vor, ins Kino zu gehen."
+        explanation: Could heißt „könnte“ oder „könnten“. Ellie macht einen Vorschlag, Sophie muss nichts.
+        hint: Schau, was Ellie nennt, und überlege, ob sie etwas verlangt.
+        links:
+          - title: Lernlandkarte Englisch · Modalverben could, might, should
+            url: https://lernapps.net/apps/map/englisch/c/modalverben-could-might-should/
+  - type: section
+    id: neu
+    title: Vier neue Wörter, auch ohne Kupplung
+    blocks:
+      - type: text
+        text: |
+          Die vier neuen Loks fahren wie *can* und *must*: Das zweite Verb folgt direkt, ohne Kupplung. Sie unterscheiden sich darin, wie sicher oder offen etwas ist. **Should** gibt einen Rat. **Could** macht einen Vorschlag. **Might** und **may** sagen: vielleicht.
+      - type: figure
+        image: images/verbkette-skala.svg
+        alt: Eine Skala von fest nach offen. Von links nach rechts stehen die Wörter must, should, could und might auf einem Pfeil, die Kreise werden immer heller.
+        caption: "Je weiter rechts ein Wort steht, desto offener ist die Sache. Ganz links ist es fest."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Modalverben
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [Amir can dance., Amir kann tanzen.]
+          - [You must wear a uniform., Du musst eine Uniform tragen.]
+          - [You mustn't run here., Du darfst hier nicht rennen.]
+          - [You needn't wear a coat., Du musst keinen Mantel tragen.]
+          - [We could go to the park., Wir könnten in den Park gehen. (Vorschlag)]
+          - [It might rain., Es regnet vielleicht. (Vermutung)]
+          - [Amir may be late., Amir kommt vielleicht zu spät. (Vermutung)]
+          - [You should take a coat., Du solltest einen Mantel mitnehmen. (Rat)]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Auch could, may, might und should bekommen **nie ein -s**: *Amir may be late.* Dahinter steht **kein to**. Eine Frage fängt mit could an, ohne do: *Could we help Ellie?* Might und may bedeuten hier dasselbe.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: modalverben-sortieren
+        text: Welcher englische Satz passt zu welcher Situation?
+        pairs:
+          - left: Amir macht einen Vorschlag für den Nachmittag.
+            right: We could play tennis.
+          - left: Sophie vermutet, dass es heute Abend schneit.
+            right: It might snow.
+          - left: Ellies Mutter, Mrs Parker, gibt Peter einen Rat, weil es kalt ist.
+            right: You should wear a hat.
+        distractors: [You must play tennis.]
+        explanation: Could schlägt vor, might sagt vielleicht, should gibt einen Rat.
+        hint: Frag dich, ob jemand etwas vorschlägt, vermutet oder rät.
+        links:
+          - title: Lernlandkarte Englisch · Modalverben could, might, should
+            url: https://lernapps.net/apps/map/englisch/c/modalverben-could-might-should/
+      - type: language-task
+        id: modalverben-wahl
+        languages: { source: de, target: en }
+        mode: choice
+        task: Welches Wort gehört in die Lücke?
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Wir könnten Fußball spielen.
+            target: "We [could] play football."
+            distractors: [[coulds, could to]]
+          - cue: Du solltest Peter fragen.
+            target: "You [should] ask Peter."
+            distractors: [[shoulds, should to]]
+          - cue: Peter hat vielleicht Hunger.
+            target: "Peter [might] be hungry."
+            distractors: [[mights, might to]]
+          - cue: Amir, könnten wir nach Hause gehen?
+            target: "Amir, [could] we go home?"
+            distractors: [[coulds, do could]]
+        hint: Dahinter folgt das zweite Verb ohne Kupplung. Überlege, ob ein Vorschlag, eine Vermutung oder ein Rat gemeint ist.
+      - type: ordering
+        id: modalverben-skala
+        text: Ordne die Sätze von fest nach offen.
+        items: [You must go home., You should go home., You could go home., You might go home.]
+        explanation: "Auf dieser Skala steht must ganz fest, should ist ein Rat, could ein Vorschlag und might nur vielleicht."
+        hint: Schau auf die Skala. Welcher Satz verlangt am meisten?
+        links:
+          - title: Lernlandkarte Englisch · Modalverben could, might, should
+            url: https://lernapps.net/apps/map/englisch/c/modalverben-could-might-should/
+      - type: language-task
+        id: modalverben-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - source: Wir könnten zu Hause bleiben.
+            target: We could stay at home.
+            mistakes:
+              - answer: We coulds stay at home.
+                message: "Could bekommt nie ein -s."
+              - answer: We could to stay at home.
+                message: "Zwischen could und dem zweiten Verb sitzt keine Kupplung, auch kein to."
+          - source: Du solltest Peter helfen.
+            target: You should help Peter.
+            mistakes:
+              - answer: You should to help Peter.
+                message: "Zwischen should und dem zweiten Verb sitzt keine Kupplung, auch kein to."
+              - answer: You must help Peter.
+                message: "Must ist eine Pflicht. Hier ist nur ein Rat gemeint."
+          - source: Peter ist vielleicht müde.
+            target: Peter (might|may|could) be tired.
+            mistakes:
+              - answer: Peter mights be tired.
+                message: "Might bekommt nie ein -s, auch nicht bei Peter."
+              - answer: Peter might to be tired.
+                message: "Zwischen might und dem zweiten Verb sitzt keine Kupplung, auch kein to."
+          - source: Könnten wir einen Film sehen?
+            target: Could we watch a film?
+            mistakes:
+              - answer: Do we could watch a film?
+                message: "Could braucht kein do. In einer Frage steht could selbst vorn."
+      - type: language-task
+        id: modalverben-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok, apostrophe: ok }
+        items:
+          - audio: amir-could-bring-his-football.mp3
+            target: Amir could bring his football.
+          - audio: you-should-drink-some-water.mp3
+            target: You should drink some water.
+          - audio: it-might-be-sunny-on-sunday.mp3
+            target: It (might|may) be sunny on Sunday.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: modalverben-nachsprechen
+        language: en
+        items:
+          - audio: could-we-sit-in-the-garden.mp3
+            text: Could we sit in the garden?
+          - audio: peter-might-forget-his-bag.mp3
+            text: Peter might forget his bag.
+          - audio: you-should-go-to-bed-early.mp3
+            text: You should go to bed early.
+        hint: Hör zuerst zu, sprich dann nach und vergleiche.
+      - type: open-task
+        id: modalverben-rat
+        task: "Peter ist müde (tired) und hat keine Lust auf den Samstag. Schreibe zwei kurze englische Sätze: einen Rat mit should und einen Vorschlag mit could."
+        points:
+          - text: Ein Satz mit should und einem zweiten Verb, zum Beispiel You should stay at home.
+            source: /koennen-muessen/modalverben-could-might-should/#neu
+          - text: Ein Satz mit could und einem zweiten Verb, zum Beispiel We could go to the cinema.
+            source: /koennen-muessen/modalverben-could-might-should/#neu
+          - text: Nach should und could steht kein to und kein -s.
+            kind: form
+        solution: |
+          You should stay at home. We could go to the cinema.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regnet. Danach haben sie Hunger, und Ellies Mutter, Mrs Parker, nimmt sie mit in ein Café. Auf der nächsten Seite lernst du, wie du dort höflich bestellst.
