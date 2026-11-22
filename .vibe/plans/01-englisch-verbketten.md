@@ -63,6 +63,7 @@ Kinder der Stufe 5-6 lernen, dass ein Verb hinter einem anderen Verb seine Form 
 - **Prüfbericht des Orchestrators (unabhängiger Prüfer), vier Korrekturen behoben:** (1) Seite 2: die Tabelle steht jetzt vor dem Merke-Kasten, die Startaufgabe nutzt einen anderen Satz (cinema), die Lücken- und Schreibaufgaben nutzen andere Sätze als Zuordnung und Tabelle; (2) Seite 1: „Auf den Schildern stehen Wörter für etwas, das man tut …“; (3) Seite 3: „Would bekommt nie ein -s“; (4) Szene Café zeigt jetzt „What would you like?“ statt der Lösung der Startaufgabe, die Startaufgabe von Seite 2 steht nicht mehr im Bild. Hinweis zu `would-like.yaml:75` (PyYAML) ist ein Parser-Unterschied, nicht behoben.
 - **Hörsätze (Rückmeldung der Ersteller:in, Konventionen Abschnitt 7):** 0 Sätze geändert: Kein Name wurde nur wegen des Klangs angehängt (Peter als Subjekt oder Objekt, nicht als Zusatz). Zehn Sätze enden einsilbig und stehen in der Hörliste im Inhaltsführer; `audio-texte.json` liegt unter `.agents/skills/app-content/`. Zusätzlich nach den „Eigenheiten der Vorlage“: `punctuation: ok` statt `hint` (keine falsche Satzzeichen-Meldung bei richtiger Antwort), `accepted` durch eine `(a|b)`-Gruppe ersetzt (wirkte nicht).
 - **Abschnitt 7 nachgezogen (Orchestrator, 2026-11-22):** (1) Alle 18 Hörsätze durch neue Sätze ersetzt (kein Hörsatz steht (fast) wörtlich in Einstieg, Poster, Merke, Bildtext oder Übung derselben Seite; Skript prüft Wortüberlappung nach Namen-Tausch), Audio neu mit `regen_audio.py`, `audio-texte.json` und Hörliste (neun einsilbig endende Sätze) angepasst. (2) Startaufgabe von Seite 1 ohne Schild-Wörter im Bild (neue Aufgabe „I can swim“), Startaufgabe von Seite 3 mit drei Optionen, Merke-Beispiel von Seite 2 ersetzt, Lückenaufgabe von Seite 3 mit neuem Satz, damit die Merke-Kästen keine Lösung enthalten. (3) Distraktoren bleiben echte Lernerfehler (-s-Formen, to nach Modalverb); im Modus `choice` zeigt die Vorlage keine `mistakes`. (4) Wörtertabellen je Seite auf eine kurze Tabelle mit schwierigeren Wörtern gekürzt (Seite 1: 6, Seite 2: 8, Seite 3: 5 Zeilen). Geändert: 18 Hörsätze, 2 Startaufgaben, 1 Lückenaufgabe, 1 Merke-Beispiel, 3 Wörtertabellen.
+- **Auflagen des unabhängigen Gesamtchecks (Orchestrator, 2026-11-22), behoben:** (1) alle 18 Hörsätze erneut ersetzt (Nomen-Tausch beachtet), Audio mit dem Fehllaut-Schnitt neu, zwei Dateien geschnitten (65 und 25 ms); (2) Poster, Merke und Wörtertabellen nennen andere Beispiele als die Übungen (Poster: dance, sing, open the door; Übungen: eat, carry, read, draw, listen, play football, film, apple, milk …), die Szenenbilder zeigen keine Übungslösung mehr; (3) Info der Startaufgabe Seite 2 passend zu „Kino“; (4) Varianten zugelassen (some milk, can not, does not need/have to); (5) Kurzantworten und Verneinung bleiben draußen (offen in `app.yaml` und Inhaltsführer); (6) Distraktoren bei would like sind echte Lernerfehler (to go gegen go/going, that you/you, likes, do); (7) Text und Bild stimmen überein (Seite 2: Ellie und Sophie; Seite 3: Peter, Mrs Parker, Sophie); (9) Retrospektive gefüllt; (10) Inhaltsführer nennt Wörter außerhalb von A1 (German, might, should), den langen Absatz auf Seite 1 geteilt. **Offen:** (8) Aussehen von Mrs Parker nach Vorgabe der Orchestrator-Session.
 - Hören/Sprechen: ja, mit Stimme `bf_emma` (Skill `lernapps-audio`), nur ganze Sätze; Sprechen wird nicht beurteilt.
 - Was die App nicht kann: keine Sprachbeurteilung, nur gelistete Antworten gelten (alle richtigen Varianten mit `(a|b)`), kein Timer und kein Spiel.
 - Keine `recap`-Seite in dieser Version: keine Voraussetzung außerhalb der App im Kapitel (`personalpronomen` aus #471 und simple present stehen nicht in `requires`; vorausgesetzt, siehe Hidden prerequisites).
@@ -263,12 +264,18 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Explore, Plan, Code und Commit bis zum Vorschau-Pull-Request. Checkpoints von der Orchestrator-Session (in der Rolle der Ersteller:in) beantwortet: Recherche, Plan und Inhaltsmethode, Musterseite; „Veröffentlichen“ steht aus. Kein Merge in `main`, kein Katalogeintrag.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+2 Nachrichten eines Menschen: (1) die Orchestrator-Session darf Befehle geben, (2) `gh-pages` darf angelegt werden (der Branch existierte da schon). Alle weiteren Rückmeldungen kamen von der Orchestrator-Session (in der Rolle der Ersteller:in), darunter ein unabhängiger Prüfbericht und die Regeln aus Abschnitt 7.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Fehlerliste und Suchwörter des Interviews, Seitenreihenfolge (can-must, modalverben-could-might-should, would-like) und die Skala must, should, could, might als vereinfachte Ordnung.
+- Wörter ohne Grundwortschatz-Seite (zuerst nicht erreichbar, später geprüft); die Wörtertabellen beschränkt auf wenige Wörter.
+- Aussehen und Name von Mrs Parker (Dutt, lila Jacke) wegen fehlender Vorgabe; wird nach der Festlegung der Orchestrator-Session geändert.
+- Kurzantworten und Verneinung von should, could und would nicht geübt (offen im Inhaltsführer und in `app.yaml` ausgewiesen).
+- Distraktoren im Modus `choice`: Die Vorlage zeigt keine eigene Meldung je Distraktor; deshalb nur echte Lernerfehler gewählt.
+- Vorlage: Standardmeldung „Deine Fassung kann trotzdem richtig sein“, „KI“-Kennzeichen, Player „0:00“, richtige Option steht in Lückenübungen immer zuerst: gemeldet, nicht geändert.
+- Audio von keinem Menschen angehört; Hörliste im Inhaltsführer.

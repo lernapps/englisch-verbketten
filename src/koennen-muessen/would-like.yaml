@@ -16,14 +16,12 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker die Kinder mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Auch Ellie und Amir sind dabei. Jeder bestellt etwas.
+          Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker Peter und Sophie mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Jeder bestellt etwas.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
         rows:
-          - [biscuit, Keks]
-          - [sandwich, belegtes Brot]
-          - [sit, sitzen]
+          - [banana, Banane]
           - [open the window, das Fenster öffnen]
           - [carry my bag, meine Tasche tragen]
       - type: text
@@ -88,8 +86,8 @@ blocks:
         id: would-like-sortieren
         text: Welcher englische Satz passt zu welcher Situation?
         pairs:
-          - left: Amir bestellt höflich ein belegtes Brot.
-            right: I'd like a sandwich, please.
+          - left: Amir bestellt höflich eine Banane.
+            right: I'd like a banana, please.
           - left: Ellie möchte das Fenster öffnen.
             right: Ellie would like to open the window.
           - left: Peter möchte, dass Sophie seine Tasche trägt.
@@ -108,18 +106,18 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: Ich möchte nach Hause gehen.
-            target: "I'd like [to] go home."
-            distractors: [[for, that]]
+            target: "I'd like [to go] home."
+            distractors: [[go, going]]
           - cue: Amir, ich möchte, dass du singst.
             target: "Amir, I'd like [you to] sing."
-            distractors: [[you, to you]]
+            distractors: [[that you, you]]
           - cue: Sie möchte singen.
-            target: "She [would] like to sing."
-            distractors: [[could, should]]
-          - cue: Ellie, möchtest du einen Saft?
-            target: "Ellie, [would] you like a juice?"
-            distractors: [[will, should]]
-        hint: Manchmal fehlt die Kupplung, manchmal die Lok selbst. Schau, was zum Satz passt.
+            target: "She would [like] to sing."
+            distractors: [[likes, to like]]
+          - cue: Ellie, möchtest du ein Sandwich?
+            target: "Ellie, [would] you like a sandwich?"
+            distractors: [[do, can]]
+        hint: Schau, ob eine Kupplung fehlt, ob would ein -s braucht und womit die Frage anfängt.
       - type: ordering
         id: would-like-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
@@ -135,10 +133,10 @@ blocks:
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - source: Ich hätte gern einen Saft, bitte.
-            target: (I'd|I would) like a juice, please.
+          - source: Ich hätte gern einen Apfel, bitte.
+            target: (I'd|I would) like an apple, please.
             mistakes:
-              - answer: I want a juice, please.
+              - answer: I want an apple, please.
                 message: "I want heißt „ich will“. Für „ich hätte gern“ brauchst du die höfliche Lok."
           - source: Ich möchte Fußball spielen.
             target: (I'd|I would) like to play football.
@@ -154,10 +152,10 @@ blocks:
                 message: "Auf Englisch gibt es dort kein that. Die Person steht vor der Kupplung to."
               - answer: I'd like you ask Peter.
                 message: "Hinter you fehlt die Kupplung."
-          - source: Möchtest du Tee?
-            target: Would you like (a |)tea?
+          - source: Möchtest du Milch?
+            target: Would you like (some |)milk?
             mistakes:
-              - answer: Do you like tea?
+              - answer: Do you like milk?
                 message: "Do you like heißt „magst du“. Für „möchtest du“ fängt die Frage mit would an."
       - type: language-task
         id: would-like-hoeren
@@ -165,12 +163,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - audio: would-you-like-a-sandwich.mp3
-            target: Would you like a sandwich?
-          - audio: peter-would-like-a-biscuit-please.mp3
-            target: "Peter would like a biscuit, please."
-          - audio: id-like-to-sit-with-you.mp3
-            target: "(I'd|I would) like to sit with you."
+          - audio: which-one-would-you-like.mp3
+            target: Which one would you like?
+          - audio: id-like-you-to-close-the-door-please.mp3
+            target: "(I'd|I would) like you to close the door, please."
+          - audio: sophie-would-like-to-call-her-mother.mp3
+            target: Sophie would like to call her mother.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -179,12 +177,12 @@ blocks:
         id: would-like-nachsprechen
         language: en
         items:
-          - audio: would-you-like-to-sit-here.mp3
-            text: Would you like to sit here?
-          - audio: ellie-would-like-to-sit-with-amir.mp3
-            text: "Ellie would like to sit with Amir."
-          - audio: id-like-you-to-open-the-window.mp3
-            text: "I'd like you to open the window."
+          - audio: id-like-a-cup-of-coffee-please.mp3
+            text: "I'd like a cup of coffee, please."
+          - audio: would-you-like-to-dance.mp3
+            text: Would you like to dance?
+          - audio: amir-would-like-some-more-bread.mp3
+            text: Amir would like some more bread.
         hint: Hör zuerst zu, sprich dann nach und vergleiche.
       - type: open-task
         id: would-like-bestellen

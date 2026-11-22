@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken. Auch Amir und Peter sind dabei.
+          Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
       - type: table
         caption: Klassenzimmer-Poster · Neue Wörter
         header: [Wort, Bedeutung]
@@ -25,9 +25,7 @@ blocks:
           - [hat, Mütze]
           - [stay at home, zu Hause bleiben]
           - [hungry, hungrig]
-          - [late, spät]
           - [be, sein]
-          - [tomorrow, morgen]
           - [tired, müde]
       - type: text
         text: "**Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung."
@@ -43,7 +41,7 @@ blocks:
             info: "Ein Verbot hast du auf der ersten Seite mit mustn't gesehen. Ellie verbietet nichts."
           - text: Sie sagt, was Sophie tun muss.
             correct: false
-            info: "Eine Pflicht sagt must. Ellie schlägt nur vor, in den Park zu gehen."
+            info: "Eine Pflicht sagt must. Ellie schlägt nur vor, ins Kino zu gehen."
         explanation: Could heißt „könnte“ oder „könnten“. Ellie macht einen Vorschlag, Sophie muss nichts.
         hint: Schau, was Ellie nennt, und überlege, ob sie etwas verlangt.
         links:
@@ -66,7 +64,7 @@ blocks:
         caption: Klassenzimmer-Poster · Modalverben
         header: [Ausdruck, Bedeutung]
         rows:
-          - [Amir can sing., Amir kann singen.]
+          - [Amir can dance., Amir kann tanzen.]
           - [You must wear a uniform., Du musst eine Uniform tragen.]
           - [You mustn't run here., Du darfst hier nicht rennen.]
           - [You needn't wear a coat., Du musst keinen Mantel tragen.]
@@ -149,17 +147,17 @@ blocks:
                 message: "Zwischen should und dem zweiten Verb sitzt keine Kupplung, auch kein to."
               - answer: You must help Peter.
                 message: "Must ist eine Pflicht. Hier ist nur ein Rat gemeint."
-          - source: Ellie kommt vielleicht zu spät.
-            target: Ellie (might|may|could) be late.
+          - source: Peter ist vielleicht müde.
+            target: Peter (might|may|could) be tired.
             mistakes:
-              - answer: Ellie mights be late.
-                message: "Might bekommt nie ein -s, auch nicht bei Ellie."
-              - answer: Ellie might to be late.
+              - answer: Peter mights be tired.
+                message: "Might bekommt nie ein -s, auch nicht bei Peter."
+              - answer: Peter might to be tired.
                 message: "Zwischen might und dem zweiten Verb sitzt keine Kupplung, auch kein to."
-          - source: Könnten wir in den Park gehen?
-            target: Could we go to the park?
+          - source: Könnten wir einen Film sehen?
+            target: Could we watch a film?
             mistakes:
-              - answer: Do we could go to the park?
+              - answer: Do we could watch a film?
                 message: "Could braucht kein do. In einer Frage steht could selbst vorn."
       - type: language-task
         id: modalverben-hoeren
@@ -167,12 +165,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - audio: peter-might-be-tired-tomorrow.mp3
-            target: Peter (might|may) be tired tomorrow.
-          - audio: ellie-should-take-a-hat.mp3
-            target: Ellie should take a hat.
-          - audio: could-we-stay-in-the-park.mp3
-            target: Could we stay in the park?
+          - audio: amir-could-bring-his-football.mp3
+            target: Amir could bring his football.
+          - audio: you-should-drink-some-water.mp3
+            target: You should drink some water.
+          - audio: it-might-be-sunny-on-sunday.mp3
+            target: It (might|may) be sunny on Sunday.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -181,12 +179,12 @@ blocks:
         id: modalverben-nachsprechen
         language: en
         items:
-          - audio: it-might-be-cold-tomorrow.mp3
-            text: It might be cold tomorrow.
-          - audio: you-should-take-your-hat-peter.mp3
-            text: "You should take your hat, Peter."
-          - audio: it-might-be-warm-in-the-park.mp3
-            text: It might be warm in the park.
+          - audio: could-we-sit-in-the-garden.mp3
+            text: Could we sit in the garden?
+          - audio: peter-might-forget-his-bag.mp3
+            text: Peter might forget his bag.
+          - audio: you-should-go-to-bed-early.mp3
+            text: You should go to bed early.
         hint: Hör zuerst zu, sprich dann nach und vergleiche.
       - type: open-task
         id: modalverben-rat
