@@ -17,16 +17,22 @@ blocks:
       - type: text
         text: |
           Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [snow, schneien]
-          - [hat, Mütze]
-          - [stay at home, zu Hause bleiben]
-          - [hungry, hungrig]
-          - [be, sein]
-          - [tired, müde]
+      - type: vocabulary
+        caption: Neue Wörter
+        languages: { source: de, target: en }
+        entries:
+          - target: snow
+            source: schneien
+          - target: a hat
+            source: Mütze
+          - target: stay at home
+            source: zu Hause bleiben
+          - target: hungry
+            source: hungrig
+          - target: be
+            source: sein
+          - target: tired
+            source: müde
       - type: text
         text: "**Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung."
       - type: single-choice

@@ -17,13 +17,16 @@ blocks:
       - type: text
         text: |
           Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker Peter und Sophie mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Jeder bestellt etwas.
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [banana, Banane]
-          - [open the window, das Fenster öffnen]
-          - [carry my bag, meine Tasche tragen]
+      - type: vocabulary
+        caption: Neue Wörter
+        languages: { source: de, target: en }
+        entries:
+          - target: a banana
+            source: Banane
+          - target: open the window
+            source: das Fenster öffnen
+          - target: carry my bag
+            source: meine Tasche tragen
       - type: text
         text: "**Das kannst du danach:** Mit I'd like höflich bestellen und sagen, was du tun möchtest oder was jemand anderes tun möchte. Du lernst die erste Lok mit einer Kupplung kennen."
       - type: single-choice
