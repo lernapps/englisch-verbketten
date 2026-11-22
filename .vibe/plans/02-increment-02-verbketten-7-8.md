@@ -153,19 +153,20 @@ page, which a link. -->
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Kapitel 2 (Ordner src/to-oder-ing): chapter.yaml, Wiederholungsseite wiederholung (recap: will-future, fragewoerter, present-progressive) und Seite modale-ersatzformen als Muster mit Lesestück (Chat Sophie und Ellie), Randglossar, drei Aufgabenstufen, Audio; zeigt have to, be able to, be allowed to in mehreren Zeiten. Ich schreibe sie selbst (Muster).
-- [ ] Seite infinitivkonstruktionen (src/to-oder-ing/infinitivkonstruktionen.yaml): Lesestück Tagebuch oder Blog (in order to, Fragewort + to, It is easy for me to); Sub-Agent A (Kapitel 2), nach dem Muster.
-- [ ] Seite gerund (src/to-oder-ing/gerund.yaml): Lesestück Chat über Hobbys (Swimming is fun, enjoy, avoid, like + -ing); Sub-Agent A.
-- [ ] Seite gerund-nach-praepositionen (src/to-oder-ing/gerund-nach-praepositionen.yaml): Lesestück Interview (interested in, look forward to, good at + -ing); Sub-Agent A.
-- [ ] Seite gerund-oder-infinitiv (src/to-oder-ing/gerund-oder-infinitiv.yaml): Lesestück Blogeintrag (stop, remember, try mit -ing oder to, Bedeutungsunterschied); Sub-Agent A.
-- [ ] Kapitel 3 (Ordner src/das-passiv): chapter.yaml, Wiederholungsseite wiederholung (recap: unregelmaessige-verben, to-be, present-perfect) und Seite passiv (Lesestück Bericht der Schulzeitung, simple present und past, by …); Sub-Agent B.
-- [ ] Seite passiv-zeiten (src/das-passiv/passiv-zeiten.yaml): Lesestück Nachrichten/Chat (present perfect, will-future, mit Modalverben: It has been sold, It can be done); Sub-Agent B.
-- [ ] Seite passiv-zwei-objekte (src/das-passiv/passiv-zwei-objekte.yaml): Lesestück Geburtstagsbericht oder Chat (I was given a book, persönliches Passiv); Sub-Agent B.
+- [x] Seite infinitivkonstruktionen (src/to-oder-ing/infinitivkonstruktionen.yaml): Lesestück Tagebuch oder Blog (in order to, Fragewort + to, It is easy for me to); Sub-Agent A (Kapitel 2), nach dem Muster.
+- [x] Seite gerund (src/to-oder-ing/gerund.yaml): Lesestück Chat über Hobbys (Swimming is fun, enjoy, avoid, like + -ing); Sub-Agent A.
+- [x] Seite gerund-nach-praepositionen (src/to-oder-ing/gerund-nach-praepositionen.yaml): Lesestück Interview (interested in, look forward to, good at + -ing); Sub-Agent A.
+- [x] Seite gerund-oder-infinitiv (src/to-oder-ing/gerund-oder-infinitiv.yaml): Lesestück Blogeintrag (stop, remember, try mit -ing oder to, Bedeutungsunterschied); Sub-Agent A.
+- [x] Kapitel 3 (Ordner src/das-passiv): chapter.yaml, Wiederholungsseite wiederholung (recap: unregelmaessige-verben, to-be, present-perfect) und Seite passiv (Lesestück Bericht der Schulzeitung, simple present und past, by …); Sub-Agent B.
+- [x] Seite passiv-zeiten (src/das-passiv/passiv-zeiten.yaml): Lesestück Nachrichten/Chat (present perfect, will-future, mit Modalverben: It has been sold, It can be done); Sub-Agent B.
+- [x] Seite passiv-zwei-objekte (src/das-passiv/passiv-zwei-objekte.yaml): Lesestück Geburtstagsbericht oder Chat (I was given a book, persönliches Passiv); Sub-Agent B.
 <!-- tasks: slices (8 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+      Creator: Ja, die anderen Seiten dürfen nach dem Muster folgen, zwei Sub-Agenten in lokalen Worktrees sind ok. Die Hinweise explainer-text-load und explainer-page-variety sind ok. Kein Push, bis die Erlaubnis der Ersteller:in vorliegt.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
