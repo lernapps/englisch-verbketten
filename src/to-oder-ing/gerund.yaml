@@ -2,7 +2,7 @@
 title: "Das Gerundium: enjoy, avoid und Hobbys"
 description: Sophie, Amir und Peter chatten über Hobbys. Du lernst die Kupplung -ing nach Verben wie enjoy und avoid und die -ing-Form als Subjekt.
 competencies: [gerund]
-scope: "Die Seite führt die Kupplung -ing ein. Nach Verben wie enjoy, avoid, finish, mind und practise steht der Wagen mit -ing, nie mit to (Mr Hill enjoys gardening). Nach like, love, hate und prefer geht auch to; die Seite übt die -ing-Form. Die -ing-Form kann auch Subjekt am Satzanfang sein (Gardening takes time) und braucht dann is. Die Seite unterscheidet das Gerundium von der Verlaufsform (Peter is eating gegen Peter avoids eating). Rechtschreibung: ein e am Ende fällt weg (make, making) und ein kurzer Vokal vor einem einzelnen Konsonanten verdoppelt ihn (run, running). Das -s der dritten Person gehört an die Lok (She enjoys singing). Das Lesestück ist ein erfundener Chat von Sophie, Amir und Peter. Präpositionen mit -ing und der Unterschied zwischen to und -ing folgen auf den nächsten Seiten."
+scope: "Die Seite führt die Kupplung -ing ein. Nach Verben wie enjoy, avoid, finish, mind und practise steht der Wagen mit -ing, nie mit to (Mr Hill enjoys gardening). Nach like, love, hate und prefer geht auch to; die Seite übt die -ing-Form. Die -ing-Form kann auch Subjekt am Satzanfang sein (Gardening takes time); das Verb dahinter steht in der dritten Person Singular (is, takes). Die Seite unterscheidet das Gerundium von der Verlaufsform (Peter is eating gegen Peter avoids eating). Rechtschreibung: ein e am Ende fällt weg (make, making) und bei kurzen Wörtern mit betontem kurzem Vokal wird der einzelne Konsonant verdoppelt (run, running; get, getting; stop, stopping). Die Kupplung ist die Form, die die Lok vom Wagen verlangt: keine (can swim), to (would like to swim), -ing (enjoy swimming). Das -s der dritten Person gehört an die Lok (She enjoys singing). Das Lesestück ist ein erfundener Chat von Sophie, Amir und Peter, in dem Amir kurz sagt, dass die Millbrook Times ihn zu einem Gitarrenclub befragt hat. Präpositionen mit -ing und der Unterschied zwischen to und -ing folgen auf den nächsten Seiten."
 blocks:
   - type: section
     id: einstieg
@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: text
         text: |
-          Am Montagabend schreiben Sophie (13), Amir (13) und Peter (11) in einem Gruppenchat. Es geht um die Frage, was jeder gern in der Freizeit macht.
+          Am Montagabend schreiben Sophie (13), Amir (13, ein Freund aus der Klasse) und Peter (11, Ellies kleiner Bruder) in einem Gruppenchat. Es geht um die Frage, was jeder gern in der Freizeit macht. In den Übungen kommen auch Ellie (13, Sophies Gastschwester), Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Mr Hill (der Englischlehrer) vor.
       - type: text
         text: "**Das kannst du danach:** Mit der Kupplung -ing sagen, was du magst, genießt oder vermeidest, und die -ing-Form als Subjekt benutzen."
       - type: single-choice
         id: gerund-start
-        text: "Du kennst das present progressive aus der Wiederholung. Welcher Satz sagt, was Ellie gerade jetzt tut?"
+        text: "Du kennst das present progressive (She is reading.). Welcher Satz sagt, was Ellie gerade jetzt tut?"
         options:
           - text: Ellie is writing a letter.
             correct: true
@@ -44,12 +44,14 @@ blocks:
           **Peter:** Reading again! Don't you like playing football?
 
           **Sophie:** I do, but I prefer reading. I also enjoy drawing. I avoid running in the cold, though.
-      - type: definition
-        term: prefer
-        explanation: lieber mögen
-      - type: definition
-        term: avoid
-        explanation: vermeiden, aus dem Weg gehen
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: prefer
+            source: lieber mögen
+          - target: avoid
+            source: vermeiden, aus dem Weg gehen
       - type: true-false
         id: gerund-zwischen-eins
         text: Sophie spielt gerade Fußball im Park.
@@ -62,14 +64,17 @@ blocks:
         text: |
           **Amir:** Hi both! What are you talking about?
 
-          **Peter:** Hobbies! I love playing football. Sophie loves reading and drawing.
+          **Peter:** Hobbies! I love playing football. Sophie likes reading and drawing.
 
           **Amir:** My hobby is playing the guitar. Practising every day is hard work, but I don't mind it.
 
           **Sophie:** I can't play any instrument. Singing is fun, but I hate singing in front of the class!
-      - type: definition
-        term: "I don't mind it"
-        explanation: es macht mir nichts aus, ich habe nichts dagegen
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: don't mind
+            source: nichts dagegen haben, etwas macht einem nichts aus
       - type: single-choice
         id: gerund-zwischen-zwei
         text: Was meint Amir mit „I don't mind it“?
@@ -97,9 +102,16 @@ blocks:
           **Sophie:** Of course! But first I'll finish reading my chapter.
 
           **Peter:** OK. Finish reading, then come to the park!
-      - type: definition
-        term: teach
-        explanation: beibringen, unterrichten
+
+          **Amir:** One more thing: today the Millbrook Times asked me about my plan for a guitar club at school.
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: teach
+            source: beibringen, unterrichten
+          - target: a plan
+            source: der Plan, das Vorhaben
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -156,13 +168,13 @@ blocks:
     blocks:
       - type: text
         text: |
-          Nach manchen Verben sitzt die Kupplung **-ing**: *enjoy* (genießen), *avoid* (vermeiden), *finish* (fertig sein mit), *mind* (etwas dagegen haben) und *practise* (üben). Der Wagen bekommt dann ein -ing: *Mr Hill enjoys gardening.* Ein *to* steht dort nie. Nach *like*, *love*, *hate* und *prefer* geht auch *to*; die -ing-Form ist dort immer richtig, darum übst du sie hier.
+          Die Kupplung ist die Form, die die Lok vom Wagen verlangt: keine (*can swim*), **to** (*would like to swim*) oder **-ing** (*enjoy swimming*). Nach manchen Verben sitzt die Kupplung **-ing**: *enjoy* (genießen), *avoid* (vermeiden), *finish* (fertig sein mit), *mind* (etwas dagegen haben) und *practise* (üben). Der Wagen fährt dann in der -ing-Form: *Mr Hill enjoys gardening.* Ein *to* steht dort nie. Nach *like*, *love*, *hate* und *prefer* geht auch *to*; die -ing-Form ist dort immer richtig, darum übst du sie hier.
 
-          Die -ing-Form kann auch am Satzanfang stehen: *Gardening takes time.* Das nennt man **Gerundium**, eine -ing-Form, die wie ein Nomen benutzt wird. Als Subjekt braucht sie *is*.
+          Die -ing-Form kann auch am Satzanfang stehen: *Gardening takes time.* Das nennt man **Gerundium**, eine -ing-Form, die wie ein Nomen benutzt wird. Als Subjekt zählt das Gerundium wie eine einzelne Sache: Das Verb dahinter steht in der dritten Person Singular (*takes*, *is*: *Swimming is fun.*).
       - type: figure
         image: images/verbkette-ing.svg
-        alt: Ein kleiner Zug. Die blaue Lok trägt das Wort enjoy, dann folgt ein kleines rotes Verbindungsstück mit den Zeichen -ing, danach der gelbe Wagen mit dem Wort swimming.
-        caption: "Zwischen Lok und Wagen sitzt jetzt die rote Kupplung -ing: Der Wagen trägt das -ing selbst."
+        alt: Ein kleiner Zug. Die blaue Lok trägt das Wort enjoy, dann folgt ein kleines rotes Verbindungsstück mit den Zeichen -ing, danach der gelbe Wagen mit dem Wort swimming. Unter der Kupplung steht, dass sie -ing verlangt, unter dem Wagen, dass er in der -ing-Form fährt.
+        caption: "Die rote Kupplung -ing sagt: Der Wagen fährt in der -ing-Form."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -173,13 +185,13 @@ blocks:
           - [would like, to, Ellie would like to buy a hat.]
           - [enjoy, -ing, Mr Hill enjoys gardening.]
           - [avoid, -ing, Amir avoids shouting.]
-          - [Subjekt am Satzanfang, -ing, Gardening takes time.]
+          - [kein Verb vorn, "das Gerundium ist das Subjekt", Gardening takes time.]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **Verlaufsform oder Gerundium?** *Peter is eating* (be + -ing) heißt, dass er gerade isst. In *Peter avoids eating* ist *avoids* die Lok und *eating* der Wagen. Das **-s** der dritten Person gehört an die Lok: *She enjoys singing*, nicht *She enjoy singings*. **Schreibung:** Ein e am Ende fällt weg (*make, making*), und nach einem kurzen Vokal wird der einzelne Konsonant verdoppelt (*run, running*).
+              **Verlaufsform oder Gerundium?** *Peter is eating* (be + -ing) heißt, dass er gerade isst. In *Peter avoids eating* ist *avoids* die Lok und *eating* der Wagen. Das **-s** der dritten Person gehört an die Lok: *She enjoys singing*, nicht *She enjoy singings*. **Schreibung:** Ein e am Ende fällt weg (*make, making*), und bei kurzen Wörtern mit betontem kurzem Vokal wird der einzelne Konsonant verdoppelt (*run, running*; *get, getting*; *stop, stopping*; *put, putting*).
   - type: section
     id: uebung
     title: Übung
@@ -199,8 +211,8 @@ blocks:
         distractors:
           - Ellie enjoys to bake cakes.
           - Mrs Parker avoids to drive at night.
-        explanation: Nach enjoy, avoid und like steht die -ing-Form, nie to.
-        hint: Prüfe, welche Form der Wagen hat.
+        explanation: Nach enjoy und avoid steht nur -ing. Nach like (und love, hate, prefer) geht -ing und auch to; hier übst du -ing.
+        hint: "Prüfe, welche Form der Wagen hat: Nach enjoy und avoid steht -ing, nie to. Am Satzanfang ist die -ing-Form das Subjekt."
         links:
           - title: Lernlandkarte Englisch · Das Gerundium
             url: https://lernapps.net/apps/map/englisch/c/gerund/
@@ -217,13 +229,13 @@ blocks:
           - cue: Wir genießen es, im Garten zu sitzen.
             target: "We enjoy [sitting] in the garden."
             distractors: [["sit", "to sit"]]
-          - cue: Bist du mit dem Malen des Posters fertig?
+          - cue: Hast du das Poster fertig gemalt?
             target: "Did you finish [painting] the poster?"
             distractors: [["paint", "to paint"]]
           - cue: Mit dem Rad zur Schule zu fahren ist gesund.
             target: "[Cycling] to school is healthy."
             distractors: [["Cycle", "Cycles"]]
-        hint: Nach enjoy, avoid und finish steht -ing. Am Satzanfang braucht das Verb ebenfalls -ing.
+        hint: "Nach enjoy, avoid und finish steht die -ing-Form, nie to und nie die Grundform allein. Am Satzanfang braucht das Verb ebenfalls -ing, weil es das Subjekt ist; ein Verb im present simple wie cycles passt dort nicht."
       - type: ordering
         id: gerund-reihenfolge
         text: Baue die Verbkette Glied für Glied.
@@ -247,10 +259,12 @@ blocks:
               - answer: I hate to getting up early.
                 message: "Hinter to steht die Grundform. Nimm entweder to + get up oder nur getting up."
               - answer: I hate geting up early.
-                message: "Get endet auf einen kurzen Vokal und einen Konsonanten: Der Konsonant wird verdoppelt (getting)."
+                message: "Get ist ein kurzes Wort mit betontem kurzem Vokal: Der Konsonant wird verdoppelt (getting)."
           - source: Mr Hill vermeidet es, am Wochenende Hausaufgaben zu geben.
-            target: Mr Hill avoids giving homework (at|on) the weekend.
+            target: Mr Hill avoids giving homework (at the weekend|at weekends).
             mistakes:
+              - answer: Mr Hill avoids giving homework on the weekend.
+                message: "Im britischen Englisch heißt es at the weekend."
               - answer: Mr Hill avoids to give homework at the weekend.
                 message: "Nach avoid steht -ing, nie to."
               - answer: Mr Hill avoid giving homework at the weekend.
@@ -258,12 +272,14 @@ blocks:
               - answer: Mr Hill avoids giveing homework at the weekend.
                 message: "Give verliert das e: giving."
           - source: Fotos zu machen ist mein Hobby.
-            target: (Taking|To take) photos is my hobby.
+            target: Taking photos is my hobby.
             mistakes:
               - answer: Take photos is my hobby.
                 message: "Als Subjekt am Satzanfang braucht das Verb -ing."
+              - answer: To take photos is my hobby.
+                message: "Das geht auch, aber hier übst du die -ing-Form als Subjekt: Taking photos …"
               - answer: Taking photos are my hobby.
-                message: "Das Subjekt ist eine einzelne Tätigkeit, darum is."
+                message: "Das Gerundium als Subjekt zählt wie eine einzelne Sache: Das Verb dahinter steht in der dritten Person Singular, also is."
               - answer: Takeing photos is my hobby.
                 message: "Take verliert das e: taking."
       - type: language-task
@@ -301,7 +317,7 @@ blocks:
             source: /to-oder-ing/gerund/#neu
           - text: Ein Satz mit avoid, finish oder mind und einer -ing-Form, ohne to.
             source: /to-oder-ing/gerund/#neu
-          - text: Ein Satz, der mit einer -ing-Form als Subjekt anfängt und is benutzt.
+          - text: Ein Satz, der mit einer -ing-Form als Subjekt anfängt, mit dem Verb in der dritten Person Singular (is oder zum Beispiel takes).
             source: /to-oder-ing/gerund/#neu
           - text: Das -s der dritten Person steht an der Lok, die -ing-Form ist richtig geschrieben.
             kind: form
@@ -312,4 +328,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Amir erzählt in der Schule von seinen Plänen für einen Gitarrenclub. Die Schulzeitung möchte ihn dazu interviewen. Auf der nächsten Seite lernst du, dass auch hinter einer Präposition wie in oder at der Wagen mit -ing fährt.
+        text: Amir hat der Millbrook Times von seinem Plan für einen Gitarrenclub erzählt. Auf der nächsten Seite liest du das Interview und lernst, dass auch hinter einer Präposition wie in oder at der Wagen in der -ing-Form fährt.

@@ -2,7 +2,7 @@
 title: "Infinitiv mit to: wozu und wie"
 description: Sophie bereitet sich in ihrem Tagebuch auf den Ausflug vor. Du lernst, wie die Kupplung to nach in order, nach Fragewörtern und in „It is easy for me to …“ sitzt.
 competencies: [infinitivkonstruktionen]
-scope: "Die Seite zeigt drei Stellen, an denen die Kupplung to vor der Grundform sitzt. Nach in order sagt to wozu man etwas tut (in order to buy a bike). Nach Fragewörtern wie what, where, how, who und which fragt to nach dem, was man tun kann oder soll (Do you know how to bake a cake?); nach why steht kein to. In „It is easy for me to …“ nennt for die Person, to + Grundform sagt, was leicht oder schwer ist. Nach to steht immer die Grundform ohne -s und ohne -ing, und ein deutsches „um zu“ wird nie zu for to. Das Lesestück ist Sophies erfundener Tagebucheintrag vor dem Ausflug zum Schloss. Die Kupplung -ing und die Präpositionen folgen auf den nächsten Seiten."
+scope: "Die Seite zeigt drei Stellen, an denen die Kupplung to vor der Grundform sitzt. Nach in order sagt to wozu man etwas tut (in order to buy a bike). Nach Fragewörtern wie what, where, how, who und which fragt to nach dem, was man tun kann oder soll (Do you know how to bake a cake?); nach why steht kein to. In „It is easy for me to …“ nennt for die Person, to + Grundform sagt, was leicht oder schwer ist. Hinter der Kupplung to steht der Wagen in der Grundform ohne -s und ohne -ing, und ein deutsches „um zu“ wird nie zu for to. Whom ist die formelle Form von who (I don't know whom to ask). Das Lesestück ist Sophies erfundener Tagebucheintrag vor dem Ausflug zum Schloss. Die Kupplung -ing und die Präpositionen folgen auf den nächsten Seiten."
 blocks:
   - type: section
     id: einstieg
@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: text
         text: |
-          Am Dienstag fährt Sophies Klasse zum Schloss. Sophie (13) ist am Sonntagabend noch ein wenig nervös. Sie schreibt in ihr Tagebuch, wie sie sich vorbereitet.
+          Am Dienstag fährt Sophies Klasse zum Schloss. Sophie (13) ist am Sonntagabend noch ein wenig nervös. Sie schreibt in ihr Tagebuch, wie sie sich vorbereitet. Darin kommen Ellie (13, ihre Gastschwester) und Mrs Parker (Ellies Mutter und Sophies Gastmutter) vor, in den Übungen auch Mr Hill (Sophies Englischlehrer), Peter (11, Ellies kleiner Bruder) und Amir (13, ein Freund aus der Klasse).
       - type: text
         text: "**Das kannst du danach:** Mit to + Grundform sagen, wozu du etwas tust (in order to), was du tun sollst (what to do) und wie leicht oder schwer etwas für jemanden ist (It is easy for me to …)."
       - type: single-choice
         id: infinitiv-start
-        text: "Du kennst die Kupplung to von would like. Welcher Satz ist richtig?"
+        text: "Amir möchte gern Gitarre lernen. Welcher Satz sagt das richtig?"
         options:
           - text: Amir would like to learn the guitar.
             correct: true
@@ -27,7 +27,7 @@ blocks:
             correct: false
             info: "Would bekommt nie ein -s."
         explanation: Hinter would like sitzt die Kupplung to, und der Wagen steht in der Grundform.
-        hint: Denk an Kapitel 1.
+        hint: "Bei Wünschen mit would like sitzt zwischen den beiden Verben eine Kupplung. Prüfe, ob sie fehlt, und ob would ein -s bekommt."
         links:
           - title: Lernlandkarte Englisch · Infinitivkonstruktionen
             url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
@@ -42,12 +42,14 @@ blocks:
           Dear diary,
 
           On Tuesday we are going to the castle, and I am quite nervous. Not about the castle, but about the tower. It has a lot of steps, and some of them are very steep.
-      - type: definition
-        term: nervous
-        explanation: nervös, aufgeregt
-      - type: definition
-        term: steep
-        explanation: steil
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: nervous
+            source: nervös, aufgeregt
+          - target: steep
+            source: steil
       - type: true-false
         id: infinitiv-zwischen-eins
         text: Sophie ist nervös, weil sie das Schloss langweilig findet.
@@ -59,9 +61,13 @@ blocks:
       - type: text
         text: |
           Mrs Parker came into my room tonight and asked, "Do you know what to wear?" I wasn't sure. She showed me where to find my old walking boots, and she gave me a small bag. "Take it to carry your lunch," she said. I am glad that I don't have to plan everything alone.
-      - type: definition
-        term: walking boots
-        explanation: Wanderschuhe
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: walking boots
+            source: Wanderschuhe
+            note: Das Wort steht immer im Plural.
       - type: single-choice
         id: infinitiv-zwischen-zwei
         text: Was zeigt Mrs Parker Sophie?
@@ -85,15 +91,16 @@ blocks:
           It is easy for me to talk about school or to ask for a ticket in English. But it is hard for me to say no when my friends want to go up a tall tower. Ellie says it is important for me to try it once. Perhaps she is right. I will go to the top in order to see the view, and I will hold the handrail all the time.
 
           Now I am going to bed early in order to be fresh on Tuesday. Good night!
-      - type: definition
-        term: view
-        explanation: die Aussicht
-      - type: definition
-        term: handrail
-        explanation: das Geländer
-      - type: definition
-        term: fresh
-        explanation: hier ausgeruht, frisch
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: a view
+            source: die Aussicht
+          - target: a handrail
+            source: das Geländer
+          - target: fresh
+            source: hier ausgeruht, frisch
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -108,9 +115,9 @@ blocks:
           - text: Sie hat Angst vor der Dunkelheit.
             correct: false
             info: "Von Angst im Dunkeln steht nichts im Text."
-          - text: Sie muss am Morgen den Turm besteigen.
+          - text: Sie muss morgen früh zum Ausflug aufbrechen.
             correct: false
-            info: "Der Ausflug ist erst am Dienstag, nicht schon am Montag."
+            info: "Es ist Sonntagabend, morgen ist Montag. Der Ausflug ist erst am Dienstag, und darum will Sophie am Dienstag frisch sein."
         explanation: Sophie geht früh ins Bett, damit sie am Dienstag frisch ist.
         hint: Lies die letzten zwei Zeilen.
         links:
@@ -150,7 +157,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Die Kupplung **to** kennst du von *would like*. Sie sitzt noch an drei weiteren Stellen, und der Wagen dahinter bleibt immer die Grundform.
+          Die Kupplung ist die Form, die die Lok vom Wagen verlangt: keine (*can swim*), **to** (*would like to swim*) oder später **-ing**. Die Kupplung **to** kennst du von *would like*. Sie sitzt noch an drei weiteren Stellen, und der Wagen dahinter bleibt immer die Grundform.
 
           **1. Nach in order:** *in order to* heißt „um … zu“ und sagt, wozu man etwas tut: *Peter saves money in order to buy a bike.* Ohne *in order* geht es auch (*to buy a bike*). Ein „for to“ gibt es nicht.
 
@@ -158,9 +165,9 @@ blocks:
 
           **3. Nach einem Adjektiv:** *It is easy for me to …* sagt, wie leicht oder schwer etwas für jemanden ist. Nach *for* steht die Person: *It is important for Peter to sleep well.*
       - type: figure
-        image: images/verbkette-kupplung-to.svg
-        alt: Ein kleiner Zug. Die blaue Lok trägt die Wörter would like, dann folgt ein kleines rotes Verbindungsstück mit dem Wort to, danach der gelbe Wagen mit dem Wort swim.
-        caption: "Die rote Kupplung to kennst du schon. Neu ist, dass die Lok jetzt auch in order, ein Fragewort oder ein Adjektiv mit for und einer Person sein kann."
+        image: images/verbkette-um-zu.svg
+        alt: Drei kleine Züge untereinander mit je einer roten Kupplung to. Oben die blaue Lok I ran, die Kupplung in order to und der gelbe Wagen catch. In der Mitte die Lok I know how, die Kupplung to und der Wagen cook. Unten die Lok It is easy for me, die Kupplung to und der Wagen draw.
+        caption: "Die rote Kupplung to kennst du von would like. Neu ist, dass sie auch nach in order, nach einem Fragewort und nach easy for me sitzt. Der Wagen dahinter ist immer die Grundform."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -177,7 +184,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Nach **to** steht immer die Grundform: *in order to buy*, nicht *in order to buying* und nicht *to buys*. Ein „um zu“ wird nie zu *for to*. Das Fragewort-Muster braucht kein eigenes Subjekt: *I don't know what to say* heißt „Ich weiß nicht, was ich sagen soll“. Und nach *can* oder *must* steht weiter keine Kupplung.
+              Hinter der Kupplung **to** steht der Wagen immer in der Grundform: *in order to buy*, nicht *in order to buying* und nicht *to buys*. Ein „um zu“ wird nie zu *for to*. Das Fragewort-Muster braucht kein eigenes Subjekt: *I don't know what to say* heißt „Ich weiß nicht, was ich sagen soll“. *Whom* ist die formelle Form von *who*: *I don't know whom to ask* ist richtig, klingt aber förmlich; im Alltag sagst du *who*. Und nach *can* oder *must* steht weiter keine Kupplung.
   - type: section
     id: uebung
     title: Übung
@@ -198,7 +205,7 @@ blocks:
           - We stay at home for to watch the film.
           - Do you know how turn on the radio?
         explanation: "„um … zu“ heißt in order to, ein Fragewort braucht to + Grundform, und nach for und der Person folgt to."
-        hint: Achte auf das Wort vor dem Verb. Es verbindet die beiden Teile.
+        hint: "Achte auf das Wort vor dem Verb. „Um … zu“ ist in order to (nie for to), ein Fragewort braucht to + Grundform, und nach for und der Person folgt to."
         links:
           - title: Lernlandkarte Englisch · Infinitivkonstruktionen
             url: https://lernapps.net/apps/map/englisch/c/infinitivkonstruktionen/
@@ -221,7 +228,7 @@ blocks:
           - cue: Mr Hill sagt uns, was wir lesen sollen.
             target: "Mr Hill tells us what [to read]."
             distractors: [["read", "reading"]]
-        hint: Prüfe, ob eine Kupplung fehlt und welche Form der Wagen hat.
+        hint: "Prüfe, ob eine Kupplung fehlt und welche Form der Wagen hat: Nach in order sitzt to, nach einem Fragewort sitzt to + Grundform (kein -ing), und die Person steht nach for, nicht nach to oder of."
       - type: ordering
         id: infinitiv-reihenfolge
         text: Baue die Verbkette Glied für Glied.
@@ -247,7 +254,7 @@ blocks:
               - answer: I read a lot to learning new words.
                 message: "Hinter to steht die Grundform ohne -ing."
           - source: Ich weiß nicht, wen ich fragen soll.
-            target: I don't know (who to ask|who I should ask).
+            target: I (don't|do not) know (who|whom) (to ask|I should ask).
             mistakes:
               - answer: I don't know who ask.
                 message: "Nach dem Fragewort who fehlt die Kupplung to."
@@ -308,4 +315,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Sophie klappt ihr Tagebuch zu. Am Montag chattet sie mit Amir und Peter über Hobbys. Auf der nächsten Seite liest du den Chat und lernst eine zweite Kupplung kennen, die -ing heißt.
+        text: Sophie klappt ihr Tagebuch zu. Am Montagabend chattet sie mit Amir und Peter über Hobbys. Auf der nächsten Seite liest du den Chat und lernst eine zweite Kupplung kennen, die -ing heißt.

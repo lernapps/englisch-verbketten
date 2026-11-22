@@ -2,7 +2,7 @@
 title: "Gerundium oder Infinitiv: stop, remember, try"
 description: Sophie schreibt in ihrem Blog über den Tag im Schloss. Du lernst, dass stop, remember und try mit to oder -ing möglich sind, aber mit anderer Bedeutung.
 competencies: [gerund-oder-infinitiv]
-scope: "Die Seite zeigt Verben, nach denen sowohl to + Grundform als auch die -ing-Form stehen kann, mit anderer Bedeutung. Stop + -ing heißt aufhören (It stopped raining), stop + to heißt anhalten, um etwas zu tun (We stopped to buy a drink). Remember + to heißt daran denken, etwas zu tun (Remember to feed the cat), remember + -ing heißt sich erinnern, etwas getan zu haben (I remember meeting your teacher). Try + to heißt sich Mühe geben (I tried to carry all the boxes), try + -ing heißt ausprobieren (Try pressing the red button). Faustregel: Mit to geht es um eine Absicht oder ein Ziel, mit -ing um die Handlung selbst. Das Lesestück ist Sophies erfundener Blogeintrag über den Tag im Schloss. Rechtschreibung: stop wird zu stopped und stopping, put zu putting. Die Seite verlangt, die Kupplungen to, -ing und Präposition + -ing aus den vorigen Seiten zu kennen."
+scope: "Die Seite zeigt Verben, nach denen sowohl to + Grundform als auch die -ing-Form stehen kann, mit anderer Bedeutung. Stop + -ing heißt aufhören (It stopped raining), stop + to heißt anhalten, um etwas zu tun (We stopped to buy a drink). Remember + to heißt daran denken, etwas zu tun (Remember to feed the cat), remember + -ing heißt sich erinnern, etwas getan zu haben (I remember meeting your teacher). Try + to heißt sich Mühe geben (I tried to carry all the boxes), try + -ing heißt ausprobieren (Try pressing the red button). Faustregel: Mit to geht es um eine Absicht oder ein Ziel, mit -ing um die Handlung selbst. Das Lesestück ist Sophies erfundener Blogeintrag über den Tag im Schloss. Rechtschreibung: stop wird zu stopped und stopping, put zu putting. Die Kupplung ist die Form, die die Lok vom Wagen verlangt: keine (can swim), to (would like to swim), -ing (enjoy swimming), Präposition + -ing (interested in swimming); später kommt be + dritte Form im Passiv dazu (be ist die Lok, der Wagen steht in der dritten Form). Die Seite verlangt, die Kupplungen to, -ing und Präposition + -ing aus den vorigen Seiten zu kennen."
 blocks:
   - type: section
     id: einstieg
@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: text
         text: |
-          Der Ausflug zum Schloss ist vorbei. Am Mittwoch schreibt Sophie (13) einen Blogeintrag darüber. Dabei kommen drei Verben vor, bei denen die Kupplung die Bedeutung ändert.
+          Der Ausflug zum Schloss ist vorbei. Am Mittwoch schreibt Sophie (13) einen Blogeintrag darüber. Dabei kommen drei Verben vor, bei denen die Kupplung die Bedeutung ändert. Im Text kommt Ellie (13, Sophies Gastschwester) vor, in den Übungen auch Mrs Parker (Ellies Mutter und Sophies Gastmutter), Peter (11, Ellies kleiner Bruder) und Amir (13, ein Freund aus der Klasse).
       - type: text
         text: "**Das kannst du danach:** Bei stop, remember und try zwischen to und -ing wählen und erklären, was der Unterschied bedeutet."
       - type: single-choice
         id: wahl-start
-        text: "Du kennst die Kupplung Präposition + -ing. Welcher Satz ist richtig?"
+        text: "Ellie freut sich darauf, das Schloss zu sehen. Welcher Satz sagt das richtig?"
         options:
           - text: Ellie is excited about seeing the castle.
             correct: true
@@ -27,7 +27,7 @@ blocks:
             correct: false
             info: "Nach about braucht der Wagen -ing: seeing."
         explanation: Nach einer Präposition steht die -ing-Form.
-        hint: Welches Wort steht vor dem Verb?
+        hint: "Welches Wort steht vor dem Verb? Nach einer Präposition wie about steht nie to + Grundform und nie die Grundform allein, sondern der Wagen in der -ing-Form."
         links:
           - title: Lernlandkarte Englisch · Gerundium oder Infinitiv
             url: https://lernapps.net/apps/map/englisch/c/gerund-oder-infinitiv/
@@ -43,20 +43,22 @@ blocks:
 
           We did it! On Tuesday I climbed the tower. Here is how it went. I was scared, but I did not want to turn back.
 
-          After twenty steps I stopped to get my breath, because the stairs were very steep. Ellie waited with me. Then I stopped looking down, because that made my legs shake and my heart beat fast.
-      - type: definition
-        term: breath
-        explanation: der Atem
-      - type: definition
-        term: shake
-        explanation: zittern
+          After twenty steps I stopped to catch my breath, because the stairs were very steep. Ellie waited with me. Then I stopped looking down, because that made my legs shake and my heart beat fast.
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: catch your breath
+            source: wieder zu Atem kommen, Luft holen
+          - target: shake
+            source: zittern
       - type: single-choice
         id: wahl-zwischen-eins
         text: Warum hat Sophie nach zwanzig Stufen angehalten?
         options:
           - text: Sie wollte Luft holen.
             correct: true
-            info: "Sie schreibt, dass sie stopped to get her breath."
+            info: "Sie schreibt, dass sie stopped to catch her breath."
           - text: Sie wollte nicht mehr nach unten schauen.
             correct: false
             info: "Das macht sie danach: Sie hört auf, nach unten zu schauen. Angehalten hat sie, um Luft zu holen."
@@ -71,30 +73,38 @@ blocks:
       - type: text
         text: |
           I tried to stay calm, but my hands were wet. Then Ellie said, "Try counting the steps!" That helped a lot: one, two, three ... By step eighty I was almost happy. Ellie walked behind me and told me about her favourite films, and that helped too.
-      - type: definition
-        term: calm
-        explanation: ruhig
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: calm
+            source: ruhig
       - type: true-false
         id: wahl-zwischen-zwei
-        text: Das Zählen der Stufen hat Sophie geholfen.
+        text: Ellie hat beim Steigen von ihren Lieblingsfilmen erzählt.
         answer: true
-        explanation: Sophie schreibt, dass es sehr geholfen hat.
+        explanation: Ellie ging hinter Sophie und erzählte von ihren Lieblingsfilmen. Auch das hat Sophie geholfen.
         links:
           - title: Lernlandkarte Englisch · Gerundium oder Infinitiv
             url: https://lernapps.net/apps/map/englisch/c/gerund-oder-infinitiv/
       - type: text
         text: |
-          At the top I remembered to hold the handrail, just as I promised myself. The wind was cold, but I did not care. The whole town looked like a toy map. I will always remember standing up there with my friends. Next time I will try to climb it without any help. Perhaps!
-      - type: definition
-        term: promise
-        explanation: versprechen
+          At the top I remembered to hold the handrail, just as I promised myself. The wind was cold, but I did not care. The whole town looked like a toy town. I will always remember standing up there with my friends. Next time I will try to climb it without any help. Perhaps!
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: promise
+            source: versprechen
+          - target: a toy town
+            source: eine Spielzeugstadt
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
     blocks:
       - type: single-choice
         id: wahl-verstehen
-        text: Was hat Sophie geholfen, ruhiger zu werden?
+        text: Welchen Tipp von Ellie hat Sophie befolgt?
         options:
           - text: Sie hat die Stufen gezählt.
             correct: true
@@ -102,10 +112,10 @@ blocks:
           - text: Sie hat die Augen geschlossen.
             correct: false
             info: "Davon steht nichts im Blog."
-          - text: Sie hat mit Ellie die Plätze getauscht.
+          - text: Sie hat Ellie gebeten, vor ihr zu gehen.
             correct: false
-            info: "Ellie wartet nur mit ihr."
-        explanation: Das Zählen der Stufen hat geholfen.
+            info: "Ellie ging hinter Sophie, nicht vor ihr."
+        explanation: Sophie hat auf Ellies Tipp hin die Stufen gezählt.
         hint: Lies, was Ellie vorschlägt.
         links:
           - title: Lernlandkarte Englisch · Gerundium oder Infinitiv
@@ -147,8 +157,8 @@ blocks:
           Manche Loks können mit **to** oder mit **-ing** fahren. Der Wagen ist derselbe, aber die Bedeutung ändert sich. Das Bild zeigt es mit *remember*; in der Tabelle siehst du auch *stop* und *try*.
       - type: figure
         image: images/verbkette-zwei-wege.svg
-        alt: Zwei kleine Züge untereinander. Beide haben die blaue Lok remember. Im oberen Zug sitzt die rote Kupplung to und dahinter der gelbe Wagen call. Im unteren Zug sitzt die rote Kupplung -ing und dahinter der gelbe Wagen calling.
-        caption: "Dieselbe Lok, zwei Kupplungen: Oben steht to mit der Grundform, unten -ing mit dem Wagen."
+        alt: Zwei kleine Züge untereinander. Beide haben die blaue Lok remember. Im oberen Zug sitzt die rote Kupplung to und dahinter der gelbe Wagen call; darunter steht daran denken, anzurufen. Im unteren Zug sitzt die rote Kupplung -ing und dahinter der gelbe Wagen calling; darunter steht sich erinnern, angerufen zu haben.
+        caption: "Dieselbe Lok, zwei Kupplungen: Oben verlangt to die Grundform (daran denken, es zu tun), unten verlangt -ing die -ing-Form (sich erinnern, es getan zu haben)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -186,7 +196,7 @@ blocks:
         distractors:
           - Mrs Parker stops getting some bread.
         explanation: "Mit -ing geht es um die Handlung selbst (aufhören, sich erinnern). Mit to geht es um ein Ziel (anhalten, um etwas zu tun, daran denken, etwas zu tun)."
-        hint: Frag dich bei jedem Satz, ob etwas aufhört, ob jemand etwas vorhat oder ob jemand zurückdenkt.
+        hint: "Frag dich bei jedem Satz, ob etwas aufhört (stop + -ing), ob jemand etwas vorhat (stop oder remember + to) oder ob jemand zurückdenkt (remember + -ing)."
         links:
           - title: Lernlandkarte Englisch · Gerundium oder Infinitiv
             url: https://lernapps.net/apps/map/englisch/c/gerund-oder-infinitiv/
@@ -209,11 +219,11 @@ blocks:
           - cue: Probier es mal mit einem Wörterbuch.
             target: "Try [using] a dictionary."
             distractors: [["to use", "use"]]
-        hint: Frag dich, ob es um ein Ziel (to) oder um die Handlung selbst (-ing) geht.
+        hint: "Frag dich, ob es um ein Ziel (to) oder um die Handlung selbst (-ing) geht: Aufhören und Ausprobieren gehören zu -ing, daran denken und sich Mühe geben zu to. Nach to steht die Grundform ohne -ing, nach -ing die Form mit -ing."
       - type: ordering
         id: wahl-reihenfolge
         text: Baue die Verbkette Glied für Glied.
-        items: [Amir, always, remembers, to, lock, the, door.]
+        items: [Amir, remembers, to, lock, the, door.]
         explanation: Die Lok remembers, dann die Kupplung to, dann der Wagen lock.
         hint: Amir denkt daran, etwas zu tun. Das ist die Kupplung to.
         links:
@@ -226,7 +236,7 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Peter hörte auf, Computerspiele zu spielen.
-            target: Peter stopped playing computer games.
+            target: Peter stopped playing (computer|video) games.
             mistakes:
               - answer: Peter stopped to play computer games.
                 message: "Stop + to heißt „anhalten, um zu spielen“. Für „aufhören“ nimmst du -ing."
@@ -242,7 +252,7 @@ blocks:
               - answer: Remember take your umbrella.
                 message: "Hinter remember fehlt die Kupplung to."
           - source: Probier mal, etwas Salz in die Suppe zu geben.
-            target: Try putting some salt (in|into) the soup.
+            target: Try (putting|adding) some salt (in|into|to) the soup.
             mistakes:
               - answer: Try to put some salt in the soup.
                 message: "Try + to heißt „sich Mühe geben“. Zum Ausprobieren nimmst du try + -ing."
@@ -291,7 +301,7 @@ blocks:
           Yesterday we went to the lake. I stopped to take a photo of the sunset. I tried swimming in the cold water, but I stopped after a minute. I will always remember laughing with my friends.
   - type: section
     id: weiter
-    title: Rückblick auf die Verbkette
+    title: Wie es weitergeht
     blocks:
       - type: text
-        text: Sophie schaut auf ihre Kette zurück. Bei can und must sitzt nichts zwischen den Verben. Bei would like und nach in order sitzt to dazwischen. Bei enjoy sitzt -ing, hinter einer Präposition sitzt Präposition + -ing, und bei stop, remember und try entscheidet die Kupplung über die Bedeutung. Eine weitere Kupplung, be + 3. Form, lernst du später.
+        text: Sophie schaut auf ihre Kette zurück. Die Kupplung ist die Form, die die Lok vom Wagen verlangt. Bei can und must sitzt nichts zwischen den Verben. Bei would like und nach in order sitzt to dazwischen. Bei enjoy sitzt -ing, hinter einer Präposition sitzt Präposition + -ing, und bei stop, remember und try entscheidet die Kupplung über die Bedeutung. Im nächsten Kapitel lernst du das Passiv. Dort ist be die Lok, und der Wagen steht in der 3. Form (*Bread is made.*).

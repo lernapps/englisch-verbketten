@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Präposition + -ing: interested in und look forward to"
-description: Die Schulzeitung interviewt Amir über seinen neuen Club. Du lernst, dass nach einer Präposition die -ing-Form steht, auch nach look forward to.
+description: Die Millbrook Times interviewt Amir über seinen Plan für einen Gitarrenclub. Du lernst, dass nach einer Präposition die -ing-Form steht, auch nach look forward to.
 competencies: [gerund-nach-praepositionen]
-scope: "Die Seite zeigt, dass nach jeder Präposition (in, at, about, of, for, by, without, before, after, instead of) die -ing-Form steht, nie die Grundform und nie to + Grundform. Viele Ausdrücke sind feste Verbindungen aus Wort und Präposition (interested in, good at, afraid of, worried about, excited about, think about, dream of, thank you for). Die Kupplung ist dann Präposition + -ing. Bei look forward to ist to eine Präposition und keine Kupplung vor der Grundform; darum folgt -ing (I look forward to sleeping late). Probe, dass to eine Präposition ist: Man kann ein Nomen einsetzen (I look forward to the weekend). Das Lesestück ist ein erfundenes Interview der Schulzeitung mit Amir über einen Gitarrenclub. Der Unterschied zwischen to und -ing nach stop, remember und try folgt auf der nächsten Seite."
+scope: "Die Seite zeigt, dass nach jeder Präposition (in, at, about, of, for, by, without, before, after, instead of) die -ing-Form steht, nie die Grundform und nie to + Grundform. Viele Ausdrücke sind feste Verbindungen aus Wort und Präposition (interested in, good at, afraid of, worried about, excited about, think about, dream of, thank you for). Die Kupplung ist dann Präposition + -ing. Bei look forward to ist to eine Präposition und keine Kupplung vor der Grundform; darum folgt -ing (I look forward to sleeping late). Probe, dass to eine Präposition ist: Man kann ein Nomen einsetzen (I look forward to the weekend). Die Kupplung ist die Form, die die Lok vom Wagen verlangt: hier die Präposition und dann -ing. Das Lesestück ist ein erfundenes Interview der Millbrook Times mit Amir über seinen Plan für einen Gitarrenclub. Der Unterschied zwischen to und -ing nach stop, remember und try folgt auf der nächsten Seite."
 blocks:
   - type: section
     id: einstieg
@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: text
         text: |
-          Amir (13) hat an der Millbrook School einen Gitarrenclub gegründet. Die Schulzeitung „School Times“ möchte wissen, wie das kam. Du liest das Interview.
+          Amir (13, ein Freund aus der Klasse) möchte an der Millbrook School einen Gitarrenclub gründen. Die Schulzeitung „Millbrook Times“ hat ihn am Montag dazu interviewt. Du liest das Interview. In den Übungen kommen auch Sophie (13), Ellie (13, Sophies Gastschwester), Peter (11, Ellies kleiner Bruder), Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Mr Hill (der Englischlehrer) vor.
       - type: text
         text: "**Das kannst du danach:** Nach Präpositionen und in Ausdrücken wie interested in, good at oder look forward to die -ing-Form benutzen."
       - type: single-choice
         id: praeposition-start
-        text: "Du kennst die Kupplung -ing von enjoy. Welcher Satz ist richtig?"
+        text: "Peter spielt gern Schach. Welcher Satz sagt das richtig?"
         options:
           - text: Peter enjoys playing chess.
             correct: true
@@ -27,7 +27,7 @@ blocks:
             correct: false
             info: "Der Wagen braucht das -ing: playing."
         explanation: Nach enjoy sitzt die Kupplung -ing.
-        hint: Denk an die Seite zum Gerundium.
+        hint: "Das Verb enjoy gehört zu den Loks mit der Kupplung -ing. Schau, ob der Wagen -ing hat und ob ein to dazwischen sitzt."
         links:
           - title: Lernlandkarte Englisch · Gerundium nach Präpositionen
             url: https://lernapps.net/apps/map/englisch/c/gerund-nach-praepositionen/
@@ -37,16 +37,19 @@ blocks:
     blocks:
       - type: text
         text: |
-          **School Times:** Amir, you have started a guitar club at Millbrook School. How did that happen?
+          **Millbrook Times:** Amir, you want to start a guitar club at Millbrook School. How did you get the idea?
 
-          **Amir:** I was thinking about starting a club for months, but I was afraid of asking Mr Hill. I am very interested in making music with other people.
+          **Amir:** I had the idea months ago, but I was afraid of asking Mr Hill. I am very interested in making music with other people.
 
-          **School Times:** And then?
+          **Millbrook Times:** And then?
 
           **Amir:** I solved the problem by writing him a short email. He said yes in five minutes!
-      - type: definition
-        term: solve
-        explanation: lösen
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: solve
+            source: lösen
       - type: single-choice
         id: praeposition-zwischen-eins
         text: Wie hat Amir Mr Hill gefragt?
@@ -67,22 +70,23 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/gerund-nach-praepositionen/
       - type: text
         text: |
-          **School Times:** What do you do at the club?
+          **Millbrook Times:** What will you do at the club?
 
-          **Amir:** First we learn three easy chords. Some members are good at playing fast, others are better at writing songs. After playing for an hour, we talk about our mistakes.
+          **Amir:** First we will learn three easy chords. Some members are good at playing fast, others are better at writing songs. After playing for an hour, we will talk about our mistakes.
 
-          **School Times:** Do beginners have to be good at the guitar?
+          **Millbrook Times:** Do beginners have to be good at playing the guitar?
 
           **Amir:** Not at all! You can join without knowing anything. We are happy about every new member.
-      - type: definition
-        term: chord
-        explanation: der Akkord
-      - type: definition
-        term: member
-        explanation: das Mitglied
-      - type: definition
-        term: beginner
-        explanation: der Anfänger, die Anfängerin
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: a chord
+            source: der Akkord
+          - target: a member
+            source: das Mitglied
+          - target: a beginner
+            source: der Anfänger, die Anfängerin
       - type: true-false
         id: praeposition-zwischen-zwei
         text: Man muss schon gut Gitarre spielen können, um beim Club mitzumachen.
@@ -93,30 +97,32 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/gerund-nach-praepositionen/
       - type: text
         text: |
-          **School Times:** What are your plans?
+          **Millbrook Times:** What are your plans?
 
-          **Amir:** I am looking forward to organising a small concert in December. Instead of buying posters, we will make them ourselves. I am also thinking about asking Sophie to draw one.
+          **Amir:** I am looking forward to organising a small concert in December. Instead of buying posters, we will make them ourselves. I'm also thinking about playing a song myself.
 
-          **School Times:** Thank you for talking to us.
+          **Millbrook Times:** Thank you for talking to us.
 
-          **Amir:** Thanks! I am looking forward to seeing many new faces on Thursday.
-      - type: definition
-        term: organise
-        explanation: organisieren, planen und vorbereiten
-      - type: definition
-        term: instead of
-        explanation: anstatt
+          **Amir:** Thanks! The first meeting is on Thursday, and I am looking forward to seeing many new faces.
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: organise
+            source: organisieren, planen und vorbereiten
+          - target: instead of
+            source: anstatt
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
     blocks:
       - type: single-choice
         id: praeposition-verstehen
-        text: Was passiert im Club nach einer Stunde Spielen?
+        text: Was ist im Club nach einer Stunde Spielen geplant?
         options:
           - text: Die Mitglieder sprechen über ihre Fehler.
             correct: true
-            info: "Amir sagt: After playing for an hour, we talk about our mistakes."
+            info: "Amir sagt: After playing for an hour, we will talk about our mistakes."
           - text: Alle gehen nach Hause.
             correct: false
             info: "Davon sagt Amir nichts."
@@ -162,13 +168,13 @@ blocks:
     blocks:
       - type: text
         text: |
-          Nach einer **Präposition** (in, at, about, of, for, by, without, before, after, instead of) steht immer die -ing-Form, nie die Grundform und nie *to* + Grundform. Viele feste Ausdrücke bestehen aus einem Wort und einer Präposition: *interested in* (interessiert an), *good at* (gut in), *afraid of* (Angst vor), *worried about* (besorgt wegen), *excited about* (gespannt auf), *think about* (denken an), *dream of* (träumen von), *thank you for* (danke für). Die Kupplung ist dann **Präposition + -ing**.
+          Nach einer **Präposition** (in, at, about, of, for, by, without, before, after, instead of) steht immer die -ing-Form, nie die Grundform und nie *to* + Grundform. Viele feste Ausdrücke bestehen aus einem Wort und einer Präposition: *interested in* (interessiert an), *good at* (gut in), *afraid of* (Angst vor), *worried about* (besorgt wegen), *excited about* (gespannt auf), *think about* (denken an), *dream of* (träumen von), *thank you for* (danke für). Die Kupplung ist dann **Präposition + -ing**: die Form, die die Lok vom Wagen verlangt.
 
           **Vorsicht bei look forward to:** Hier ist *to* eine Präposition und keine Kupplung vor der Grundform. Probe: Du kannst ein Nomen einsetzen (*I look forward to the weekend*). Also folgt -ing: *I look forward to sleeping late.*
       - type: figure
         image: images/verbkette-praeposition.svg
-        alt: Ein kleiner Zug. Die blaue Lok trägt das Wort interested, dann folgt ein breiteres rotes Verbindungsstück mit den Zeichen in plus -ing, danach der gelbe Wagen mit dem Wort swimming.
-        caption: "Die Kupplung hat zwei Teile: erst die Präposition in, dann das -ing, das der Wagen trägt."
+        alt: Ein kleiner Zug. Die blaue Lok trägt das Wort interested, dann folgt ein breiteres rotes Verbindungsstück mit den Zeichen in plus -ing, danach der gelbe Wagen mit dem Wort swimming. Unter der Kupplung steht Präposition plus -ing, unter dem Wagen, dass er in der -ing-Form fährt.
+        caption: "Die Kupplung hat zwei Teile: erst die Präposition in, dann die Form -ing, die die Lok vom Wagen verlangt. Der Wagen fährt als swimming."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -194,8 +200,8 @@ blocks:
         id: praeposition-sortieren
         text: Welcher englische Satz passt zu welchem deutschen?
         pairs:
-          - left: Mrs Parker macht sich Sorgen, weil sie zu spät kommt.
-            right: Mrs Parker is worried about being late.
+          - left: Mrs Parker macht sich Sorgen, zu spät anzukommen.
+            right: Mrs Parker is worried about arriving late.
           - left: Ellie träumt davon, nach Australien zu reisen.
             right: Ellie dreams of travelling to Australia.
           - left: Sophie kocht gut.
@@ -206,7 +212,7 @@ blocks:
           - Sophie is good in cooking.
           - Amir leaves without to say goodbye.
         explanation: "Jede Präposition (about, of, at, without) fordert die -ing-Form, und jeder Ausdruck hat seine feste Präposition."
-        hint: Achte auf die Präposition vor dem Wagen und darauf, wie der Wagen endet.
+        hint: "Achte auf die Präposition vor dem Wagen und darauf, wie der Wagen endet: Nach about, of, at und without steht -ing, nie to + Grundform. Jeder Ausdruck hat seine feste Präposition, zum Beispiel good at, nicht good in."
         links:
           - title: Lernlandkarte Englisch · Gerundium nach Präpositionen
             url: https://lernapps.net/apps/map/englisch/c/gerund-nach-praepositionen/
@@ -229,7 +235,7 @@ blocks:
           - cue: Du lernst Wörter, indem du sie aufschreibst.
             target: "You learn words by [writing] them down."
             distractors: [["write", "to write"]]
-        hint: Nach einer Präposition steht immer die -ing-Form.
+        hint: "Nach einer Präposition (instead of, to bei look forward to, before, by) steht immer die -ing-Form. Die Grundform allein und to + Grundform sind dort falsch."
       - type: ordering
         id: praeposition-reihenfolge
         text: Baue die Verbkette Glied für Glied.
@@ -250,10 +256,12 @@ blocks:
             mistakes:
               - answer: Ellie is looking forward to visit her grandma.
                 message: "Das to hinter look forward ist eine Präposition. Danach steht -ing."
+              - answer: Ellie looks forward to visit her grandma.
+                message: "Nach look forward to steht to als Präposition, darum -ing: visiting."
               - answer: Ellie is looking forward visiting her grandma.
                 message: "Hinter forward fehlt die Präposition to."
           - source: Peter ist gut im Fotografieren.
-            target: Peter is good at taking photos.
+            target: Peter is good at taking (photos|pictures).
             mistakes:
               - answer: Peter is good in taking photos.
                 message: "Der Ausdruck heißt good at, nicht good in."
@@ -316,4 +324,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Dienstag fährt die Klasse zum Schloss. Sophie schreibt darüber am nächsten Tag in ihrem Blog. Auf der nächsten Seite liest du den Eintrag und lernst, dass bei stop, remember und try sowohl to als auch -ing möglich ist, aber mit anderer Bedeutung.
+        text: Am Dienstag fährt die Klasse zum Schloss. Sophie schreibt darüber am Mittwoch in ihrem Blog. Auf der nächsten Seite liest du den Eintrag und lernst, dass bei stop, remember und try sowohl to als auch -ing möglich ist, aber mit anderer Bedeutung.
