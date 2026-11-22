@@ -45,7 +45,7 @@ Sophie ist mit Mrs Parker im Café. Du lernst, wie du mit I'd like höflich best
 
 ### Im Café
 
-Bild: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?". Bildunterschrift: Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten.
+Bild: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?". Bildunterschrift: Von links nach rechts: Peter (der Kleine), Mrs Parker (rote Haare als Dutt, türkise Strickjacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten.
 
 Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker Peter und Sophie mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Jeder bestellt etwas.
 
