@@ -276,8 +276,6 @@ blocks:
             mistakes:
               - answer: Take photos is my hobby.
                 message: "Als Subjekt am Satzanfang braucht das Verb -ing."
-              - answer: To take photos is my hobby.
-                message: "Das geht auch, aber hier übst du die -ing-Form als Subjekt: Taking photos …"
               - answer: Taking photos are my hobby.
                 message: "Das Gerundium als Subjekt zählt wie eine einzelne Sache: Das Verb dahinter steht in der dritten Person Singular, also is."
               - answer: Takeing photos is my hobby.

@@ -239,8 +239,6 @@ blocks:
             mistakes:
               - answer: Yesterday Ellie could to stay up late.
                 message: "Nach could steht kein to."
-              - answer: Yesterday Ellie could stay up late.
-                message: "Für ein einmaliges Ereignis gestern nimmst du was allowed to."
               - answer: Yesterday Ellie was allowed stay up late.
                 message: "Hinter allowed fehlt die Kupplung to."
           - source: Peter muss morgen zum Zahnarzt.

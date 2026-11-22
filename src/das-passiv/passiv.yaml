@@ -130,13 +130,6 @@ blocks:
             source: mit einem Lied enden
             example:
               { target: "We finish every lesson with a game.", source: "Wir beenden jede Stunde mit einem Spiel." }
-          - target: invite
-            source: einladen
-            example:
-              {
-                target: "Ellie invited Sophie to her house.",
-                source: "Ellie hat Sophie zu sich nach Hause eingeladen.",
-              }
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -169,7 +162,7 @@ blocks:
           - text: A lot of food was sold at the stalls.
             correct: false
             info: Der Satz sagt nur, dass viel Essen verkauft wurde. Nach der Zeit wird nicht gefragt.
-          - text: The money is collected in a big jar.
+          - text: The money was collected in a big jar.
             correct: false
             info: Dieser Satz handelt vom Geld und nicht vom Kuchen.
         explanation: Der Satz mit in ten minutes belegt, dass der Kuchen schnell weg war.

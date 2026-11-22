@@ -128,6 +128,14 @@ blocks:
           **Amir:** Perfect, thank you! Now I feel much better.
 
           **Ellie:** See you on Saturday! :)
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: a caretaker
+            source: der Hausmeister
+          - target: wrap
+            source: einpacken, einwickeln
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -152,7 +160,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/passiv-zeiten/
       - type: single-choice
         id: zeiten-belegen
-        text: Welcher Satz aus dem Chat sagt, dass die Halle vor einer bestimmten Zeit nicht geöffnet werden darf?
+        text: Welcher Satz aus dem Chat sagt, dass die Halle vor einer bestimmten Zeit nicht geöffnet werden kann?
         options:
           - text: The hall can't be opened before that.
             correct: true

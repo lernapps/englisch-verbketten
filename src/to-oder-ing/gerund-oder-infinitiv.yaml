@@ -252,7 +252,7 @@ blocks:
               - answer: Remember take your umbrella.
                 message: "Hinter remember fehlt die Kupplung to."
           - source: Probier mal, etwas Salz in die Suppe zu geben.
-            target: Try (putting|adding) some salt (in|into|to) the soup.
+            target: Try (putting some salt in|adding some salt to) the soup.
             mistakes:
               - answer: Try to put some salt in the soup.
                 message: "Try + to heißt „sich Mühe geben“. Zum Ausprobieren nimmst du try + -ing."
@@ -304,4 +304,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Sophie schaut auf ihre Kette zurück. Die Kupplung ist die Form, die die Lok vom Wagen verlangt. Bei can und must sitzt nichts zwischen den Verben. Bei would like und nach in order sitzt to dazwischen. Bei enjoy sitzt -ing, hinter einer Präposition sitzt Präposition + -ing, und bei stop, remember und try entscheidet die Kupplung über die Bedeutung. Im nächsten Kapitel lernst du das Passiv. Dort ist be die Lok, und der Wagen steht in der 3. Form (*Bread is made.*).
+        text: Sophie schaut auf ihre Kette zurück. Die Kupplung ist die Form, die die Lok vom Wagen verlangt. Bei can und must sitzt nichts zwischen den Verben. Bei would like und nach in order sitzt to dazwischen. Bei enjoy sitzt -ing, hinter einer Präposition sitzt Präposition + -ing, und bei stop, remember und try entscheidet die Kupplung über die Bedeutung. Im nächsten Kapitel lernst du das Passiv. Dort ist be die Lok, und der Wagen steht in der dritten Form (*Bread is made.*).

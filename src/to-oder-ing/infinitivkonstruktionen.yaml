@@ -67,7 +67,7 @@ blocks:
         entries:
           - target: walking boots
             source: Wanderschuhe
-            note: Das Wort steht immer im Plural.
+            note: Das Wort steht meist im Plural (ein Paar Wanderschuhe).
       - type: single-choice
         id: infinitiv-zwischen-zwei
         text: Was zeigt Mrs Parker Sophie?
