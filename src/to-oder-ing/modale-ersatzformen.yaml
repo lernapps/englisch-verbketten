@@ -54,9 +54,9 @@ blocks:
         explanation: erlaubt
       - type: true-false
         id: ersatz-zwischendurch-eins
-        text: Sophie musste in Deutschland nie so früh aufstehen.
-        answer: true
-        explanation: In Deutschland musste sie nicht so früh aufstehen.
+        text: In Deutschland musste Sophie jeden Morgen sehr früh aufstehen.
+        answer: false
+        explanation: Sie musste dort nicht so früh aufstehen.
         links:
           - title: Lernlandkarte Englisch · Ersatzformen der Modalverben
             url: https://lernapps.net/apps/map/englisch/c/modale-ersatzformen/
@@ -146,43 +146,43 @@ blocks:
     blocks:
       - type: text
         text: |
-          *Can*, *must* und *may* haben keine Vergangenheit und keine Zukunft: *musted* oder *will must* gibt es nicht. Dafür gibt es Ersatzformen: **have to** für *must*, **be able to** für *can* und **be allowed to** für Erlaubnis. Ihre Lok *have* oder *be* hat selbst die Kupplung **to** und fährt in jede Zeit.
+          *Can*, *must* und *may* gibt es nur im Präsens (*could* ist eine Ausnahme): *musted* oder *will must* gibt es nicht. Dafür gibt es Ersatzformen: **have to** für *must*, **be able to** für *can* („fähig sein“) und **be allowed to** für Erlaubnis („erlaubt sein“). Bei *be able to* und *be allowed to* fährt *be* als Lok (*am*, *was*, *will be*) und *able* oder *allowed* gehört dazu. Immer sitzt die Kupplung **to** davor.
       - type: figure
         image: images/verbkette-ersatz.svg
         alt: Eine lange Verbkette. Die blaue Lok will zieht die zweite blaue Lok have, danach folgt die rote Kupplung to und der gelbe Wagen go.
-        caption: "Von links: Lok will, Lok have, Kupplung to, Wagen go. Jedes Glied zieht das nächste."
+        caption: "Von links: Lok will, dann have (Wagen von will und selbst Lok), Kupplung to, Wagen go."
         source: eigene Zeichnung
         licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Ersatzformen
+        header: [Modalverb, Gestern, Nächste Woche]
+        rows:
+          - [can, was able to, will be able to]
+          - [must, had to, will have to]
+          - [may (Erlaubnis), was allowed to, will be allowed to]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              Nach *have to*, *be able to* und *be allowed to* steht immer der Wagen in der Grundform: *Ellie has to go*, nicht *has to goes*. *Don't have to* heißt „muss nicht“ (*needn't*), *aren't allowed to* heißt „darf nicht“ (*mustn't*).
-      - type: table
-        caption: Klassenzimmer-Poster · Ersatzformen
-        header: [Modalverb, Gestern, Morgen]
-        rows:
-          - [can, was able to, will be able to]
-          - [must, had to, will have to]
-          - [may (Erlaubnis), was allowed to, will be allowed to]
+              Nach *have to*, *be able to* und *be allowed to* steht der Wagen ohne -s und ohne -ing: *Ellie has to go*, nicht *has to goes*. Verneinung und Frage gehen über die Lok: *didn't have to*, *wasn't able to*, *Were you able to …?*, *Will you be allowed to …?* *Don't have to* heißt „muss nicht“ (*needn't*), *aren't allowed to* heißt „darf nicht“ (*mustn't*).
   - type: section
     id: uebung
     title: Übung
     blocks:
       - type: matching
         id: ersatz-sortieren
-        text: Welche Ersatzform passt zu welcher Zeit?
+        text: Welcher englische Satz passt zu welchem deutschen?
         pairs:
-          - left: can, gestern
-            right: was able to
-          - left: must, gestern
-            right: had to
-          - left: may (Erlaubnis), gestern
-            right: was allowed to
-          - left: must, nächste Woche
-            right: will have to
-        distractors: [musted]
+          - left: Letzte Woche mussten wir Mathe lernen.
+            right: Last week we had to study maths.
+          - left: Gestern konnte Peter nicht kommen.
+            right: Yesterday Peter wasn't able to come.
+          - left: Gestern durfte Mrs Parker nicht parken.
+            right: Yesterday Mrs Parker wasn't allowed to park.
+          - left: Nächste Woche müssen wir packen.
+            right: Next week we will have to pack.
+        distractors: [Last week we musted study maths.]
         explanation: Die Ersatzformen bringen can, must und may in andere Zeiten.
         hint: Zeit und Bedeutung beachten.
         links:
@@ -224,21 +224,21 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Gestern durfte Ellie lange aufbleiben.
-            target: Yesterday Ellie was allowed to stay up late.
+            target: Yesterday Ellie (was allowed to|could) stay up late.
             mistakes:
               - answer: Yesterday Ellie could to stay up late.
                 message: "Für „durfte“ brauchst du eine Form von be allowed to."
               - answer: Yesterday Ellie was allowed stay up late.
                 message: "Hinter allowed fehlt die Kupplung to."
           - source: Peter muss morgen zum Zahnarzt.
-            target: Peter has to go to the dentist tomorrow.
+            target: Peter (has to|will have to) go to the dentist tomorrow.
             mistakes:
               - answer: Peter have to go to the dentist tomorrow.
                 message: "Bei Peter braucht have in der dritten Person ein -s: has."
               - answer: Peter must to go to the dentist tomorrow.
                 message: "Nach must steht kein to."
           - source: Wir konnten das Spiel nicht sehen.
-            target: We weren't able to see the match.
+            target: We (weren't able to|couldn't) see the (match|game).
             mistakes:
               - answer: We didn't can see the match.
                 message: "Can hat keine Vergangenheit mit did. Nimm be able to."
@@ -258,7 +258,7 @@ blocks:
           - audio: our-teacher-wasnt-allowed-to-park-here.mp3
             target: Our teacher (wasn't|was not) allowed to park here.
           - audio: you-will-have-to-bring-a-pencil-case.mp3
-            target: You (will|'ll) have to bring a pencil case.
+            target: You (will have|'ll have) to bring a pencil case.
           - audio: were-you-able-to-find-the-library.mp3
             target: Were you able to find the library?
   - type: section
@@ -293,4 +293,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Sophie schreibt noch lange mit Ellie. In ihrem Tagebuch steht, wie sie sich auf den Ausflug vorbereitet. Auf der nächsten Seite lernst du, wie man mit to sagt, wozu etwas gut ist.
+        text: Sophie chattet noch lange mit Ellie. Danach schreibt sie in ihr Tagebuch, wie sie sich auf den Ausflug vorbereitet. Auf der nächsten Seite liest du es und lernst, wie man mit to sagt, wozu etwas gut ist.
