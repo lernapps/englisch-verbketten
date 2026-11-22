@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das brauchst du hier
-description: Drei Bausteine aus anderen Explainern, die du für das Kapitel zum Passiv brauchst.
+description: Drei Themen, die du schon kennen solltest, bevor du mit dem Passiv anfängst.
 recap: [englisch/unregelmaessige-verben, englisch/to-be, englisch/present-perfect]
-scope: Die Seite wiederholt in drei Sätzen, was die Kinder aus anderen Explainern mitbringen sollen. Die unregelmäßigen Verben im simple past und in der dritten Form (go – went – gone). Die Formen von to be (am, is, are) in Aussagen, Verneinungen und Fragen. Das present perfect für das, was schon passiert ist, auch mit ever, never, already und yet. Sie enthält keine Übung und keinen neuen Stoff.
+scope: Die Seite wiederholt in drei Sätzen, was die Kinder aus früheren Themen mitbringen sollen. Die unregelmäßigen Verben im simple past und in der dritten Form (go – went – gone). Die Formen von to be (am, is, are) in Aussagen, Verneinungen und Fragen. Das present perfect für das, was schon passiert ist, auch mit ever, never, already und yet. Sie enthält keine Übung und keinen neuen Stoff.
 blocks:
   - type: text
     text: |
-      Bevor du mit dem Kapitel beginnst, frag dich, ob du diese drei Dinge schon kannst. Du übst sie hier nicht, sie stehen auf der Lernlandkarte. Die Modalverben und die Verbkette kennst du aus den ersten Kapiteln.
+      Bevor du mit dem Kapitel beginnst, frag dich, ob du diese drei Dinge schon kannst. Du übst sie hier nicht, sie stehen auf der Lernlandkarte. Die Modalverben und die Verbkette kennst du aus den ersten Kapiteln. Beim Passiv spielt die dritte Form eines Verbs die Hauptrolle: Der Wagen der Verbkette fährt immer in dieser Form.
 
       **Unregelmäßige Verben:** Du kannst die wichtigsten unregelmäßigen Verben im simple past und als dritte Form (go – went – gone) verwenden. Du brauchst sie für die Seite zum Passiv, denn der Wagen fährt dort in der dritten Form (*is made*).
 

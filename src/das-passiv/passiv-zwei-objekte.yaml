@@ -2,7 +2,7 @@
 title: "Das Passiv mit zwei Objekten: I was given a book"
 description: Sophie schreibt Tagebuch über ihren Geburtstag. Du lernst, wie du bei Verben mit zwei Objekten sagst, was dir gegeben, gezeigt oder erzählt wurde.
 competencies: [passiv-zwei-objekte]
-scope: Die Seite führt das persönliche Passiv ein. Verben wie give, show, tell, send, ask, teach, buy, bring, pay und offer haben zwei Objekte, eine Person und eine Sache (Mr Hill offered Ellie a seat). Im Passiv kann jedes der beiden Objekte nach vorn. Üblich ist die Person vorn (Ellie was offered a seat), die Sache folgt ohne to. Steht die Sache vorn, kommt die Person mit to dahinter (A seat was offered to Ellie). Die Lok richtet sich nach dem Wort vorn (I was, we were), der Wagen fährt in der dritten Form, der Täter kann mit by folgen oder wegfallen. Das Lesestück ist ein erfundener Tagebucheintrag von Sophie an ihrem 14. Geburtstag, dem 14. Oktober. Die Seite beschließt das Kapitel.
+scope: "Die Seite führt das persönliche Passiv ein. Verben wie give, offer, show, tell, send, hand, serve, lend, sell und pay haben zwei Objekte, eine Person und eine Sache (Mr Hill offered Ellie a seat). Im Passiv kann jedes der beiden Objekte nach vorn. Üblich ist die Person vorn (Ellie was offered a seat), die Sache folgt ohne to. Steht die Sache vorn, kommt die Person mit to dahinter (A seat was offered to Ellie). Bei buy und make kommt meist die Sache nach vorn, und die Person folgt mit for (A bag was bought for Amir); Amir was bought a bag klingt holprig. Die Lok richtet sich nach dem Wort vorn (I was, we were), die Kupplung zeigt wie auf den Seiten davor, dass die Lok vom Wagen die dritte Form verlangt, der Täter kann mit by folgen oder wegfallen. Das Lesestück ist ein erfundener Tagebucheintrag von Sophie an ihrem 14. Geburtstag, dem 14. Oktober; sie schreibt my mum and dad für ihre Eltern in Deutschland und Mrs Parker für ihre Gastmutter. Der Vokabelblock erklärt die Wörter des Textes. Die Seite beschließt das Kapitel und verweist auf die Selbsteinschätzung."
 blocks:
   - type: section
     id: einstieg
@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: text
         text: |
-          Sophie hat am 14. Oktober Geburtstag. Amir feiert zwei Tage früher, am 12. Oktober, und Ellie am 10. Juli. Am Abend schreibt Sophie in ihr Tagebuch, was ihr alles geschenkt, gezeigt und erzählt wurde.
+          Es ist der 14. Oktober, Sophie ist heute 14 geworden. Am Abend schreibt sie in ihr Tagebuch, was ihr an diesem Tag alles gegeben, gezeigt und erzählt wurde. Du kennst schon Mrs Parker (Sophies Gastmutter), Peter (11, Ellies Bruder), Amir, Ellie und Mr Hill. Neu sind Sophies Eltern in Deutschland: In ihrem Tagebuch schreibt sie von „my mum and dad“.
       - type: text
         text: "**Das kannst du danach:** bei Verben mit zwei Objekten das persönliche Passiv bilden (I was given a book.)."
       - type: single-choice
         id: zwei-objekte-start
-        text: "Im Satz *Mum gave me a book.* sind *me* und *a book* beide Objekte. Wer oder was ist die Person?"
+        text: "Im Satz „My mum gave me a book.“ sind „me“ und „a book“ beide Objekte. Wer oder was ist die Person?"
         options:
           - text: me
             correct: true
@@ -39,16 +39,22 @@ blocks:
         text: |
           **Dear diary,**
 
-          I'm fourteen today! The day started with a surprise. At breakfast I was given a warm scarf by Mrs Parker. Then I was told to close my eyes. When I opened them, I was shown a big chocolate cake with fourteen candles. Peter had decorated it himself.
-      - type: definition
-        term: surprise
-        explanation: die Überraschung
-      - type: definition
-        term: scarf
-        explanation: der Schal
-      - type: definition
-        term: candle
-        explanation: die Kerze
+          I'm fourteen today! The day started with a surprise. At breakfast I was given a warm scarf by Mrs Parker. Then Peter asked me to close my eyes. When I opened them, there was a big chocolate cake with fourteen candles. Peter made it himself.
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: a surprise
+            source: eine Überraschung
+          - target: a scarf
+            source: ein Schal
+          - target: a candle
+            source: eine Kerze
+          - target: give
+            source: geben, schenken
+            forms: [gave, given]
+            example:
+              { target: "My uncle gives me a book every year.", source: "Mein Onkel schenkt mir jedes Jahr ein Buch." }
       - type: true-false
         id: zwei-objekte-zwischen-eins
         text: Mrs Parker hat Sophie einen Schal geschenkt.
@@ -59,13 +65,22 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/passiv-zwei-objekte/
       - type: text
         text: |
-          At school Amir and Ellie were waiting for me. Amir had his birthday two days ago, so he knew exactly what to do. I was given a small box by him, and inside were two cinema tickets! Ellie's birthday is on 10 July, so she wanted to make my day special, too. I was shown a video by her: the whole class had sung "Happy Birthday" for me.
-      - type: definition
-        term: exactly
-        explanation: genau
-      - type: definition
-        term: special
-        explanation: besonders
+          At school Amir and Ellie were waiting for me. Amir had his birthday two days ago, so he knew exactly what to do. I was handed a small box by him, and inside were two cinema tickets! Then I was shown a video by Ellie: the whole class sang "Happy Birthday" for me.
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: hand
+            source: reichen, geben
+            example: { target: "Please hand me the salt.", source: "Reich mir bitte das Salz." }
+          - target: a ticket
+            source: eine Eintrittskarte
+            forms: [tickets]
+          - target: exactly
+            source: genau
+          - target: sing
+            source: singen
+            forms: [sang, sung]
       - type: single-choice
         id: zwei-objekte-zwischen-zwei
         text: Wer hat Sophie die Kinokarten gegeben?
@@ -86,7 +101,16 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/passiv-zwei-objekte/
       - type: text
         text: |
-          In the evening Mr Hill sent me a message. I was told that there is no homework for me on Friday, because it is my birthday week! Mum and Dad called from Germany, too. I was asked a hundred questions about the day. What a day! I was given so many nice things, but the best present was my friends.
+          In the evening Mr Hill sent me a message. I was told that there is no homework for me tonight, because it is my birthday! My mum and dad called from Germany, too. I was asked a hundred questions about the day. At dinner I was offered a second piece of cake, but I was too full. What a day! The best present was my friends.
+      - type: vocabulary
+        caption: Wörter zum Text
+        languages: { source: de, target: en }
+        entries:
+          - target: offer
+            source: anbieten
+            example: { target: "Can I offer you a cup of tea?", source: "Darf ich dir eine Tasse Tee anbieten?" }
+          - target: be full
+            source: satt sein
   - type: section
     id: verstehen
     title: Verstehen, belegen, meinen
@@ -111,19 +135,19 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/passiv-zwei-objekte/
       - type: single-choice
         id: zwei-objekte-belegen
-        text: Welcher Satz aus dem Tagebuch zeigt, dass Sophie zwei Tage nach Amir Geburtstag hat?
+        text: Welcher Satz aus dem Tagebuch zeigt, dass Sophie heute keine Hausaufgaben machen muss?
         options:
-          - text: Amir had his birthday two days ago, so he knew exactly what to do.
+          - text: I was told that there is no homework for me tonight, because it is my birthday!
             correct: true
-            info: Two days ago heißt „vor zwei Tagen“. Amirs Geburtstag war also zwei Tage vor Sophies.
-          - text: Ellie's birthday is on 10 July, so she wanted to make my day special, too.
+            info: No homework heißt „keine Hausaufgaben“, tonight heißt „heute Abend“.
+          - text: I was asked a hundred questions about the day.
             correct: false
-            info: Dieser Satz nennt Ellies Geburtstag und nicht Amirs.
-          - text: I was given a warm scarf by Mrs Parker.
+            info: Dieser Satz sagt, dass Sophie viele Fragen beantworten musste, und nicht, dass es keine Hausaufgaben gibt.
+          - text: I was handed a small box by him, and inside were two cinema tickets!
             correct: false
-            info: Dieser Satz sagt, was Sophie bekam, nicht wann Amir Geburtstag hat.
-        explanation: Der Satz mit two days ago zeigt, dass Amir zwei Tage vor Sophie Geburtstag hatte.
-        hint: Suche den Satz, in dem Amirs Geburtstag vorkommt.
+            info: Dieser Satz erzählt von dem Geschenk von Amir und nicht von Hausaufgaben.
+        explanation: Der Satz mit no homework zeigt, dass Sophie heute Abend nichts für die Schule tun muss.
+        hint: Suche das Wort homework.
         links:
           - title: Lernlandkarte Englisch · Das Passiv mit zwei Objekten
             url: https://lernapps.net/apps/map/englisch/c/passiv-zwei-objekte/
@@ -145,13 +169,21 @@ blocks:
         text: |
           Manche Verben haben zwei Objekte: eine **Person** und eine **Sache**. In *Mr Hill offered Ellie a seat* ist Ellie die Person und *a seat* die Sache. Im Passiv kann jedes der beiden Objekte nach vorn. Am häufigsten steht die Person vorn: *Ellie was offered a seat.* Die Sache bleibt hinter dem Verb, ohne to.
 
-          Die Verbkette ändert sich nicht: Die Lok ist eine Form von *be*, der Wagen fährt in der dritten Form. Neu ist nur, dass hinter dem Wagen noch die Sache steht.
+          Die Verbkette ändert sich nicht, im Bild siehst du sie unten: Die Lok ist eine Form von *be*, die Kupplung zeigt, dass die Lok vom Wagen die dritte Form verlangt (*offered*). Neu ist nur, dass hinter dem Wagen noch die Sache steht.
       - type: figure
         image: images/satz-zwei-objekte.svg
-        alt: Drei Zeilen. Oben der Satz im Aktiv, Mr Hill offered Ellie a seat. Darunter zwei Sätze im Passiv, einmal Ellie was offered a seat und einmal A seat was offered to Ellie, jeweils mit klein angehängtem by Mr Hill.
-        caption: "Die Person (lila) und die Sache (grün) können beide nach vorn. Steht die Sache vorn, folgt die Person mit to."
+        alt: Drei Zeilen. Oben der Satz im Aktiv, Mr Hill offered Ellie a seat. Darunter zwei Sätze im Passiv, einmal Ellie was offered a seat und einmal A seat was offered to Ellie, jeweils mit klein angehängtem by Mr Hill. Ganz unten die Verbkette der Passivsätze, die blaue Lok was, die rosa Kupplung 3. Form und der gelbe Wagen offered.
+        caption: "Die Person und die Sache können beide nach vorn. Steht die Sache vorn, folgt die Person mit to. Unten siehst du die Verbkette: Lok was, Kupplung 3. Form, Wagen offered."
         source: eigene Zeichnung
         licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Das Passiv
+        header: [Satz, Wer oder was steht vorn?]
+        rows:
+          - [Ellie was offered a seat., die Person]
+          - [I was offered a seat by Mr Hill., die Person (mit Täter)]
+          - [A seat was offered to Ellie., die Sache (Person mit to)]
+          - [A bag was bought for Amir., die Sache (Person mit for)]
       - type: note
         title: Merke
         blocks:
@@ -161,14 +193,9 @@ blocks:
 
               **Sache vorn:** *Sache + be + dritte Form + to + Person.* Das klingt seltener: *A seat was offered to me.*
 
-              Die Lok richtet sich nach dem Wort vorn (*I was*, *we were*, *he was*). Den Täter schließt du mit by an oder lässt ihn weg. Das geht nur bei Verben mit zwei Objekten, zum Beispiel *give, show, tell, send, ask, teach, buy, bring, pay*.
-      - type: table
-        caption: Klassenzimmer-Poster · Das Passiv
-        header: [Satz, Wer oder was steht vorn?]
-        rows:
-          - [Ellie was offered a seat., die Person]
-          - [I was offered a seat by Mr Hill., die Person (mit Täter)]
-          - [A seat was offered to Ellie., die Sache]
+              Das persönliche Passiv klingt natürlich bei *give, offer, show, tell, send, hand, serve, lend, sell, pay*. Bei *buy* und *make* kommt meist die Sache nach vorn, und die Person folgt mit **for**: *A bag was bought for Amir.* Holprig klingt dagegen *Amir was bought a bag.*
+
+              Die Lok richtet sich nach dem Wort vorn (*I was*, *we were*, *he was*). Den Täter schließt du mit by an oder lässt ihn weg.
   - type: section
     id: uebung
     title: Übung
@@ -179,13 +206,18 @@ blocks:
         pairs:
           - left: Mr Hill sent Amir an email.
             right: Amir was sent an email by Mr Hill.
-          - left: Mrs Parker made Peter a sandwich.
-            right: Peter was made a sandwich by Mrs Parker.
+          - left: Mrs Parker showed Peter the way.
+            right: Peter was shown the way by Mrs Parker.
           - left: Ellie told Peter a secret.
             right: Peter was told a secret by Ellie.
-        distractors: [Amir was send an email by Mr Hill., Peter were told a secret by Ellie.]
+        distractors:
+          [
+            Amir was send an email by Mr Hill.,
+            Peter were told a secret by Ellie.,
+            Peter was showed the way by Mrs Parker.,
+          ]
         explanation: Die Person steht vorn, dann folgen be und die dritte Form, danach die Sache und zuletzt der Täter mit by.
-        hint: Achte auf die Lok und auf die dritte Form.
+        hint: Achte darauf, ob eins oder mehrere vorn stehen, und ob der Wagen in der dritten Form fährt.
         links:
           - title: Lernlandkarte Englisch · Das Passiv mit zwei Objekten
             url: https://lernapps.net/apps/map/englisch/c/passiv-zwei-objekte/
@@ -196,19 +228,20 @@ blocks:
         task: Welche Form gehört in die Lücke?
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Amir wurde eine Tasche gekauft.
-            target: "Amir [was bought] a bag."
-            distractors: [[were bought, was buyed]]
-          - cue: Ellie wurde ein Glas Wasser gebracht.
+          - cue: Amir bekam ein Buch geliehen.
+            target: "Amir [was lent] a book."
+            distractors: [[were lent, was lended]]
+          - cue: Ellie bekam ein Glas Wasser gebracht.
             target: "Ellie [was brought] a glass of water."
             distractors: [[were brought, was bring]]
           - cue: Den Kindern wird ein Film gezeigt.
             target: "The children [are shown] a film."
             distractors: [[is shown, are show]]
-          - cue: Uns wurden zehn Pfund bezahlt.
-            target: "We [were paid] ten pounds."
-            distractors: [[was paid, were pay]]
-        hint: Schau, welche Person vorn steht und ob der Wagen in der dritten Form fährt.
+          - cue: Uns wurde ein Zimmer angeboten.
+            target: "We [were offered] a room."
+            distractors: [[was offered, were offer]]
+        hint: "Prüfe: Steht vorn eine Person (was, is) oder stehen mehrere vorn (were, are)? Zeigt die Lok die Vergangenheit oder die Gegenwart? Und fährt der Wagen in der dritten Form, nicht in der Grundform und nicht mit angehängtem -ed, wenn das Verb unregelmäßig ist?"
+        explanation: Die Lok richtet sich nach dem Wort vorn und nach der Zeit, der Wagen fährt in der dritten Form, und die Sache steht dahinter.
       - type: ordering
         id: zwei-objekte-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
@@ -233,6 +266,8 @@ blocks:
                 message: "Peter ist einer, darum braucht die Lok was, nicht were."
               - answer: Peter given a ticket.
                 message: "Die Lok fehlt. Vor given muss was stehen."
+              - answer: Peter was gived a ticket.
+                message: "Give ist unregelmäßig: Die dritte Form heißt given, nicht gived."
           - cue: Mr Hill asked Ellie a hard question.
             target: Ellie was asked a hard question( by Mr Hill|).
             mistakes:
@@ -241,6 +276,8 @@ blocks:
               - answer: Ellie were asked a hard question.
                 message: "Ellie ist eine Person, darum braucht die Lok was, nicht were."
               - answer: Ellie was asked to a hard question.
+                message: "Vor der Sache steht kein to."
+              - answer: Ellie was asked by Mr Hill to a hard question.
                 message: "Vor der Sache steht kein to."
           - cue: Mr Hill taught the class a new song.
             target: The class (was|were) taught a new song( by Mr Hill|).
@@ -280,7 +317,7 @@ blocks:
         hint: Hör zuerst zu, sprich dann nach und vergleiche.
       - type: open-task
         id: zwei-objekte-anwenden
-        task: "Schreibe einen kurzen Tagebucheintrag über einen schönen Tag (er darf erfunden sein). Benutze drei Sätze im Passiv mit zwei Objekten: Was wurde dir gegeben, gezeigt oder erzählt? Die Person (I) soll vorn stehen."
+        task: "Schreibe einen kurzen Tagebucheintrag über einen schönen Tag (er darf erfunden sein). Benutze drei Sätze im Passiv mit zwei Objekten, zum Beispiel mit give, show, tell, offer oder send: Was wurde dir gegeben, gezeigt oder erzählt? Die Person (I) soll vorn stehen."
         points:
           - text: Drei Sätze im Passiv mit I (oder we) vorn.
             source: /das-passiv/passiv-zwei-objekte/#neu
@@ -295,4 +332,4 @@ blocks:
     title: Rückblick auf die Kette
     blocks:
       - type: text
-        text: Du hast jetzt eine weitere Kupplung. Das Passiv hat die Lok be, die Kupplung dritte Form und den Wagen, und es passt in jede Zeit und hinter jedes Modalverb. Bei Verben mit zwei Objekten steht die Person vorn. Damit kennst du die wichtigsten Verbketten im Englischen.
+        text: "Damit kennst du die Verbketten dieses Kapitels. Beim Passiv ist be die Lok, und die Kupplung zeigt, dass die Lok vom Wagen die dritte Form verlangt. Das Passiv passt in jede Zeit und hinter jedes Modalverb, und bei Verben mit zwei Objekten steht meist die Person vorn (I was given a scarf). Wie sicher du schon bist, kannst du auf der Seite zur Selbsteinschätzung dieses Kapitels prüfen."
