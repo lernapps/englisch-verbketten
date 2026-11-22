@@ -51,11 +51,8 @@ Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker die Kinder mit in ein
 
 Klassenzimmer-Poster · Neue Wörter:
 - Wort | Bedeutung
-- tea | Tee
-- juice | Saft
 - biscuit | Keks
 - sandwich | belegtes Brot
-- please | bitte
 - sit | sitzen
 - open the window | das Fenster öffnen
 - carry my bag | meine Tasche tragen
@@ -110,11 +107,12 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 
 ### Aufgabe would-like-start
 
-- Aufgabe: Welche Bestellung klingt freundlicher?
+- Aufgabe: Welche Bestellung klingt am freundlichsten?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ I'd like a tea, please. – Hier steht please, und I'd like heißt „ich hätte gern“. So bestellst du höflich.
   - ✗ I want a biscuit. – I want heißt „ich will“. Das klingt beim Bestellen fordernd.
+  - ✗ Give me a biscuit. – Give me ist ein Befehl („gib mir“). Das klingt unfreundlich.
 - Lösung: I'd like a tea, please.
 - Erklärung: I'd like klingt freundlicher als I want, vor allem mit please.
 - Tipp der App: Welcher Satz klingt, als würdest du etwas fordern, und welcher, als würdest du bitten?
@@ -136,7 +134,7 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich möchte nach Hause gehen. → I'd like to go home.
-2. Ich möchte, dass du mir hilfst, Peter. → Peter, I'd like you to help me.
+2. Amir, ich möchte, dass du singst. → Amir, I'd like you to sing.
 3. Sie möchte singen. → She would like to sing.
 4. Ellie, möchtest du einen Saft? → Ellie, would you like a juice?
 - Tipp der App: Manchmal fehlt die Kupplung, manchmal die Lok selbst. Schau, was zum Satz passt.
@@ -177,9 +175,9 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → I'd like to sit here. (auch richtig: I would like to sit here.)
-2. Audio → Would you like a biscuit?
-3. Audio → I'd like you to help me. (auch richtig: I would like you to help me.)
+1. Audio → Would you like a sandwich?
+2. Audio → Peter would like a biscuit, please.
+3. Audio → I'd like to sit with you. (auch richtig: I would like to sit with you.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#would-like-hoeren](../?via=tutor#would-like-hoeren)
@@ -189,9 +187,9 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I'd like a tea, please.
-2. Audio → I'd like to play tennis.
-3. Audio → Would you like a juice?
+1. Audio → Would you like to sit here?
+2. Audio → Ellie would like to sit with Amir.
+3. Audio → I'd like you to open the window.
 - Tipp der App: Hör zuerst zu, sprich dann nach und vergleiche.
 - Link: [../?via=tutor#would-like-nachsprechen](../?via=tutor#would-like-nachsprechen)
 

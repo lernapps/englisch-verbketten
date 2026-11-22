@@ -47,21 +47,15 @@ Sophie liest Schilder im Flur der Millbrook School. Du lernst, wie can, must und
 
 Bild: Sophie, Peter und Amir stehen im Flur der Millbrook School. An der Wand hängen zwei Schilder. Auf dem einen steht "You mustn't run here.", auf dem anderen "You must wear a uniform.". Bildunterschrift: Von links nach rechts: Sophie (mit den Zöpfen), Peter (der Kleine) und Amir (mit Brille). An der Wand hängen zwei Schilder.
 
-Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf den Schildern stehen Wörter für etwas, das man tut, zum Beispiel *run* (rennen) und *wear* (tragen). Solche Wörter heißen Verben. Die Wörter in der Tabelle brauchst du gleich bei der ersten Aufgabe und später in den Übungen.
+Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf den Schildern stehen Wörter für etwas, das man tut, zum Beispiel *run* (rennen) und *wear* (tragen). Solche Wörter heißen Verben. Die Wörter in der Tabelle brauchst du in den Übungen.
 
 Klassenzimmer-Poster · Neue Wörter:
 - Wort | Bedeutung
 - run | rennen
-- play | spielen
 - wear | tragen
 - uniform | Uniform
-- here | hier
 - coat | Mantel
-- swim | schwimmen
-- sing | singen
-- play football | Fußball spielen
 - ask | fragen
-- speak German | Deutsch sprechen
 - help | helfen
 
 **Das kannst du danach:** Mit can, can't, must, mustn't und needn't sagen, was jemand kann, was erlaubt oder verboten ist und was jemand tun muss oder nicht tun muss. Du siehst auch, wie das zweite Verb danach steht.
@@ -117,14 +111,15 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 ### Aufgabe can-must-start
 
-- Aufgabe: Peter rennt durch den Flur. Welches Schild gilt für ihn?
+- Aufgabe: Sophie sagt: „I can swim.“ (swim heißt schwimmen.) Was sagt sie?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ You mustn't run here. – Run heißt rennen, das passt zu Peter.
-  - ✗ You must wear a uniform. – Wear heißt tragen, hier geht es nicht ums Rennen.
-- Lösung: You mustn't run here.
-- Erklärung: Auf dem Schild steht run, und Peter rennt.
-- Tipp der App: Suche auf dem Poster das Wort, das zu rennen passt.
+  - ✓ Ich kann schwimmen. – Can steht vor swim und sagt, was jemand kann.
+  - ✗ Ich muss schwimmen. – Für „muss“ steht im Englischen ein anderes Wort, nicht can.
+  - ✗ Ich schwimme nicht. – In Sophies Satz steht kein not und kein n't, es ist keine Verneinung.
+- Lösung: Ich kann schwimmen.
+- Erklärung: Sophie sagt, was sie kann. Danach folgt das zweite Verb ohne Kupplung.
+- Tipp der App: Welches deutsche Wort passt zu can?
 - Link: [../?via=tutor#can-must-start](../?via=tutor#can-must-start)
 
 ### Aufgabe can-must-sortieren
@@ -201,9 +196,9 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → You must wear a uniform.
-2. Audio → You mustn't run here. (auch richtig: You must not run here.)
-3. Audio → Amir can play football.
+1. Audio → We can play football here.
+2. Audio → Amir must ask Ellie.
+3. Audio → Can Peter help Ellie?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#can-must-hoeren](../?via=tutor#can-must-hoeren)
@@ -213,9 +208,9 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Peter can swim.
-2. Audio → Can you help me?
-3. Audio → You needn't wear a coat.
+1. Audio → You can't sing here.
+2. Audio → Must I wear a coat?
+3. Audio → Ellie needn't wear a uniform.
 - Tipp der App: Hör zuerst zu, sprich dann nach und vergleiche.
 - Link: [../?via=tutor#can-must-nachsprechen](../?via=tutor#can-must-nachsprechen)
 
