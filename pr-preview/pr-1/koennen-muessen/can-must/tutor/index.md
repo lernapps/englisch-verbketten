@@ -55,8 +55,6 @@ Klassenzimmer-Poster · Neue Wörter:
 - wear | tragen
 - uniform | Uniform
 - coat | Mantel
-- ask | fragen
-- help | helfen
 
 **Das kannst du danach:** Mit can, can't, must, mustn't und needn't sagen, was jemand kann, was erlaubt oder verboten ist und was jemand tun muss oder nicht tun muss. Du siehst auch, wie das zweite Verb danach steht.
 
@@ -64,26 +62,28 @@ Klassenzimmer-Poster · Neue Wörter:
 
 ### Die Verbkette hat hier keine Kupplung
 
-Stell dir einen kleinen Zug vor. Die **Lok** ist das erste Verb, zum Beispiel *can*. Sie zieht den **Wagen**, das zweite Verb, zum Beispiel *swim*. Zwischen Lok und Wagen kann eine **Kupplung** sitzen. Welche, bestimmt die Lok. Zusammen heißt das **Verbkette**. Eine Kupplung kann zum Beispiel *to* sein, wie in *I'd like to swim*. Das lernst du auf der dritten Seite. Bei *can* und *must* sitzt keine Kupplung dazwischen. Sie heißen Modalverben: Sie sagen, ob etwas geht, sein muss oder erlaubt ist.
+Stell dir einen kleinen Zug vor. Die **Lok** ist das erste Verb, zum Beispiel *can*. Sie zieht den **Wagen**, das zweite Verb, zum Beispiel *swim*. Zwischen Lok und Wagen kann eine **Kupplung** sitzen. Welche, bestimmt die Lok. Zusammen heißt das **Verbkette**. Eine Kupplung kann zum Beispiel *to* sein, wie in *I'd like to swim*. Das lernst du auf der dritten Seite.
+
+Bei *can* und *must* sitzt keine Kupplung dazwischen. Sie heißen Modalverben: Sie sagen, ob etwas geht, sein muss oder erlaubt ist.
 
 Bild: Ein kleiner Zug. Die blaue Lok trägt das Wort can, der gelbe Wagen das Wort swim. Zwischen ihnen sitzt keine Kupplung. Bildunterschrift: Blau ist die Lok, gelb der Wagen. Schau, was zwischen den beiden Wörtern steht: nichts, auch kein to.
 
 **Merke: Merke**
 
-Can und must bekommen **nie ein -s**: *Amir can sing*, auch bei Amir oder Ellie. Dazwischen steht **kein to**: *Peter must run*. Can heißt „kann“, manchmal auch „darf“. Eine Frage fängt mit can an, ohne das Hilfswort do: *Can you play?*
+Can und must bekommen **nie ein -s**: *Amir can dance*, auch bei Amir oder Ellie. Dazwischen steht **kein to**: *Peter must run*. Can heißt „kann“, manchmal auch „darf“. Eine Frage fängt mit can an, ohne das Hilfswort do: *Can you play?*
 
 Klassenzimmer-Poster · Modalverben:
 - Ausdruck | Bedeutung
-- Amir can sing. | Amir kann singen. (Das kann er.)
-- Amir can't sing. | Amir kann nicht singen. (Das kann er nicht.)
-- Can I ask a question? | Darf ich eine Frage stellen? (Du fragst, ob es erlaubt ist.)
+- Amir can dance. | Amir kann tanzen. (Das kann er.)
+- Ellie can't sing. | Ellie kann nicht singen. (Das kann sie nicht.)
+- Can I open the door? | Darf ich die Tür öffnen? (Du fragst, ob es erlaubt ist.)
 - You must wear a uniform. | Du musst eine Uniform tragen. (Das ist Pflicht.)
 - You mustn't run here. | Du darfst hier nicht rennen. (Das ist verboten.)
 - You needn't wear a coat. | Du musst keinen Mantel tragen. (Das musst du nicht tun.)
 
 **Merke: Vorsicht bei „nicht müssen“**
 
-Im Deutschen verwechselt man „nicht müssen“ leicht mit „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Amir can't sing*) und „darf nicht“ (*You can't run here*).
+Im Deutschen verwechselt man „nicht müssen“ leicht mit „nicht dürfen“. Auf Englisch sind es zwei Ausdrücke. **Mustn't** ist ein Verbot: Du darfst es nicht. **Needn't** heißt, dass du es nicht tun musst, aber du darfst es. **Can't** kann beides sein: „kann nicht“ (*Ellie can't sing*) und „darf nicht“ (*You can't run here*).
 
 ### Übung
 
@@ -126,7 +126,7 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 - Aufgabe: Welcher englische Satz passt zu welchem deutschen?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Ellie kann singen. – Ellie can sing.; Peter muss eine Uniform tragen. – Peter must wear a uniform.; Du darfst hier nicht spielen. – You mustn't play here.; Amir muss nicht fragen. – Amir needn't ask.
+- Lösung: Peter kann Deutsch sprechen. – Peter can speak German.; Sophie muss Peter helfen. – Sophie must help Peter.; Du darfst hier nicht essen. – You mustn't eat here.; Amir muss die Tasche nicht tragen. – Amir needn't carry the bag.
 - Erklärung: Can heißt „kann“, must „muss“, mustn't „darf nicht“ und needn't „muss nicht“.
 - Tipp der App: Kann, muss, darf nicht oder muss nicht?
 - Link: [../?via=tutor#can-must-sortieren](../?via=tutor#can-must-sortieren)
@@ -137,8 +137,8 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ellie kann singen. → Ellie can sing.
-2. Peter muss helfen. → Peter must help.
+1. Ellie kann Fußball spielen. → Ellie can play football.
+2. Peter muss Amir fragen. → Peter must ask Amir.
 3. Ellie, kannst du mir helfen? → Ellie, can you help me?
 4. Peter kann nicht schwimmen. → Peter can't swim.
 - Tipp der App: Schau, was zwischen den Verben steht, und ob der Satz „nicht“ sagt.
@@ -147,7 +147,7 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 ### Aufgabe can-must-needn
 
-- Aufgabe: Ellie darf Peter helfen, muss es aber nicht. Welcher Satz passt?
+- Aufgabe: Ellie darf Amir helfen, muss es aber nicht. Welcher Satz passt?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Ellie needn't help. – Needn't heißt „muss nicht“: Es ist erlaubt, aber nicht nötig.
@@ -162,8 +162,8 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 
 - Aufgabe: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
 - Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
-- Lösung: 1. Amir, 2. can, 3. speak, 4. German.
-- Erklärung: Erst kommt wer, dann die Lok can, dann der Wagen speak und zuletzt, was gesprochen wird.
+- Lösung: 1. Amir, 2. must, 3. read, 4. the, 5. book.
+- Erklärung: Erst kommt wer, dann die Lok must, dann der Wagen read und zuletzt, was gelesen wird.
 - Tipp der App: Wer kann etwas? Danach kommen Lok und Wagen.
 - Link: [../?via=tutor#can-must-reihenfolge](../?via=tutor#can-must-reihenfolge)
 
@@ -173,18 +173,18 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter kann schwimmen. → Peter can swim.
-     - Peter cans swim.: Can bekommt nie ein -s, auch nicht bei Peter.
-     - Peter can to swim.: Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to.
-2. Peter muss eine Uniform tragen. → Peter must wear a uniform.
-     - Peter must to wear a uniform.: Zwischen must und dem zweiten Verb sitzt keine Kupplung, auch kein to.
-     - Peter musts wear a uniform.: Must bekommt nie ein -s.
-3. Du darfst hier nicht spielen. → You mustn't play here. (auch richtig: You can't play here.; You must not play here.; You cannot play here.)
+1. Ellie kann zeichnen. → Ellie can draw.
+     - Ellie cans draw.: Can bekommt nie ein -s, auch nicht bei Ellie.
+     - Ellie can to draw.: Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to.
+2. Du musst zuhören. → You must listen.
+     - You must to listen.: Zwischen must und dem zweiten Verb sitzt keine Kupplung, auch kein to.
+     - You musts listen.: Must bekommt nie ein -s.
+3. Du darfst hier nicht spielen. → You mustn't play here. (auch richtig: You must not play here.; You can't play here.; You can not play here.; You cannot play here.)
      - You don't must play here.: Es gibt kein don't must. Schau auf das Poster, welches Wort „darf nicht“ heißt.
-4. Kannst du mir helfen? → Can you help me? (auch richtig: Could you help me?)
-     - Do you can help me?: Can braucht kein do. In einer Frage steht can selbst vorn.
-     - Can you to help me?: Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to.
-5. Amir muss nicht fragen. → Amir needn't ask. (auch richtig: Amir need not ask.; Amir doesn't have to ask.; Amir doesn't need to ask.)
+4. Kannst du Peter helfen? → Can you help Peter? (auch richtig: Could you help Peter?)
+     - Do you can help Peter?: Can braucht kein do. In einer Frage steht can selbst vorn.
+     - Can you to help Peter?: Zwischen can und dem zweiten Verb sitzt keine Kupplung, auch kein to.
+5. Amir muss nicht fragen. → Amir needn't ask. (auch richtig: Amir need not ask.; Amir doesn't have to ask.; Amir doesn't need to ask.; Amir does not have to ask.; Amir does not need to ask.)
      - Amir mustn't ask.: Mustn't ist ein Verbot („darf nicht“). Amir darf fragen, er muss nur nicht.
      - Amir don't must ask.: Es gibt kein don't must. Schau auf das Poster, welches Wort „muss nicht“ heißt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -196,9 +196,9 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → We can play football here.
-2. Audio → Amir must ask Ellie.
-3. Audio → Can Peter help Ellie?
+1. Audio → We can walk to school.
+2. Audio → Sophie can't cook.
+3. Audio → Must we wait here?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#can-must-hoeren](../?via=tutor#can-must-hoeren)
@@ -208,9 +208,9 @@ Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tu
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → You can't sing here.
-2. Audio → Must I wear a coat?
-3. Audio → Ellie needn't wear a uniform.
+1. Audio → Can you write your name?
+2. Audio → We needn't clean the board.
+3. Audio → You mustn't shout.
 - Tipp der App: Hör zuerst zu, sprich dann nach und vergleiche.
 - Link: [../?via=tutor#can-must-nachsprechen](../?via=tutor#can-must-nachsprechen)
 

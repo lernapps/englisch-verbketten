@@ -47,13 +47,11 @@ Sophie ist mit Mrs Parker im Café. Du lernst, wie du mit I'd like höflich best
 
 Bild: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?". Bildunterschrift: Von links nach rechts: Peter (der Kleine), Mrs Parker (braune Haare mit Dutt, lila Jacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten.
 
-Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker die Kinder mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Auch Ellie und Amir sind dabei. Jeder bestellt etwas.
+Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker Peter und Sophie mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Jeder bestellt etwas.
 
 Klassenzimmer-Poster · Neue Wörter:
 - Wort | Bedeutung
-- biscuit | Keks
-- sandwich | belegtes Brot
-- sit | sitzen
+- banana | Banane
 - open the window | das Fenster öffnen
 - carry my bag | meine Tasche tragen
 
@@ -122,7 +120,7 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 
 - Aufgabe: Welcher englische Satz passt zu welcher Situation?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Amir bestellt höflich ein belegtes Brot. – I'd like a sandwich, please.; Ellie möchte das Fenster öffnen. – Ellie would like to open the window.; Peter möchte, dass Sophie seine Tasche trägt. – I'd like you to carry my bag.
+- Lösung: Amir bestellt höflich eine Banane. – I'd like a banana, please.; Ellie möchte das Fenster öffnen. – Ellie would like to open the window.; Peter möchte, dass Sophie seine Tasche trägt. – I'd like you to carry my bag.
 - Erklärung: Vor einem Nomen steht keine Kupplung, vor einem Verb steht to, und eine andere Person steht vor dem to.
 - Tipp der App: Frag dich, ob danach ein Nomen, ein Verb oder eine Person mit Verb folgt.
 - Link: [../?via=tutor#would-like-sortieren](../?via=tutor#would-like-sortieren)
@@ -136,8 +134,8 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 1. Ich möchte nach Hause gehen. → I'd like to go home.
 2. Amir, ich möchte, dass du singst. → Amir, I'd like you to sing.
 3. Sie möchte singen. → She would like to sing.
-4. Ellie, möchtest du einen Saft? → Ellie, would you like a juice?
-- Tipp der App: Manchmal fehlt die Kupplung, manchmal die Lok selbst. Schau, was zum Satz passt.
+4. Ellie, möchtest du ein Sandwich? → Ellie, would you like a sandwich?
+- Tipp der App: Schau, ob eine Kupplung fehlt, ob would ein -s braucht und womit die Frage anfängt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#would-like-kupplung](../?via=tutor#would-like-kupplung)
 
@@ -156,16 +154,16 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ich hätte gern einen Saft, bitte. → I'd like a juice, please. (auch richtig: I would like a juice, please.)
-     - I want a juice, please.: I want heißt „ich will“. Für „ich hätte gern“ brauchst du die höfliche Lok.
+1. Ich hätte gern einen Apfel, bitte. → I'd like an apple, please. (auch richtig: I would like an apple, please.)
+     - I want an apple, please.: I want heißt „ich will“. Für „ich hätte gern“ brauchst du die höfliche Lok.
 2. Ich möchte Fußball spielen. → I'd like to play football. (auch richtig: I would like to play football.)
      - I'd like play football.: Zwischen would like und dem zweiten Verb fehlt die Kupplung to.
      - I like to play football.: I like heißt „ich mag“. Für „ich möchte“ brauchst du I'd like.
 3. Ich möchte, dass du Peter fragst. → I'd like you to ask Peter. (auch richtig: I would like you to ask Peter.)
      - I'd like that you ask Peter.: Auf Englisch gibt es dort kein that. Die Person steht vor der Kupplung to.
      - I'd like you ask Peter.: Hinter you fehlt die Kupplung.
-4. Möchtest du Tee? → Would you like a tea? (auch richtig: Would you like tea?)
-     - Do you like tea?: Do you like heißt „magst du“. Für „möchtest du“ fängt die Frage mit would an.
+4. Möchtest du Milch? → Would you like some milk? (auch richtig: Would you like milk?)
+     - Do you like milk?: Do you like heißt „magst du“. Für „möchtest du“ fängt die Frage mit would an.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#would-like-schreiben](../?via=tutor#would-like-schreiben)
 
@@ -175,9 +173,9 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Would you like a sandwich?
-2. Audio → Peter would like a biscuit, please.
-3. Audio → I'd like to sit with you. (auch richtig: I would like to sit with you.)
+1. Audio → Which one would you like?
+2. Audio → I'd like you to close the door, please. (auch richtig: I would like you to close the door, please.)
+3. Audio → Sophie would like to call her mother.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#would-like-hoeren](../?via=tutor#would-like-hoeren)
@@ -187,9 +185,9 @@ Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwis
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Would you like to sit here?
-2. Audio → Ellie would like to sit with Amir.
-3. Audio → I'd like you to open the window.
+1. Audio → I'd like a cup of coffee, please.
+2. Audio → Would you like to dance?
+3. Audio → Amir would like some more bread.
 - Tipp der App: Hör zuerst zu, sprich dann nach und vergleiche.
 - Link: [../?via=tutor#would-like-nachsprechen](../?via=tutor#would-like-nachsprechen)
 

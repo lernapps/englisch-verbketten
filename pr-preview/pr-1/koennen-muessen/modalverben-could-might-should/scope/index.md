@@ -5,6 +5,7 @@ Die Seite führt could, may, might und should ein. Could macht einen Vorschlag o
 ## Gehört nicht dazu
 
 - Ersatzformen der Modalverben wie have to und be able to
+- Kurzantworten (Yes, I can.) und die Verneinung von should, could und would (shouldn't, couldn't, wouldn't)
 - Infinitiv mit to und die -ing-Form nach anderen Verben
 - das Passiv
 - Zeitformen mit have und be (eigener Explainer)

@@ -19,6 +19,7 @@ Die Seite führt would like in der Kurzform I'd like ein. I'd like a tea, please
 ## Gehört nicht dazu
 
 - Ersatzformen der Modalverben wie have to und be able to
+- Kurzantworten (Yes, I can.) und die Verneinung von should, could und would (shouldn't, couldn't, wouldn't)
 - Infinitiv mit to und die -ing-Form nach anderen Verben
 - das Passiv
 - Zeitformen mit have und be (eigener Explainer)

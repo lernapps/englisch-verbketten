@@ -47,7 +47,7 @@ Ellie und Sophie planen das Wochenende. Du lernst, wie du mit could, may, might 
 
 Bild: Ellie und Sophie stehen nebeneinander und planen das Wochenende. Ellie sagt "We could go to the park.", Sophie antwortet "It might rain.". Bildunterschrift: Ellie (roter Pferdeschwanz) links und Sophie (mit den Zöpfen) rechts. Ihre Sprechblasen zeigen, was sie sagen.
 
-Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken. Auch Amir und Peter sind dabei.
+Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
 
 Klassenzimmer-Poster · Neue Wörter:
 - Wort | Bedeutung
@@ -55,9 +55,7 @@ Klassenzimmer-Poster · Neue Wörter:
 - hat | Mütze
 - stay at home | zu Hause bleiben
 - hungry | hungrig
-- late | spät
 - be | sein
-- tomorrow | morgen
 - tired | müde
 
 **Das kannst du danach:** Mit could, may, might und should etwas vorschlagen, etwas vermuten und einen Rat geben. Wie bei can und must sitzt zwischen den beiden Verben keine Kupplung.
@@ -72,7 +70,7 @@ Bild: Eine Skala von fest nach offen. Von links nach rechts stehen die Wörter m
 
 Klassenzimmer-Poster · Modalverben:
 - Ausdruck | Bedeutung
-- Amir can sing. | Amir kann singen.
+- Amir can dance. | Amir kann tanzen.
 - You must wear a uniform. | Du musst eine Uniform tragen.
 - You mustn't run here. | Du darfst hier nicht rennen.
 - You needn't wear a coat. | Du musst keinen Mantel tragen.
@@ -114,7 +112,7 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Sie schlägt etwas vor. – Ellie nennt einen Ort, an den sie gehen könnten. Das ist ein Vorschlag.
   - ✗ Sie sagt, was verboten ist. – Ein Verbot hast du auf der ersten Seite mit mustn't gesehen. Ellie verbietet nichts.
-  - ✗ Sie sagt, was Sophie tun muss. – Eine Pflicht sagt must. Ellie schlägt nur vor, in den Park zu gehen.
+  - ✗ Sie sagt, was Sophie tun muss. – Eine Pflicht sagt must. Ellie schlägt nur vor, ins Kino zu gehen.
 - Lösung: Sie schlägt etwas vor.
 - Erklärung: Could heißt „könnte“ oder „könnten“. Ellie macht einen Vorschlag, Sophie muss nichts.
 - Tipp der App: Schau, was Ellie nennt, und überlege, ob sie etwas verlangt.
@@ -164,11 +162,11 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 2. Du solltest Peter helfen. → You should help Peter.
      - You should to help Peter.: Zwischen should und dem zweiten Verb sitzt keine Kupplung, auch kein to.
      - You must help Peter.: Must ist eine Pflicht. Hier ist nur ein Rat gemeint.
-3. Ellie kommt vielleicht zu spät. → Ellie might be late. (auch richtig: Ellie may be late.; Ellie could be late.)
-     - Ellie mights be late.: Might bekommt nie ein -s, auch nicht bei Ellie.
-     - Ellie might to be late.: Zwischen might und dem zweiten Verb sitzt keine Kupplung, auch kein to.
-4. Könnten wir in den Park gehen? → Could we go to the park?
-     - Do we could go to the park?: Could braucht kein do. In einer Frage steht could selbst vorn.
+3. Peter ist vielleicht müde. → Peter might be tired. (auch richtig: Peter may be tired.; Peter could be tired.)
+     - Peter mights be tired.: Might bekommt nie ein -s, auch nicht bei Peter.
+     - Peter might to be tired.: Zwischen might und dem zweiten Verb sitzt keine Kupplung, auch kein to.
+4. Könnten wir einen Film sehen? → Could we watch a film?
+     - Do we could watch a film?: Could braucht kein do. In einer Frage steht could selbst vorn.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#modalverben-schreiben](../?via=tutor#modalverben-schreiben)
 
@@ -178,9 +176,9 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph egal, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter might be tired tomorrow. (auch richtig: Peter may be tired tomorrow.)
-2. Audio → Ellie should take a hat.
-3. Audio → Could we stay in the park?
+1. Audio → Amir could bring his football.
+2. Audio → You should drink some water.
+3. Audio → It might be sunny on Sunday. (auch richtig: It may be sunny on Sunday.)
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#modalverben-hoeren](../?via=tutor#modalverben-hoeren)
@@ -190,9 +188,9 @@ Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regn
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → It might be cold tomorrow.
-2. Audio → You should take your hat, Peter.
-3. Audio → It might be warm in the park.
+1. Audio → Could we sit in the garden?
+2. Audio → Peter might forget his bag.
+3. Audio → You should go to bed early.
 - Tipp der App: Hör zuerst zu, sprich dann nach und vergleiche.
 - Link: [../?via=tutor#modalverben-nachsprechen](../?via=tutor#modalverben-nachsprechen)
 
