@@ -45,7 +45,7 @@ Die Organisatoren des Schulfestes chatten mit Mr Hill. Du lernst, wie du das Pas
 
 ### Der Chat der Organisatoren
 
-Es ist Donnerstagabend, der 8. Oktober. Am Samstag ist das große Schulfest der Millbrook School. Mr Hill, der Englischlehrer, hat eine Chatgruppe für die Organisatoren gegründet: Sophie (13, aus Deutschland), ihre Klassenkameraden Ellie (13) und Amir (13). Ellies Mutter, Mrs Parker, backt die Kuchen, sie schreibt aber nicht mit. Im Chat tragen sie zusammen, was schon erledigt ist und was noch kommt.
+Im Chat zum Schulfest tragen Mr Hill, Sophie, Ellie und Amir zusammen, was schon erledigt ist und was noch kommt.
 
 **Das kannst du danach:** das Passiv auch im present perfect, im will-future und mit Modalverben bilden (It has been sold. It can be done.).
 
@@ -148,7 +148,7 @@ Im present perfect passen *already* (schon) und *yet* (noch nicht, bisher): *The
 
 ### Wie es weitergeht
 
-Am Samstag ist das Schulfest vorbei, und am 14. Oktober wird Sophie 14. Abends schreibt sie Tagebuch darüber, was ihr an diesem Tag geschenkt, gezeigt und erzählt wurde. Dort steht nicht mehr die Sache vorn, sondern Sophie selbst: I was given a scarf. Auf der nächsten Seite liest du das Tagebuch und lernst, wie dieses Passiv mit zwei Objekten funktioniert.
+Nach dem Fest schreibt Sophie Tagebuch darüber, was ihr an einem Tag geschenkt, gezeigt und erzählt wurde. Dort steht nicht mehr die Sache vorn, sondern Sophie selbst: I was given a scarf. Auf der nächsten Seite liest du das Tagebuch und lernst, wie dieses Passiv mit zwei Objekten funktioniert.
 
 ### Aufgabe zeiten-start
 

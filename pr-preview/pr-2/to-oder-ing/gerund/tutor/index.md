@@ -45,7 +45,7 @@ Sophie, Amir und Peter chatten über Hobbys. Du lernst die Kupplung -ing nach Ve
 
 ### Ein Chat über Hobbys
 
-Am Montagabend schreiben Sophie (13), Amir (13, ein Freund aus der Klasse) und Peter (11, Ellies kleiner Bruder) in einem Gruppenchat. Es geht um die Frage, was jeder gern in der Freizeit macht. In den Übungen kommen auch Ellie (13, Sophies Gastschwester), Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Mr Hill (der Englischlehrer) vor.
+Montagabend. Sophie, Amir und Peter chatten in der Gruppe über ihre Hobbys.
 
 **Das kannst du danach:** Mit der Kupplung -ing sagen, was du magst, genießt oder vermeidest, und die -ing-Form als Subjekt benutzen.
 
@@ -142,7 +142,7 @@ Klassenzimmer-Poster · Verben und ihre Kupplung:
 
 ### Wie es weitergeht
 
-Amir hat der Millbrook Times von seinem Plan für einen Gitarrenclub erzählt. Auf der nächsten Seite liest du das Interview und lernst, dass auch hinter einer Präposition wie in oder at der Wagen in der -ing-Form fährt.
+Auf der nächsten Seite liest du Amirs Interview über seinen Gitarrenclub und lernst, dass auch hinter einer Präposition wie in oder at der Wagen in der -ing-Form fährt.
 
 ### Aufgabe gerund-start
 

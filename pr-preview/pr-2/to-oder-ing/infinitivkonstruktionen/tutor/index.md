@@ -45,7 +45,7 @@ Sophie bereitet sich in ihrem Tagebuch auf den Ausflug vor. Du lernst, wie die K
 
 ### Sophies Tagebuch
 
-Am Dienstag fährt Sophies Klasse zum Schloss. Sophie (13) ist am Sonntagabend noch ein wenig nervös. Sie schreibt in ihr Tagebuch, wie sie sich vorbereitet. Darin kommen Ellie (13, ihre Gastschwester) und Mrs Parker (Ellies Mutter und Sophies Gastmutter) vor, in den Übungen auch Mr Hill (Sophies Englischlehrer), Peter (11, Ellies kleiner Bruder) und Amir (13, ein Freund aus der Klasse).
+Sonntagabend. Sophie schreibt in ihr Tagebuch, wie sie sich auf den Ausflug zum Schloss vorbereitet.
 
 **Das kannst du danach:** Mit to + Grundform sagen, wozu du etwas tust (in order to), was du tun sollst (what to do) und wie leicht oder schwer etwas für jemanden ist (It is easy for me to …).
 
@@ -133,7 +133,7 @@ Hinter der Kupplung **to** steht der Wagen immer in der Grundform: *in order to 
 
 ### Wie es weitergeht
 
-Sophie klappt ihr Tagebuch zu. Am Montagabend chattet sie mit Amir und Peter über Hobbys. Auf der nächsten Seite liest du den Chat und lernst eine zweite Kupplung kennen, die -ing heißt.
+Auf der nächsten Seite liest du einen Chat über Hobbys und lernst eine zweite Kupplung kennen, die -ing heißt.
 
 ### Aufgabe infinitiv-start
 

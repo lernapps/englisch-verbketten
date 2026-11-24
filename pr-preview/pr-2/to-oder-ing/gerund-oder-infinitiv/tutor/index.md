@@ -45,7 +45,7 @@ Sophie schreibt in ihrem Blog über den Tag im Schloss. Du lernst, dass stop, re
 
 ### Sophies Blog
 
-Der Ausflug zum Schloss ist vorbei. Am Mittwoch schreibt Sophie (13) einen Blogeintrag darüber. Dabei kommen drei Verben vor, bei denen die Kupplung die Bedeutung ändert. Im Text kommt Ellie (13, Sophies Gastschwester) vor, in den Übungen auch Mrs Parker (Ellies Mutter und Sophies Gastmutter), Peter (11, Ellies kleiner Bruder) und Amir (13, ein Freund aus der Klasse).
+Mittwoch. Sophie schreibt einen Blogeintrag über den Tag im Schloss. Darin kommen drei Verben vor, bei denen die Kupplung die Bedeutung ändert.
 
 **Das kannst du danach:** Bei stop, remember und try zwischen to und -ing wählen und erklären, was der Unterschied bedeutet.
 
@@ -127,7 +127,7 @@ Klassenzimmer-Poster · Verben und ihre Kupplung:
 
 ### Wie es weitergeht
 
-Sophie schaut auf ihre Kette zurück. Die Kupplung ist die Form, die die Lok vom Wagen verlangt. Bei can und must sitzt nichts zwischen den Verben. Bei would like und nach in order sitzt to dazwischen. Bei enjoy sitzt -ing, hinter einer Präposition sitzt Präposition + -ing, und bei stop, remember und try entscheidet die Kupplung über die Bedeutung. Im nächsten Kapitel lernst du das Passiv. Dort ist be die Lok, und der Wagen steht in der dritten Form (*Bread is made.*).
+Zum Schluss noch einmal alles zusammen. Die Kupplung ist die Form, die die Lok vom Wagen verlangt. Bei can und must sitzt nichts zwischen den Verben. Bei would like und nach in order sitzt to dazwischen. Bei enjoy sitzt -ing, hinter einer Präposition sitzt Präposition + -ing, und bei stop, remember und try entscheidet die Kupplung über die Bedeutung. Im nächsten Kapitel lernst du das Passiv. Dort ist be die Lok, und der Wagen steht in der dritten Form (*Bread is made.*).
 
 ### Aufgabe wahl-start
 

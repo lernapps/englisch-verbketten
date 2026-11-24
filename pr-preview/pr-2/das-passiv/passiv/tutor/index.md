@@ -45,7 +45,7 @@ Die Schulzeitung berichtet über das Herbstfest. Du lernst, wie du mit be und de
 
 ### Die Schulzeitung berichtet
 
-Es ist Montag, der 21. September. Die Schulzeitung „Millbrook Times“ hat einen Bericht über das Herbstfest vom Wochenende gedruckt. Sophie (13) liest ihn in der Pause. Sie kommt aus Deutschland und wohnt bei der Familie Parker. Im Bericht kommen ihre Klassenkameraden Ellie (13) und Amir (13) vor, ihr Englischlehrer Mr Hill, Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Ellies Bruder Peter (11). Der Bericht erzählt, was beim Fest geschah, und oft auch, wer es getan hat.
+Die „Millbrook Times“ berichtet vom Herbstfest. Der Bericht erzählt, was beim Fest geschah, und oft auch, wer es getan hat.
 
 **Das kannst du danach:** Sätze im Passiv bilden (is made, was made) und mit by sagen, wer etwas getan hat.
 
@@ -138,7 +138,7 @@ Wer etwas getan hat, steht hinter **by**, nie hinter *from*. Ist der Täter unbe
 
 ### Wie es weitergeht
 
-Schon bald ist das nächste Fest geplant: das große Schulfest am Samstag, dem 10. Oktober. Am Donnerstagabend davor, dem 8. Oktober, chattet Mr Hill mit Sophie, Ellie und Amir darüber, was schon erledigt ist und was noch fehlt. Auf der nächsten Seite liest du den Chat und lernst, wie das Passiv auch mit has been, will be und can be funktioniert.
+Das nächste Fest wird schon geplant. Auf der nächsten Seite liest du einen Chat darüber, was schon erledigt ist und was noch fehlt, und lernst, wie das Passiv auch mit has been, will be und can be funktioniert.
 
 ### Aufgabe passiv-start
 

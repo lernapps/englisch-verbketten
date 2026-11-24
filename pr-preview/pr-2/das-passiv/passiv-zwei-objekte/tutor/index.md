@@ -45,7 +45,7 @@ Sophie schreibt Tagebuch über ihren Geburtstag. Du lernst, wie du bei Verben mi
 
 ### Sophies Tagebuch
 
-Es ist der 14. Oktober, Sophie ist heute 14 geworden. Am Abend schreibt sie in ihr Tagebuch, was ihr an diesem Tag alles gegeben, gezeigt und erzählt wurde. Du kennst schon Mrs Parker (Sophies Gastmutter), Peter (11, Ellies Bruder), Amir, Ellie und Mr Hill. Neu sind Sophies Eltern in Deutschland: In ihrem Tagebuch schreibt sie von „my mum and dad“.
+Sophie schreibt am Abend in ihr Tagebuch, was ihr an ihrem Geburtstag alles gegeben, gezeigt und erzählt wurde.
 
 **Das kannst du danach:** bei Verben mit zwei Objekten das persönliche Passiv bilden (I was given a book.).
 

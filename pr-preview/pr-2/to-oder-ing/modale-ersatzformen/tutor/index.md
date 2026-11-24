@@ -45,7 +45,7 @@ Sophie und Ellie planen einen Ausflug. Du lernst, wie have to, be able to und be
 
 ### Ein Ausflug steht an
 
-Sophie (13) lebt seit zwei Jahren bei den Parkers. Ellie (13) ist ihre Gastschwester. Ihre Klasse macht mit Mr Hill, dem Englischlehrer, einen Ausflug zu einem Schloss. Sophie und Ellie chatten abends. In den Übungen kommen auch Peter (11, Ellies kleiner Bruder), Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Amir (13, ein Freund aus der Klasse) vor.
+Freitagabend. Sophie und Ellie chatten über den Ausflug zum Schloss.
 
 **Das kannst du danach:** have to, be able to und be allowed to benutzen, auch in der Vergangenheit und in der Zukunft.
 
@@ -136,7 +136,7 @@ Die Kupplung ist die Form, die die Lok vom Wagen verlangt: bei diesen Ersatzform
 
 ### Wie es weitergeht
 
-Sophie chattet noch lange mit Ellie. Danach schreibt sie in ihr Tagebuch, wie sie sich auf den Ausflug vorbereitet. Auf der nächsten Seite liest du es und lernst, wie man mit to sagt, wozu etwas gut ist.
+Nach dem Chat schreibt Sophie in ihr Tagebuch, wie sie sich auf den Ausflug vorbereitet. Auf der nächsten Seite liest du es und lernst, wie man mit to sagt, wozu etwas gut ist.
 
 ### Aufgabe ersatz-start
 

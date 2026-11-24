@@ -45,7 +45,7 @@ Die Millbrook Times interviewt Amir über seinen Plan für einen Gitarrenclub. D
 
 ### Ein Interview für die Schulzeitung
 
-Amir (13, ein Freund aus der Klasse) möchte an der Millbrook School einen Gitarrenclub gründen. Die Schulzeitung „Millbrook Times“ hat ihn am Montag dazu interviewt. Du liest das Interview. In den Übungen kommen auch Sophie (13), Ellie (13, Sophies Gastschwester), Peter (11, Ellies kleiner Bruder), Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Mr Hill (der Englischlehrer) vor.
+Die Schulzeitung „Millbrook Times“ interviewt Amir. Er möchte an der Schule einen Gitarrenclub gründen.
 
 **Das kannst du danach:** Nach Präpositionen und in Ausdrücken wie interested in, good at oder look forward to die -ing-Form benutzen.
 
@@ -141,7 +141,7 @@ Nach einer Präposition steht nie *to* + Grundform: nicht *afraid of to ask*, so
 
 ### Wie es weitergeht
 
-Am Dienstag fährt die Klasse zum Schloss. Sophie schreibt darüber am Mittwoch in ihrem Blog. Auf der nächsten Seite liest du den Eintrag und lernst, dass bei stop, remember und try sowohl to als auch -ing möglich ist, aber mit anderer Bedeutung.
+Auf der nächsten Seite liest du Sophies Blogeintrag über den Ausflug zum Schloss und lernst, dass bei stop, remember und try sowohl to als auch -ing möglich ist, aber mit anderer Bedeutung.
 
 ### Aufgabe praeposition-start
 
