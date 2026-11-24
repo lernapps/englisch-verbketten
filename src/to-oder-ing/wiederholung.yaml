@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Vier Themen, die du schon kennen solltest, bevor du mit dem Kapitel beginnst.
+recap: [englisch/will-future, englisch/fragewoerter, englisch/present-progressive, englisch/present-perfect]
+scope: Die Seite wiederholt in vier Sätzen, was die Kinder aus früheren Themen mitbringen sollen. Das will-future für Vermutungen, Vorhersagen und spontane Entschlüsse. Die Fragewörter who, what, where, when, why, how und whose. Das present progressive für das, was gerade passiert. Das present perfect (have oder has plus dritte Form) für das, was schon passiert ist. Sie enthält keine Übung und keinen neuen Stoff.
+blocks:
+  - type: text
+    text: |
+      Bevor du mit dem Kapitel beginnst, frag dich, ob du diese vier Dinge schon kannst. Du übst sie hier nicht, sie stehen auf der Lernlandkarte. Can, must und needn't hast du in Kapitel 1 geübt.
+
+      **Will-future:** Du kannst mit dem will-future Vermutungen, Vorhersagen und spontane Entschlüsse ausdrücken. Du brauchst es für die Seite zu den Ersatzformen (*It will rain.*).
+
+      **Present perfect:** Du kannst mit have oder has und der dritten Form des Verbs sagen, was schon passiert ist (*Have you finished?*). Du brauchst es ebenfalls für die Seite zu den Ersatzformen.
+
+      **Fragewörter:** Du kannst Fragen mit who, what, where, when, why, how und whose stellen. Du brauchst sie für die Seite zu den Infinitivkonstruktionen (*I don't know what to say.*).
+
+      **Present progressive:** Du kannst im present progressive sagen, was gerade passiert (*She is reading.*). Du brauchst es für die Seite zum Gerundium, damit du die -ing-Form von der Kupplung -ing unterscheidest.
+
+      Kannst du eines davon noch nicht sicher, schau es dir auf der Lernlandkarte Englisch an.

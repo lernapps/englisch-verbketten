@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Can und must: Lok ohne Kupplung"
-description: Sophie liest Schilder im Flur der Millbrook School. Du lernst, wie can, must und needn't vor einem zweiten Verb stehen und was sie bedeuten.
+description: Im Flur hängen zwei Schilder. Du lernst, wie can, must und needn't vor einem zweiten Verb stehen und was sie bedeuten.
 competencies: [can-must]
 scope: Die Seite führt can, can't, must, mustn't und needn't ein. Can sagt, was jemand kann, und fragt, ob etwas erlaubt ist. Must sagt, was jemand tun muss, mustn't, was verboten ist, needn't, was jemand nicht tun muss. Can't heißt kann nicht und darf nicht. Die Verbkette hat eine Lok (das erste Verb), eine Kupplung und einen Wagen (das zweite Verb). Nach den Modalverben can und must gibt es keine Kupplung, also kein to, und sie bekommen nie ein -s. Fragen mit can stehen mit can vorn, ohne do. Deutsch nicht müssen heißt needn't, nicht dürfen heißt mustn't. Welche Kupplungen es sonst gibt, folgt später (would like auf der dritten Seite). Could, might und should folgen auf der nächsten Seite.
 blocks:
@@ -10,21 +10,25 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-schilder.svg
-        alt: Sophie, Peter und Amir stehen im Flur der Millbrook School. An der Wand hängen zwei Schilder. Auf dem einen steht "You mustn't run here.", auf dem anderen "You must wear a uniform."
-        caption: "Von links nach rechts: Sophie (mit den Zöpfen), Peter (der Kleine) und Amir (mit Brille). An der Wand hängen zwei Schilder."
+        alt: Drei Kinder stehen im Flur einer Schule. An der Wand hängen zwei Schilder. Auf dem einen steht "You mustn't run here.", auf dem anderen "You must wear a uniform."
+        caption: "Drei Kinder im Flur. An der Wand hängen zwei Schilder."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Sophie (11) läuft an ihrem ersten Tag durch den Flur der Millbrook School. Peter (9) rennt an ihr vorbei. Er ist der kleine Bruder von Ellie Parker (11), Sophies Gastschwester. Amir (11) zeigt auf die zwei Schilder an der Wand. Auf den Schildern stehen Wörter für etwas, das man tut, zum Beispiel *run* (rennen) und *wear* (tragen). Solche Wörter heißen Verben. Die Wörter in der Tabelle brauchst du in den Übungen.
-      - type: table
-        caption: Klassenzimmer-Poster · Neue Wörter
-        header: [Wort, Bedeutung]
-        rows:
-          - [run, rennen]
-          - [wear, tragen]
-          - [uniform, Uniform]
-          - [coat, Mantel]
+          Im Flur hängen zwei Schilder. Peter rennt vorbei, Amir zeigt auf die Schilder. Auf den Schildern stehen Wörter für etwas, das man tut, zum Beispiel *run* (rennen) und *wear* (tragen). Solche Wörter heißen Verben. Die Wörter in der Tabelle brauchst du in den Übungen.
+      - type: vocabulary
+        caption: Neue Wörter
+        languages: { source: de, target: en }
+        entries:
+          - target: run
+            source: rennen
+          - target: wear
+            source: tragen
+          - target: a uniform
+            source: Uniform
+          - target: a coat
+            source: Mantel
       - type: text
         text: "**Das kannst du danach:** Mit can, can't, must, mustn't und needn't sagen, was jemand kann, was erlaubt oder verboten ist und was jemand tun muss oder nicht tun muss. Du siehst auch, wie das zweite Verb danach steht."
       - type: single-choice
@@ -235,4 +239,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Sophie kennt jetzt die Regeln im Flur. Ellie fragt sie, was sie am Wochenende tun könnte. Auf der nächsten Seite sagst du, was möglich ist, was jemand sollte und was vielleicht passiert.
+        text: Die Regeln im Flur sind klar. Jetzt geht es um das Wochenende. Auf der nächsten Seite sagst du, was möglich ist, was jemand sollte und was vielleicht passiert.

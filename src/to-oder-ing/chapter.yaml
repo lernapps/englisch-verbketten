@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: to oder -ing?
+summary: Sophie plant einen Schulausflug, schreibt Tagebuch und chattet über Hobbys. Du lernst, welche Kupplung zwischen zwei Verben sitzt (to, -ing oder eine Präposition) und wie have to, be able to und be allowed to die Modalverben in andere Zeiten bringen.
+pages:
+  [
+    wiederholung,
+    modale-ersatzformen,
+    infinitivkonstruktionen,
+    gerund,
+    gerund-nach-praepositionen,
+    gerund-oder-infinitiv,
+  ]
+selfAssessment:
+  pages:
+    - exercises:
+        - /to-oder-ing/modale-ersatzformen/#ersatz-sortieren
+        - /to-oder-ing/modale-ersatzformen/#ersatz-wahl
+    - exercises:
+        - /to-oder-ing/infinitivkonstruktionen/#infinitiv-sortieren
+        - /to-oder-ing/infinitivkonstruktionen/#infinitiv-kupplung
+    - exercises:
+        - /to-oder-ing/gerund/#gerund-sortieren
+        - /to-oder-ing/gerund/#gerund-kupplung
+    - exercises:
+        - /to-oder-ing/gerund-nach-praepositionen/#praeposition-sortieren
+        - /to-oder-ing/gerund-nach-praepositionen/#praeposition-kupplung
+    - exercises:
+        - /to-oder-ing/gerund-oder-infinitiv/#wahl-sortieren
+        - /to-oder-ing/gerund-oder-infinitiv/#wahl-kupplung
