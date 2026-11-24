@@ -102,7 +102,7 @@ Karte `https://lernapps.net/apps/map/englisch.json` und die drei Baustein-Seiten
 
 ## Rules learned from mistakes
 
-- Figuren werden nur einmal auf der Startseite der App vorgestellt (Alter, Herkunft, Verwandtschaft); die Seiten beginnen mit der Situation, ohne Personenvorstellung, ohne Altersangaben und Datum im Einführungstext. Eine Figur wird nur benannt, wo die Aufgabe sie braucht (Rückmeldung der Ersteller:in).
+- Figuren werden nur einmal auf der Startseite der App vorgestellt (Herkunft, Rolle; ohne Altersangaben); die Seiten beginnen mit der Situation, ohne Personenvorstellung, ohne Altersangaben und Datum im Einführungstext. Eine Figur wird nur benannt, wo die Aufgabe sie braucht (Rückmeldung der Ersteller:in).
 
 Übernommen aus hello-millbrook (Konventionen #489, Abschnitt 5):
 
