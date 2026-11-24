@@ -10,7 +10,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Am Montagabend schreiben Sophie (13), Amir (13, ein Freund aus der Klasse) und Peter (11, Ellies kleiner Bruder) in einem Gruppenchat. Es geht um die Frage, was jeder gern in der Freizeit macht. In den Übungen kommen auch Ellie (13, Sophies Gastschwester), Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Mr Hill (der Englischlehrer) vor.
+          Montagabend. Sophie, Amir und Peter chatten in der Gruppe über ihre Hobbys.
       - type: text
         text: "**Das kannst du danach:** Mit der Kupplung -ing sagen, was du magst, genießt oder vermeidest, und die -ing-Form als Subjekt benutzen."
       - type: single-choice
@@ -326,4 +326,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Amir hat der Millbrook Times von seinem Plan für einen Gitarrenclub erzählt. Auf der nächsten Seite liest du das Interview und lernst, dass auch hinter einer Präposition wie in oder at der Wagen in der -ing-Form fährt.
+        text: Auf der nächsten Seite liest du Amirs Interview über seinen Gitarrenclub und lernst, dass auch hinter einer Präposition wie in oder at der Wagen in der -ing-Form fährt.

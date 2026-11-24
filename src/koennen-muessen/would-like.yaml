@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Would like: höflich sagen, was du möchtest"
-description: Sophie ist mit Mrs Parker im Café. Du lernst, wie du mit I'd like höflich bestellst und sagst, was du tun möchtest oder was jemand tun soll.
+description: Im Café bestellt jeder etwas. Du lernst, wie du mit I'd like höflich bestellst und sagst, was du tun möchtest oder was jemand tun soll.
 competencies: [would-like]
 scope: Die Seite führt would like in der Kurzform I'd like ein. I'd like a tea, please sagt höflich, was man haben möchte. I'd like to sit here sagt, was man tun möchte, mit der Kupplung to. I'd like you to help me sagt, was jemand anderes tun möchte, mit you und der Kupplung to. Would you like a biscuit? fragt höflich. I want ist direkter und klingt beim Bestellen weniger höflich. I'd ist die Kurzform von I would. Would like bekommt nie ein -s (he'd like, she would like). Anders als can und must ist would like die erste Lok mit einer Kupplung, nämlich to vor einem Verb. Vor einem Nomen (a tea) gibt es keine Kupplung. Die Formen mit -ing oder be und der dritten Form folgen erst in späteren Kapiteln.
 blocks:
@@ -10,13 +10,13 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-cafe.svg
-        alt: Peter, Mrs Parker und Sophie stehen an einem Tisch im Café. Mrs Parker fragt "What would you like?"
-        caption: "Von links nach rechts: Peter (der Kleine), Mrs Parker (rote Haare als Dutt, türkise Strickjacke) und Sophie (mit den Zöpfen). Mrs Parker fragt, was die Kinder möchten."
+        alt: Drei Personen stehen an einem Tisch im Café. Eine Frau fragt "What would you like?"
+        caption: "Im Café fragt eine Frau, was die Kinder möchten."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Am Samstag hat es geregnet. Nach dem Kino nimmt Mrs Parker Peter und Sophie mit in ein Café. Sie ist Ellies Mutter und Sophies Gastmutter. Jeder bestellt etwas.
+          Nach dem Kino geht es in ein Café. Mrs Parker fragt, was die Kinder möchten. Jeder bestellt etwas.
       - type: vocabulary
         caption: Neue Wörter
         languages: { source: de, target: en }
@@ -204,4 +204,4 @@ blocks:
     title: Zurück zur Verbkette
     blocks:
       - type: text
-        text: Sophie denkt an die Verbkette. Bei can, must, could, might und should steht zwischen den Verben nichts. Bei would like sitzt das to dazwischen. Es gibt noch weitere Kupplungen. Welche, lernst du später.
+        text: "Zurück zur Verbkette: Bei can, must, could, might und should steht zwischen den Verben nichts. Bei would like sitzt das to dazwischen. Es gibt noch weitere Kupplungen. Welche, lernst du später."

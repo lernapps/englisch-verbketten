@@ -2,7 +2,7 @@
 title: "Das Passiv mit zwei Objekten: I was given a book"
 description: Sophie schreibt Tagebuch über ihren Geburtstag. Du lernst, wie du bei Verben mit zwei Objekten sagst, was dir gegeben, gezeigt oder erzählt wurde.
 competencies: [passiv-zwei-objekte]
-scope: "Die Seite führt das persönliche Passiv ein. Verben wie give, offer, show, tell, send, hand, serve, lend, sell und pay haben zwei Objekte, eine Person und eine Sache (Mr Hill offered Ellie a seat). Im Passiv kann jedes der beiden Objekte nach vorn. Üblich ist die Person vorn (Ellie was offered a seat), die Sache folgt ohne to. Steht die Sache vorn, kommt die Person mit to dahinter (A seat was offered to Ellie). Bei buy und make kommt meist die Sache nach vorn, und die Person folgt mit for (A bag was bought for Amir); Amir was bought a bag klingt holprig. Die Lok richtet sich nach dem Wort vorn (I was, we were), die Kupplung zeigt wie auf den Seiten davor, dass die Lok vom Wagen die dritte Form verlangt, der Täter kann mit by folgen oder wegfallen. Das Lesestück ist ein erfundener Tagebucheintrag von Sophie an ihrem 14. Geburtstag, dem 14. Oktober; sie schreibt my mum and dad für ihre Eltern in Deutschland und Mrs Parker für ihre Gastmutter. Der Vokabelblock erklärt die Wörter des Textes. Die Seite beschließt das Kapitel und verweist auf die Selbsteinschätzung."
+scope: "Die Seite führt das persönliche Passiv ein. Verben wie give, offer, show, tell, send, hand, serve, lend, sell und pay haben zwei Objekte, eine Person und eine Sache (Mr Hill offered Ellie a seat). Im Passiv kann jedes der beiden Objekte nach vorn. Üblich ist die Person vorn (Ellie was offered a seat), die Sache folgt ohne to. Steht die Sache vorn, kommt die Person mit to dahinter (A seat was offered to Ellie). Bei buy und make kommt meist die Sache nach vorn, und die Person folgt mit for (A bag was bought for Amir); Amir was bought a bag klingt holprig. Die Lok richtet sich nach dem Wort vorn (I was, we were), die Kupplung zeigt wie auf den Seiten davor, dass die Lok vom Wagen die dritte Form verlangt, der Täter kann mit by folgen oder wegfallen. Das Lesestück ist ein erfundener Tagebucheintrag von Sophie an ihrem Geburtstag; die Personen werden nicht vorgestellt. Der Vokabelblock erklärt die Wörter des Textes. Die Seite beschließt das Kapitel und verweist auf die Selbsteinschätzung."
 blocks:
   - type: section
     id: einstieg
@@ -10,7 +10,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Es ist der 14. Oktober, Sophie ist heute 14 geworden. Am Abend schreibt sie in ihr Tagebuch, was ihr an diesem Tag alles gegeben, gezeigt und erzählt wurde. Du kennst schon Mrs Parker (Sophies Gastmutter), Peter (11, Ellies Bruder), Amir, Ellie und Mr Hill. Neu sind Sophies Eltern in Deutschland: In ihrem Tagebuch schreibt sie von „my mum and dad“.
+          Sophie schreibt am Abend in ihr Tagebuch, was ihr an ihrem Geburtstag alles gegeben, gezeigt und erzählt wurde.
       - type: text
         text: "**Das kannst du danach:** bei Verben mit zwei Objekten das persönliche Passiv bilden (I was given a book.)."
       - type: single-choice

@@ -2,7 +2,7 @@
 title: "Das Passiv: is made, was made"
 description: Die Schulzeitung berichtet über das Herbstfest. Du lernst, wie du mit be und der dritten Form Sätze im Passiv bildest und mit by sagst, wer etwas getan hat.
 competencies: [passiv]
-scope: "Die Seite führt das Passiv im simple present und im simple past ein. Im Aktiv steht vorn, wer etwas tut (The bakers make bread). Im Passiv kommt das, was getan wird, nach vorn (Bread is made), und wer es getan hat, wird klein (by the bakers) oder fällt weg. Das Passiv ist be plus dritte Form des Verbs. Die Lok ist eine Form von be (is, are, was, were) und zeigt die Zeit und ob es eins oder mehrere sind. Die Kupplung ist die Form, die die Lok vom Wagen verlangt: Beim Passiv fährt der Wagen in der dritten Form (made, written, cleaned). Dieselbe Beschreibung gilt auf allen Seiten des Kapitels. Das Lesestück ist ein erfundener Bericht der Schulzeitung Millbrook Times über ein Herbstfest (Samstag, 19. September; Sophie ist noch 13). Der Bericht erzählt in der Vergangenheit; eine Gewohnheit steht mit As every year. Die Seite führt die Personen des Kapitels ein: Sophie, Ellie, Amir, Peter, Mr Hill, Mrs Parker. Der Vokabelblock erklärt die Wörter des Textes. Nicht auf dieser Seite sind das Passiv in weiteren Zeiten (present perfect, will-future, mit Modalverben) und Verben mit zwei Objekten."
+scope: "Die Seite führt das Passiv im simple present und im simple past ein. Im Aktiv steht vorn, wer etwas tut (The bakers make bread). Im Passiv kommt das, was getan wird, nach vorn (Bread is made), und wer es getan hat, wird klein (by the bakers) oder fällt weg. Das Passiv ist be plus dritte Form des Verbs. Die Lok ist eine Form von be (is, are, was, were) und zeigt die Zeit und ob es eins oder mehrere sind. Die Kupplung ist die Form, die die Lok vom Wagen verlangt: Beim Passiv fährt der Wagen in der dritten Form (made, written, cleaned). Dieselbe Beschreibung gilt auf allen Seiten des Kapitels. Das Lesestück ist ein erfundener Bericht der Schulzeitung Millbrook Times über ein Herbstfest. Der Bericht erzählt in der Vergangenheit; eine Gewohnheit steht mit As every year. Die Personen werden hier nicht vorgestellt. Der Vokabelblock erklärt die Wörter des Textes. Nicht auf dieser Seite sind das Passiv in weiteren Zeiten (present perfect, will-future, mit Modalverben) und Verben mit zwei Objekten."
 blocks:
   - type: section
     id: einstieg
@@ -10,7 +10,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Es ist Montag, der 21. September. Die Schulzeitung „Millbrook Times“ hat einen Bericht über das Herbstfest vom Wochenende gedruckt. Sophie (13) liest ihn in der Pause. Sie kommt aus Deutschland und wohnt bei der Familie Parker. Im Bericht kommen ihre Klassenkameraden Ellie (13) und Amir (13) vor, ihr Englischlehrer Mr Hill, Mrs Parker (Ellies Mutter und Sophies Gastmutter) und Ellies Bruder Peter (11). Der Bericht erzählt, was beim Fest geschah, und oft auch, wer es getan hat.
+          Die „Millbrook Times“ berichtet vom Herbstfest. Der Bericht erzählt, was beim Fest geschah, und oft auch, wer es getan hat.
       - type: text
         text: "**Das kannst du danach:** Sätze im Passiv bilden (is made, was made) und mit by sagen, wer etwas getan hat."
       - type: single-choice
@@ -352,4 +352,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Schon bald ist das nächste Fest geplant: das große Schulfest am Samstag, dem 10. Oktober. Am Donnerstagabend davor, dem 8. Oktober, chattet Mr Hill mit Sophie, Ellie und Amir darüber, was schon erledigt ist und was noch fehlt. Auf der nächsten Seite liest du den Chat und lernst, wie das Passiv auch mit has been, will be und can be funktioniert."
+        text: "Das nächste Fest wird schon geplant. Auf der nächsten Seite liest du einen Chat darüber, was schon erledigt ist und was noch fehlt, und lernst, wie das Passiv auch mit has been, will be und can be funktioniert."

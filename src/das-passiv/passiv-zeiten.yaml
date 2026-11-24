@@ -2,7 +2,7 @@
 title: "Das Passiv in weiteren Zeiten: has been, will be, can be"
 description: Die Organisatoren des Schulfestes chatten mit Mr Hill. Du lernst, wie du das Passiv im present perfect, im will-future und mit Modalverben bildest.
 competencies: [passiv-zeiten]
-scope: "Die Seite zeigt, dass be in jede Zeit und hinter jedes Modalverb passt. Im present perfect heißt das Passiv has/have been plus dritte Form (The fence has been painted), im will-future will be plus dritte Form (The fence will be painted), mit Modalverben can, must, should be plus dritte Form (The fence can be painted). Es kommt eine erste Lok dazu (has, will, can), die die Zeit zeigt und sich ändert; die Lok be (been) verlangt vom Wagen weiter die dritte Form, wie auf der Seite davor. Hinter has und have steht been, hinter will und den Modalverben steht be. Die Verneinung geht über die erste Lok (hasn't been, won't be, can't be), bei Fragen rückt sie nach vorn. Auch already und yet kommen vor. Das Lesestück ist ein erfundener Chat von Donnerstagabend, dem 8. Oktober, vor dem Schulfest am Samstag, dem 10. Oktober (Sophie, Ellie, Amir und Mr Hill; Mrs Parker backt die Kuchen; Sophie ist noch 13). Der Vokabelblock erklärt die Wörter des Textes. Das Passiv mit zwei Objekten kommt auf der nächsten Seite."
+scope: "Die Seite zeigt, dass be in jede Zeit und hinter jedes Modalverb passt. Im present perfect heißt das Passiv has/have been plus dritte Form (The fence has been painted), im will-future will be plus dritte Form (The fence will be painted), mit Modalverben can, must, should be plus dritte Form (The fence can be painted). Es kommt eine erste Lok dazu (has, will, can), die die Zeit zeigt und sich ändert; die Lok be (been) verlangt vom Wagen weiter die dritte Form, wie auf der Seite davor. Hinter has und have steht been, hinter will und den Modalverben steht be. Die Verneinung geht über die erste Lok (hasn't been, won't be, can't be), bei Fragen rückt sie nach vorn. Auch already und yet kommen vor. Das Lesestück ist ein erfundener Chat von Sophie, Ellie, Amir und Mr Hill am Abend vor dem Schulfest; die Personen werden nicht vorgestellt. Der Vokabelblock erklärt die Wörter des Textes. Das Passiv mit zwei Objekten kommt auf der nächsten Seite."
 blocks:
   - type: section
     id: einstieg
@@ -10,7 +10,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Es ist Donnerstagabend, der 8. Oktober. Am Samstag ist das große Schulfest der Millbrook School. Mr Hill, der Englischlehrer, hat eine Chatgruppe für die Organisatoren gegründet: Sophie (13, aus Deutschland), ihre Klassenkameraden Ellie (13) und Amir (13). Ellies Mutter, Mrs Parker, backt die Kuchen, sie schreibt aber nicht mit. Im Chat tragen sie zusammen, was schon erledigt ist und was noch kommt.
+          Im Chat zum Schulfest tragen Mr Hill, Sophie, Ellie und Amir zusammen, was schon erledigt ist und was noch kommt.
       - type: text
         text: "**Das kannst du danach:** das Passiv auch im present perfect, im will-future und mit Modalverben bilden (It has been sold. It can be done.)."
       - type: single-choice
@@ -373,4 +373,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Am Samstag ist das Schulfest vorbei, und am 14. Oktober wird Sophie 14. Abends schreibt sie Tagebuch darüber, was ihr an diesem Tag geschenkt, gezeigt und erzählt wurde. Dort steht nicht mehr die Sache vorn, sondern Sophie selbst: I was given a scarf. Auf der nächsten Seite liest du das Tagebuch und lernst, wie dieses Passiv mit zwei Objekten funktioniert."
+        text: "Nach dem Fest schreibt Sophie Tagebuch darüber, was ihr an einem Tag geschenkt, gezeigt und erzählt wurde. Dort steht nicht mehr die Sache vorn, sondern Sophie selbst: I was given a scarf. Auf der nächsten Seite liest du das Tagebuch und lernst, wie dieses Passiv mit zwei Objekten funktioniert."

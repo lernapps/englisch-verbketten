@@ -10,13 +10,13 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-wochenende.svg
-        alt: Ellie und Sophie stehen nebeneinander und planen das Wochenende. Ellie sagt "We could go to the park.", Sophie antwortet "It might rain."
-        caption: "Ellie (roter Pferdeschwanz) links und Sophie (mit den Zöpfen) rechts. Ihre Sprechblasen zeigen, was sie sagen."
+        alt: Zwei Kinder stehen nebeneinander und planen das Wochenende. Ellie sagt "We could go to the park.", Sophie antwortet "It might rain."
+        caption: "Zwei Kinder planen das Wochenende. Die Sprechblasen zeigen, was sie sagen."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Es ist Freitag nach der Schule. Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
+          Ellie fragt Sophie, was sie am Samstag machen. Sophie schaut aus dem Fenster und sieht graue Wolken.
       - type: vocabulary
         caption: Neue Wörter
         languages: { source: de, target: en }
@@ -96,7 +96,7 @@ blocks:
             right: We could play tennis.
           - left: Sophie vermutet, dass es heute Abend schneit.
             right: It might snow.
-          - left: Ellies Mutter, Mrs Parker, gibt Peter einen Rat, weil es kalt ist.
+          - left: Mrs Parker gibt Peter einen Rat, weil es kalt ist.
             right: You should wear a hat.
         distractors: [You must play tennis.]
         explanation: Could schlägt vor, might sagt vielleicht, should gibt einen Rat.
@@ -209,4 +209,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regnet. Danach haben sie Hunger, und Ellies Mutter, Mrs Parker, nimmt sie mit in ein Café. Auf der nächsten Seite lernst du, wie du dort höflich bestellst.
+        text: Am Ende sind sich die Kinder einig. Am Samstag gehen sie ins Kino, falls es regnet. Danach haben sie Hunger und gehen in ein Café. Auf der nächsten Seite lernst du, wie du dort höflich bestellst.
